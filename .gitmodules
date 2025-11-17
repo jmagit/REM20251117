@@ -1,0 +1,3 @@
+[submodule "demos-devops"]
+	path = demos-devops
+	url = https://github.com/jmagit/demos-devops.git
