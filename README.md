@@ -1,6 +1,8 @@
 # Curso de DevOps (Jenkins)
 
-## Instalación Docker Desktop
+## Instalaciones
+
+### Docker Desktop
 
 - [WSL 2 feature on Windows](https://learn.microsoft.com/es-es/windows/wsl/install)
 - [Docker Desktop](https://www.docker.com/get-started/)
@@ -13,6 +15,10 @@
 
 - [Podman](https://podman.io/docs/installation)
 - [Rancher Desktop](https://rancherdesktop.io/)
+
+### Utilidades
+
+- [Git](https://git-scm.com/)
 
 ## Entorno CI/CD
 
