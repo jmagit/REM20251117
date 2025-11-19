@@ -36,7 +36,8 @@ pipeline {
         }
         stage('build') {
             when {
-                branch 'production' 
+                not branch 'main' 
+                // branch 'production' 
             }
             failFast true
             parallel {
@@ -73,7 +74,8 @@ pipeline {
         }
         stage('deploy') {
             when {
-                branch 'production' 
+                not branch 'main' 
+                // branch 'production' 
             }
             steps {
                 mail to: 'amd@example.com',
