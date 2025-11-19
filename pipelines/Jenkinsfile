@@ -1,10 +1,18 @@
 pipeline {
     agent any
 
+    triggers { // Sondear repositorio a intervalos regulares
+        pollSCM('* * * * *')
+    }
     tools {
         maven 'maven_lts'
     }
     stages {
+        stage('info') {
+            steps {
+                echo "Build ${env.BRANCH_NAME}"
+            }
+        }
         stage('init') {
             steps {
                 git 'https://github.com/jmagit/demos-devops.git'
@@ -45,6 +53,20 @@ pipeline {
                 stage('site') {
                     steps {
                         sh 'mvn site'
+                    }
+                    post {
+                        success {
+                            publishHTML([
+                                allowMissing: false, 
+                                alwaysLinkToLastBuild: false, 
+                                keepAll: false, 
+                                reportDir: 'target/site/', 
+                                reportFiles: 'index.html', 
+                                reportName: 'Documentacion del sitio', 
+                                reportTitles: 'Documentacion del sitio', 
+                                useWrapperFileDirectly: true
+                                ])
+                        }
                     }
                 }
             }
