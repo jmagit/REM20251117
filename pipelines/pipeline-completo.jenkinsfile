@@ -8,6 +8,11 @@ pipeline {
         maven 'maven_lts'
     }
     stages {
+        stage('info') {
+            steps {
+                echo "Build ${env.BRANCH_NAME}"
+            }
+        }
         stage('init') {
             steps {
                 git 'https://github.com/jmagit/demos-devops.git'
