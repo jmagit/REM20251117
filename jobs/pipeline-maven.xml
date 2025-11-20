@@ -43,12 +43,12 @@
             }
         }
         stage(&apos;genera&apos;) {
+            // when {
+            //     branch &apos;production&apos; 
+            // }
             failFast true
             parallel {
                 stage(&apos;empaqueta&apos;) {
-                    // when {
-                    //     branch &apos;production&apos; 
-                    // }
                     steps {
                         sh &apos;mvn package -DskipTests&apos;
                     }
@@ -62,14 +62,31 @@
                     steps {
                         sh &apos;mvn site&apos;
                     }
+                    post {
+                        success {
+                            publishHTML([
+                                allowMissing: false, 
+                                alwaysLinkToLastBuild: false, 
+                                keepAll: false, 
+                                reportDir: &apos;target/site/&apos;, 
+                                reportFiles: &apos;index.html&apos;, 
+                                reportName: &apos;Documentacion del sitio&apos;, 
+                                reportTitles: &apos;Documentacion del sitio&apos;, 
+                                useWrapperFileDirectly: true
+                                ])
+                        }
+                    }
                 }
             }
         }
         stage(&apos;despliega&apos;) {
+            // when {
+            //     branch &apos;production&apos; 
+            // }
             steps {
                 mail to: &apos;amd@example.com&apos;,
                  subject: &quot;Pendiente de aprobacion el depliege de ${currentBuild.fullDisplayName}&quot;,
-                 body: &quot;Para la aprobacion entre en ${env.BUILD_URL+&apos;/console&apos;}&quot;
+                 body: &quot;Para la aprobacion entre en ${env.BUILD_URL+&apos;pipeline-overview&apos;}&quot;
                 timeout(time: 3, unit: &apos;MINUTES&apos;) {
                     input cancel: &apos;Cancelar&apos;, message: &apos;Procedo al despliegue o aborto&apos;, ok: &apos;Aceptar&apos;
                 }
@@ -89,29 +106,6 @@
                  body: &quot;Something is wrong with ${env.BUILD_URL}&quot;
         }
     }
-    // stages {
-    //     stage(&apos;Build&apos;) {
-    //         steps {
-    //             // Get some code from a GitHub repository
-    //             git &apos;https://github.com/jglick/simple-maven-project-with-tests.git&apos;
-
-    //             // Run Maven on a Unix agent.
-    //             sh &quot;mvn -Dmaven.test.failure.ignore=true clean package&quot;
-
-    //             // To run Maven on a Windows agent, use
-    //             // bat &quot;mvn -Dmaven.test.failure.ignore=true clean package&quot;
-    //         }
-
-    //         post {
-    //             // If Maven was able to run the tests, even if some of the test
-    //             // failed, record the test results and archive the jar file.
-    //             success {
-    //                 junit &apos;**/target/surefire-reports/TEST-*.xml&apos;
-    //                 archiveArtifacts &apos;target/*.jar&apos;
-    //             }
-    //         }
-    //     }
-    // }
 }
 </script>
     <sandbox>true</sandbox>
