@@ -1,12 +1,16 @@
 pipeline {
     agent any
 
+    triggers { // Sondear repositorio a intervalos regulares
+        pollSCM('* * * * *')
+    }
     tools {
         maven 'maven_lts'
     }
     stages {
         stage('init') {
             steps {
+                echo 'Hola mundo'
                 git 'https://github.com/jmagit/demos-devops.git'
             }
         }
