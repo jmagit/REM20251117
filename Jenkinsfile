@@ -10,7 +10,6 @@ pipeline {
     stages {
         stage('init') {
             steps {
-                echo 'Hola mundo'
                 git 'https://github.com/jmagit/demos-devops.git'
             }
         }
