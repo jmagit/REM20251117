@@ -46,6 +46,21 @@ pipeline {
                     steps {
                         sh 'mvn site'
                     }
+                    post {
+                        success {
+                            publishHTML([
+                                allowMissing: false, 
+                                alwaysLinkToLastBuild: false, 
+                                icon: '', 
+                                keepAll: false, 
+                                reportDir: 'target/site/', 
+                                reportFiles: 'index.html', 
+                                reportName: 'Documentacion del sitio', 
+                                reportTitles: 'Documentacion del sitio', 
+                                useWrapperFileDirectly: true
+                                ])
+                        }
+                    }
                 }
             }
         }
