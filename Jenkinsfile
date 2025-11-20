@@ -30,6 +30,17 @@ pipeline {
                 }
             }
         }
+        stage("SonarQube Analysis") {
+            steps {
+                withSonarQubeEnv('SonarQubeDockerServer') {
+                    sh 'mvn clean verify sonar:sonar'
+                }
+                timeout(2) { // time: 2 unit: 'MINUTES'
+                  // In case of SonarQube failure or direct timeout exceed, stop Pipeline
+                  waitForQualityGate abortPipeline: waitForQualityGate().status != 'OK'
+                }
+            }
+        }
         stage('build') {
             when {
                 branch 'production' 
