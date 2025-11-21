@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('init') {
             steps {
-                echo "BRANCH: ${env.BRANCH_NAME}"
+                echo "BRANCH: ${env.BRANCH_NAME} <---"
                 git 'https://github.com/jmagit/demos-devops.git'
             }
         }
