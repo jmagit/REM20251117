@@ -1,0 +1,61 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>NOMBRE</name>
+          <description>Nombre al que saludar</description>
+          <value>mundo</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>MODO</name>
+          <value>test</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>MOSTRAR</name>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>NOMBRE</string>
+        <string>MODO</string>
+        <string>MOSTRAR</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>javier</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.37-489.vb_6db_69b_ce753">
+      <queuingDurationMillis>18</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>6</buildableDurationMillis>
+      <waitingDurationMillis>7</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@522.va_995fa_cfb_8b_d">
+      <messageId>&lt;1096060099.308.1763471366144@d0024fb72bd4&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>1610</queueId>
+  <timestamp>1763471365887</timestamp>
+  <startTime>1763471365957</startTime>
+  <result>SUCCESS</result>
+  <duration>218</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/curso-20251117/freestyle-job</workspace>
+  <hudsonVersion>2.528.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

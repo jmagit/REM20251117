@@ -1,0 +1,356 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1369.v15da_00283f06">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-remoto/target/surefire-reports/TEST-com.gildedrose.AppTest.xml</file>
+      <name>com.gildedrose.AppTest</name>
+      <duration>0.719</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.719</time>
+      <nodeId>50</nodeId>
+      <enclosingBlocks>
+        <string>44</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>test</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.429</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.AppTest</className>
+          <testName>testRun_1_args_OK</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stderr>Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 
+...[truncated 1064 chars]...
+rint
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: 
+</stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.AppTest</className>
+          <testName>testRunKO</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.021</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.AppTest</className>
+          <testName>testRunProductListExceptionKO</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.236</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.AppTest</className>
+          <testName>testRun_no_args_OK</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stderr>Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 
+...[truncated 9329 chars]...
+rint
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 33
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -4, 0
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -6, 0
+Nov 20, 2025 12:08:23 PM com.gildedrose.App print
+INFO: 
+</stderr>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-remoto/target/surefire-reports/TEST-com.gildedrose.FuncionalesTest.xml</file>
+      <name>com.gildedrose.FuncionalesTest</name>
+      <duration>0.0</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.0</time>
+      <nodeId>50</nodeId>
+      <enclosingBlocks>
+        <string>44</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>test</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.FuncionalesTest</className>
+          <testName>instantanea</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.FuncionalesTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.FuncionalesTest</className>
+          <testName>resultTest</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.FuncionalesTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.FuncionalesTest</className>
+          <testName>test</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.FuncionalesTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-remoto/target/surefire-reports/TEST-com.gildedrose.GildedRoseTest.xml</file>
+      <name>com.gildedrose.GildedRoseTest</name>
+      <duration>0.017</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.017</time>
+      <nodeId>50</nodeId>
+      <enclosingBlocks>
+        <string>44</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>test</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>other_Product_KO_Test(int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>getItems_Test</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>Item_CTOR_KO_Test(int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>product_Conjured_Test(int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>product_Aged_Brie_Test(int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>product_Passes_Test(int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>product_Sulfuras_Test(int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>other_Product_Test(int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>datasourceTest(String, int, int, int, int)</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.GildedRoseTest</className>
+          <testName>getItem_Test</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>class com.gildedrose.GildedRoseTest is @Disabled</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-remoto/target/surefire-reports/TEST-com.gildedrose.ItemTest.xml</file>
+      <name>com.gildedrose.ItemTest</name>
+      <duration>0.589</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.589</time>
+      <nodeId>50</nodeId>
+      <enclosingBlocks>
+        <string>44</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>test</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.246</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.ItemTest</className>
+          <testName>qualityInvalidTest</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.116</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.ItemTest</className>
+          <testName>notEqualsTest</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.022</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.ItemTest</className>
+          <testName>equalsTest</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <startTime>-1</startTime>
+          <className>com.gildedrose.ItemTest</className>
+          <testName>qualityValidTest</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>1.325</duration>
+  <skipOldReports>false</skipOldReports>
+  <startTime>-1</startTime>
+  <stdioRetention>NONE</stdioRetention>
+  <keepTestNames>false</keepTestNames>
+  <keepProperties>false</keepProperties>
+</result>

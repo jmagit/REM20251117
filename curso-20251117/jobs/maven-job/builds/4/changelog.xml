@@ -1,0 +1,10 @@
+commit 2728b1f879ad94f766cc7814775e189d5908972c
+tree eb11ffc7086c577a6ddb5181ad931311d33d3d90
+parent b71ccfe21b8b24e2c22dc9b0b404fe1521b4412d
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 21:45:11 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 21:45:11 +0100
+
+    maven-site-plugin upgrade
+
+
+:100644 100644 1f2bf7d94a1158d131888bf140467011f38aae6a b16fefbdf1840c1af66630c813256730c963fd52 M	pom.xml

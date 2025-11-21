@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>javier</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.37-489.vb_6db_69b_ce753">
+      <queuingDurationMillis>17</queuingDurationMillis>
+      <blockedDurationMillis>11</blockedDurationMillis>
+      <buildableDurationMillis>3</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@522.va_995fa_cfb_8b_d">
+      <messageId>&lt;1239294035.300.1763470751491@d0024fb72bd4&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>1606</queueId>
+  <timestamp>1763470751397</timestamp>
+  <startTime>1763470751425</startTime>
+  <result>FAILURE</result>
+  <duration>75</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/curso-20251117/freestyle-job</workspace>
+  <hudsonVersion>2.528.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

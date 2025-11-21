@@ -1,0 +1,10 @@
+commit e70deada0a6409db2364f74a898dc8da1e4457c6
+tree 6d81d941f83f85f38b9322290c69b351a7bda7d1
+parent c98a4c465279bb71ce3f7aa01570d830b97cc051
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 14:08:20 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 14:08:20 +0100
+
+    pipeline
+
+
+:100644 100644 06e7e1448e22b7c96b8db6fc3e935b63e36a48d2 d4e6b07f6d100968b0427aea00b8af66991b7c8d M	pipelines/pipeline-completo.jenkinsfile

@@ -1,0 +1,51 @@
+Started by user [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+Running as SYSTEM
+Building on the built-in node in workspace /var/jenkins_home/workspace/curso-20251117/generado-por-dsl
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jenkins-docs/simple-java-maven-app.git
+ > git init /var/jenkins_home/workspace/curso-20251117/generado-por-dsl # timeout=10
+Fetching upstream changes from https://github.com/jenkins-docs/simple-java-maven-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/jenkins-docs/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jenkins-docs/simple-java-maven-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision 0ba87b82fc0139a927c22f789f46ba19a25f3435 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0ba87b82fc0139a927c22f789f46ba19a25f3435 # timeout=10
+Commit message: "Merge pull request #1237 from jenkins-docs/dependabot/maven/org.apache.maven.plugins-maven-jar-plugin-3.5.0"
+First time build. Skipping changelog.
+[generado-por-dsl] $ /bin/sh -xe /tmp/jenkins10817251446378938898.sh
++ echo Empiezo el proceso generado
+Empiezo el proceso generado
+[generado-por-dsl] $ mvn "-DOPTION=option 1 (default)" -DFLAG=true clean verify
+FATAL: command execution failed
+java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.base/java.lang.ProcessImpl.start(Unknown Source)
+Caused: java.io.IOException: Cannot run program "mvn" (in directory "/var/jenkins_home/workspace/curso-20251117/generado-por-dsl"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:995)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:507)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:518)
+	at hudson.tasks.Maven.perform(Maven.java:369)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:527)
+	at hudson.model.Run.execute(Run.java:1860)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:460)
+Build step 'Invoke top-level Maven targets' marked build as failure
+Sending e-mails to: me@example.com
+Finished: FAILURE

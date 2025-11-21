@@ -1,0 +1,11 @@
+commit e713cfcbf62c1885c5d5d3f9c5635cfde4b9a79b
+tree b474c874cf89f8b5d0d587ba2ee0435f542c7e82
+parent d450ad9cb3c3122cd72dcabc263e4b9b41242a47
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 13:54:28 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 13:54:28 +0100
+
+    calidad
+
+
+:100644 100644 41c93bddfe5fa4ce14f312f537362aa0c7f842e1 3a7c9594dc558baa2087f42cc20fa4e5e03361fa M	Jenkinsfile
+:160000 160000 02b90c8583cfe91b7b25c3f3b2591892c74d908f 0547ef5374c030dad625a2dfc3991d4ca9accaed M	demos-devops

@@ -1,0 +1,847 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<module plugin="coverage@2.3036.v90d485b_810c6">
+  <metric>MODULE</metric>
+  <name>DevOps</name>
+  <children>
+    <package>
+      <metric>PACKAGE</metric>
+      <name>com.gildedrose</name>
+      <children>
+        <file>
+          <metric>FILE</metric>
+          <name>App.java</name>
+          <children>
+            <class>
+              <metric>CLASS</metric>
+              <name>com.gildedrose.App</name>
+              <children>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;()V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 88/88</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>5</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>main([Ljava/lang/String;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 9/12</coverage>
+                    <coverage>LINE: 4/6</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>([Ljava/lang/String;)V</signature>
+                  <methodName>main</methodName>
+                  <lineNumber>16</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>run([Ljava/lang/String;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 69/69</coverage>
+                    <coverage>BRANCH: 7/8</coverage>
+                    <coverage>LINE: 12/12</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 5</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>([Ljava/lang/String;)V</signature>
+                  <methodName>run</methodName>
+                  <lineNumber>37</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>print(Ljava/lang/String;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 4/4</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;)V</signature>
+                  <methodName>print</methodName>
+                  <lineNumber>56</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>notificarExcepcion(Ljava/lang/Exception;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/5</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/Exception;)V</signature>
+                  <methodName>notificarExcepcion</methodName>
+                  <lineNumber>60</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;clinit&gt;()V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 5/5</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()V</signature>
+                  <methodName>&lt;clinit&gt;</methodName>
+                  <lineNumber>13</lineNumber>
+                </method>
+              </children>
+              <values>
+                <coverage>INSTRUCTION: 175/183</coverage>
+                <coverage>BRANCH: 7/8</coverage>
+                <coverage>LINE: 21/25</coverage>
+                <value>CYCLOMATIC_COMPLEXITY: 10</value>
+              </values>
+              <parent class="file" reference="../../.."/>
+              <testCases/>
+            </class>
+          </children>
+          <values>
+            <coverage>INSTRUCTION: 175/183</coverage>
+            <coverage>BRANCH: 7/8</coverage>
+            <coverage>LINE: 21/25</coverage>
+            <value>CYCLOMATIC_COMPLEXITY: 10</value>
+          </values>
+          <parent class="package" reference="../../.."/>
+          <coveredPerLine class="tree-map">[5: 1, 13: 1, 16: 1, 19: 1, 20: 0, 21: 0, 22: 1, 23: 1, 25: 1, 37: 1, 39: 1, 40: 3, 41: 1, 44: 2, 45: 1, 46: 1, 47: 2, 48: 1, 50: 1, 51: 1, 53: 1, 56: 1, 57: 1, 60: 0, 61: 0]</coveredPerLine>
+          <missedPerLine class="tree-map">[5: 0, 13: 0, 16: 0, 19: 0, 20: 1, 21: 1, 22: 0, 23: 0, 25: 0, 37: 0, 39: 0, 40: 1, 41: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 50: 0, 51: 0, 53: 0, 56: 0, 57: 0, 60: 1, 61: 1]</missedPerLine>
+          <mcdcPairCoveredPerLine class="tree-map"/>
+          <mcdcPairMissedPerLine class="tree-map"/>
+          <functionCallCoveredPerLine class="tree-map"/>
+          <functionCallMissedPerLine class="tree-map"/>
+          <mutations/>
+          <modifiedLines/>
+          <indirectCoverageChanges class="tree-map">[]</indirectCoverageChanges>
+          <coverageDelta class="tree-map">[]</coverageDelta>
+          <relativePath>src/main/java/com/gildedrose/App.java</relativePath>
+        </file>
+        <file>
+          <metric>FILE</metric>
+          <name>ProductListException.java</name>
+          <children>
+            <class>
+              <metric>CLASS</metric>
+              <name>com.gildedrose.ProductListException</name>
+              <children>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;()V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/3</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>5</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/String;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 4/4</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>9</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/Throwable;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/4</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/Throwable;)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>13</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/String;Ljava/lang/Throwable;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/5</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;Ljava/lang/Throwable;)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>17</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/7</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>21</lineNumber>
+                </method>
+              </children>
+              <values>
+                <coverage>INSTRUCTION: 4/23</coverage>
+                <coverage>LINE: 2/10</coverage>
+                <value>CYCLOMATIC_COMPLEXITY: 5</value>
+              </values>
+              <parent class="file" reference="../../.."/>
+              <testCases/>
+            </class>
+          </children>
+          <values>
+            <coverage>INSTRUCTION: 4/23</coverage>
+            <coverage>LINE: 2/10</coverage>
+            <value>CYCLOMATIC_COMPLEXITY: 5</value>
+          </values>
+          <parent class="package" reference="../../.."/>
+          <coveredPerLine class="tree-map">[5: 0, 6: 0, 9: 1, 10: 1, 13: 0, 14: 0, 17: 0, 18: 0, 21: 0, 22: 0]</coveredPerLine>
+          <missedPerLine class="tree-map">[5: 1, 6: 1, 9: 0, 10: 0, 13: 1, 14: 1, 17: 1, 18: 1, 21: 1, 22: 1]</missedPerLine>
+          <mcdcPairCoveredPerLine class="tree-map"/>
+          <mcdcPairMissedPerLine class="tree-map"/>
+          <functionCallCoveredPerLine class="tree-map"/>
+          <functionCallMissedPerLine class="tree-map"/>
+          <mutations/>
+          <modifiedLines/>
+          <indirectCoverageChanges class="tree-map">[]</indirectCoverageChanges>
+          <coverageDelta class="tree-map">[]</coverageDelta>
+          <relativePath>src/main/java/com/gildedrose/ProductListException.java</relativePath>
+        </file>
+        <file>
+          <metric>FILE</metric>
+          <name>GildedRoseException.java</name>
+          <children>
+            <class>
+              <metric>CLASS</metric>
+              <name>com.gildedrose.GildedRoseException</name>
+              <children>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;()V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/3</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>6</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/String;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 4/4</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>10</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/Throwable;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/4</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/Throwable;)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>14</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/String;Ljava/lang/Throwable;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/5</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;Ljava/lang/Throwable;)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>18</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/7</coverage>
+                    <coverage>LINE: 0/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>22</lineNumber>
+                </method>
+              </children>
+              <values>
+                <coverage>INSTRUCTION: 4/23</coverage>
+                <coverage>LINE: 2/10</coverage>
+                <value>CYCLOMATIC_COMPLEXITY: 5</value>
+              </values>
+              <parent class="file" reference="../../.."/>
+              <testCases/>
+            </class>
+          </children>
+          <values>
+            <coverage>INSTRUCTION: 4/23</coverage>
+            <coverage>LINE: 2/10</coverage>
+            <value>CYCLOMATIC_COMPLEXITY: 5</value>
+          </values>
+          <parent class="package" reference="../../.."/>
+          <coveredPerLine class="tree-map">[6: 0, 7: 0, 10: 1, 11: 1, 14: 0, 15: 0, 18: 0, 19: 0, 22: 0, 23: 0]</coveredPerLine>
+          <missedPerLine class="tree-map">[6: 1, 7: 1, 10: 0, 11: 0, 14: 1, 15: 1, 18: 1, 19: 1, 22: 1, 23: 1]</missedPerLine>
+          <mcdcPairCoveredPerLine class="tree-map"/>
+          <mcdcPairMissedPerLine class="tree-map"/>
+          <functionCallCoveredPerLine class="tree-map"/>
+          <functionCallMissedPerLine class="tree-map"/>
+          <mutations/>
+          <modifiedLines/>
+          <indirectCoverageChanges class="tree-map">[]</indirectCoverageChanges>
+          <coverageDelta class="tree-map">[]</coverageDelta>
+          <relativePath>src/main/java/com/gildedrose/GildedRoseException.java</relativePath>
+        </file>
+        <file>
+          <metric>FILE</metric>
+          <name>GildedRose.java</name>
+          <children>
+            <class>
+              <metric>CLASS</metric>
+              <name>com.gildedrose.GildedRose</name>
+              <children>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;([Lcom/gildedrose/Item;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 33/38</coverage>
+                    <coverage>BRANCH: 5/6</coverage>
+                    <coverage>LINE: 7/8</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 4</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>([Lcom/gildedrose/Item;)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>17</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>updateQuality()V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 45/45</coverage>
+                    <coverage>BRANCH: 10/10</coverage>
+                    <coverage>LINE: 12/12</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 6</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()V</signature>
+                  <methodName>updateQuality</methodName>
+                  <lineNumber>31</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>updateQuesoQuality(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 11/11</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>updateQuesoQuality</methodName>
+                  <lineNumber>48</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>updateEntradaQuality(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 31/31</coverage>
+                    <coverage>BRANCH: 6/6</coverage>
+                    <coverage>LINE: 8/8</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 4</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>updateEntradaQuality</methodName>
+                  <lineNumber>52</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>updateConjuradoQuality(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 14/14</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 4/4</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>updateConjuradoQuality</methodName>
+                  <lineNumber>64</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>updateProductosQuality(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 14/14</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 4/4</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>updateProductosQuality</methodName>
+                  <lineNumber>73</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>esSulfuras(I)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 8/8</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Z</signature>
+                  <methodName>esSulfuras</methodName>
+                  <lineNumber>81</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>esEntrada(I)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 8/8</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Z</signature>
+                  <methodName>esEntrada</methodName>
+                  <lineNumber>85</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>esQueso(I)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 8/8</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Z</signature>
+                  <methodName>esQueso</methodName>
+                  <lineNumber>89</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>esConjurado(I)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 8/8</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Z</signature>
+                  <methodName>esConjurado</methodName>
+                  <lineNumber>93</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>quedan5DiasOMenos(I)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 11/11</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Z</signature>
+                  <methodName>quedan5DiasOMenos</methodName>
+                  <lineNumber>97</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>quedan10diasOMenos(I)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 11/11</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Z</signature>
+                  <methodName>quedan10diasOMenos</methodName>
+                  <lineNumber>101</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>haCaducado(I)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 10/10</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Z</signature>
+                  <methodName>haCaducado</methodName>
+                  <lineNumber>106</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>quitaUnDia(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 13/13</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>quitaUnDia</methodName>
+                  <lineNumber>110</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>ponACeroCalidad(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 9/9</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>ponACeroCalidad</methodName>
+                  <lineNumber>114</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>quitaCalidad(II)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 28/28</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 4/4</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(II)V</signature>
+                  <methodName>quitaCalidad</methodName>
+                  <lineNumber>124</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>incrementaCalidad(II)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 29/29</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 4/4</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(II)V</signature>
+                  <methodName>incrementaCalidad</methodName>
+                  <lineNumber>137</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>getItems()[Lcom/gildedrose/Item;</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 5/5</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()[Lcom/gildedrose/Item;</signature>
+                  <methodName>getItems</methodName>
+                  <lineNumber>145</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>getItem(I)Lcom/gildedrose/Item;</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 0/5</coverage>
+                    <coverage>LINE: 0/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)Lcom/gildedrose/Item;</signature>
+                  <methodName>getItem</methodName>
+                  <lineNumber>149</lineNumber>
+                </method>
+              </children>
+              <values>
+                <coverage>INSTRUCTION: 296/306</coverage>
+                <coverage>BRANCH: 37/38</coverage>
+                <coverage>LINE: 57/59</coverage>
+                <value>CYCLOMATIC_COMPLEXITY: 38</value>
+              </values>
+              <parent class="file" reference="../../.."/>
+              <testCases/>
+            </class>
+          </children>
+          <values>
+            <coverage>INSTRUCTION: 296/306</coverage>
+            <coverage>BRANCH: 37/38</coverage>
+            <coverage>LINE: 57/59</coverage>
+            <value>CYCLOMATIC_COMPLEXITY: 38</value>
+          </values>
+          <parent class="package" reference="../../.."/>
+          <coveredPerLine class="tree-map">[17: 1, 18: 2, 19: 1, 20: 2, 21: 1, 22: 0, 24: 1, 25: 1, 31: 2, 32: 2, 33: 1, 34: 1, 35: 2, 36: 1, 37: 2, 38: 1, 39: 2, 40: 1, 42: 1, 45: 1, 48: 2, 49: 1, 52: 2, 53: 1, 54: 2, 55: 1, 56: 2, 57: 1, 59: 1, 61: 1, 64: 2, 66: 1, 68: 1, 70: 1, 73: 2, 74: 1, 76: 1, 78: 1, 81: 1, 85: 1, 89: 1, 93: 1, 97: 2, 101: 2, 106: 2, 110: 1, 111: 1, 114: 1, 115: 1, 124: 2, 125: 1, 127: 1, 134: 1, 137: 2, 138: 1, 140: 1, 142: 1, 145: 1, 149: 0]</coveredPerLine>
+          <missedPerLine class="tree-map">[17: 0, 18: 0, 19: 0, 20: 0, 21: 1, 22: 1, 24: 0, 25: 0, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 42: 0, 45: 0, 48: 0, 49: 0, 52: 0, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 59: 0, 61: 0, 64: 0, 66: 0, 68: 0, 70: 0, 73: 0, 74: 0, 76: 0, 78: 0, 81: 0, 85: 0, 89: 0, 93: 0, 97: 0, 101: 0, 106: 0, 110: 0, 111: 0, 114: 0, 115: 0, 124: 0, 125: 0, 127: 0, 134: 0, 137: 0, 138: 0, 140: 0, 142: 0, 145: 0, 149: 1]</missedPerLine>
+          <mcdcPairCoveredPerLine class="tree-map"/>
+          <mcdcPairMissedPerLine class="tree-map"/>
+          <functionCallCoveredPerLine class="tree-map"/>
+          <functionCallMissedPerLine class="tree-map"/>
+          <mutations/>
+          <modifiedLines/>
+          <indirectCoverageChanges class="tree-map">[]</indirectCoverageChanges>
+          <coverageDelta class="tree-map">[]</coverageDelta>
+          <relativePath>src/main/java/com/gildedrose/GildedRose.java</relativePath>
+        </file>
+        <file>
+          <metric>FILE</metric>
+          <name>Item.java</name>
+          <children>
+            <class>
+              <metric>CLASS</metric>
+              <name>com.gildedrose.Item</name>
+              <children>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>&lt;init&gt;(Ljava/lang/String;II)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 12/12</coverage>
+                    <coverage>LINE: 5/5</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;II)V</signature>
+                  <methodName>&lt;init&gt;</methodName>
+                  <lineNumber>12</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>getName()Ljava/lang/String;</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 3/3</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()Ljava/lang/String;</signature>
+                  <methodName>getName</methodName>
+                  <lineNumber>23</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>setName(Ljava/lang/String;)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 4/4</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/String;)V</signature>
+                  <methodName>setName</methodName>
+                  <lineNumber>27</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>getSellIn()I</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 3/3</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()I</signature>
+                  <methodName>getSellIn</methodName>
+                  <lineNumber>31</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>setSellIn(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 4/4</coverage>
+                    <coverage>LINE: 2/2</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>setSellIn</methodName>
+                  <lineNumber>35</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>getQuality()I</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 3/3</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()I</signature>
+                  <methodName>getQuality</methodName>
+                  <lineNumber>39</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>setQuality(I)V</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 11/11</coverage>
+                    <coverage>BRANCH: 2/2</coverage>
+                    <coverage>LINE: 4/4</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 2</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(I)V</signature>
+                  <methodName>setQuality</methodName>
+                  <lineNumber>43</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>toString()Ljava/lang/String;</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 18/18</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()Ljava/lang/String;</signature>
+                  <methodName>toString</methodName>
+                  <lineNumber>50</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>hashCode()I</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 21/21</coverage>
+                    <coverage>LINE: 1/1</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 1</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>()I</signature>
+                  <methodName>hashCode</methodName>
+                  <lineNumber>55</lineNumber>
+                </method>
+                <method>
+                  <metric>METHOD</metric>
+                  <name>equals(Ljava/lang/Object;)Z</name>
+                  <children/>
+                  <values>
+                    <coverage>INSTRUCTION: 39/39</coverage>
+                    <coverage>BRANCH: 12/12</coverage>
+                    <coverage>LINE: 8/8</coverage>
+                    <value>CYCLOMATIC_COMPLEXITY: 7</value>
+                  </values>
+                  <parent class="class" reference="../../.."/>
+                  <signature>(Ljava/lang/Object;)Z</signature>
+                  <methodName>equals</methodName>
+                  <lineNumber>60</lineNumber>
+                </method>
+              </children>
+              <values>
+                <coverage>INSTRUCTION: 118/118</coverage>
+                <coverage>BRANCH: 14/14</coverage>
+                <coverage>LINE: 26/26</coverage>
+                <value>CYCLOMATIC_COMPLEXITY: 17</value>
+              </values>
+              <parent class="file" reference="../../.."/>
+              <testCases/>
+            </class>
+          </children>
+          <values>
+            <coverage>INSTRUCTION: 118/118</coverage>
+            <coverage>BRANCH: 14/14</coverage>
+            <coverage>LINE: 26/26</coverage>
+            <value>CYCLOMATIC_COMPLEXITY: 17</value>
+          </values>
+          <parent class="package" reference="../../.."/>
+          <coveredPerLine class="tree-map">[12: 1, 13: 1, 14: 1, 16: 1, 20: 1, 23: 1, 27: 1, 28: 1, 31: 1, 35: 1, 36: 1, 39: 1, 43: 2, 44: 1, 45: 1, 46: 1, 50: 1, 55: 1, 60: 2, 61: 1, 62: 2, 63: 1, 64: 2, 65: 1, 66: 1, 67: 6]</coveredPerLine>
+          <missedPerLine class="tree-map">[12: 0, 13: 0, 14: 0, 16: 0, 20: 0, 23: 0, 27: 0, 28: 0, 31: 0, 35: 0, 36: 0, 39: 0, 43: 0, 44: 0, 45: 0, 46: 0, 50: 0, 55: 0, 60: 0, 61: 0, 62: 0, 63: 0, 64: 0, 65: 0, 66: 0, 67: 0]</missedPerLine>
+          <mcdcPairCoveredPerLine class="tree-map"/>
+          <mcdcPairMissedPerLine class="tree-map"/>
+          <functionCallCoveredPerLine class="tree-map"/>
+          <functionCallMissedPerLine class="tree-map"/>
+          <mutations/>
+          <modifiedLines/>
+          <indirectCoverageChanges class="tree-map">[]</indirectCoverageChanges>
+          <coverageDelta class="tree-map">[]</coverageDelta>
+          <relativePath>src/main/java/com/gildedrose/Item.java</relativePath>
+        </file>
+      </children>
+      <values/>
+      <parent class="module" reference="../../.."/>
+    </package>
+  </children>
+  <values/>
+  <sources/>
+</module>

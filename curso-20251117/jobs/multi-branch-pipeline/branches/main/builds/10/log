@@ -1,0 +1,1303 @@
+Started by an SCM change
+ > git rev-parse --resolve-git-dir /var/jenkins_home/caches/git-ac42017261e7de6b81313748cc92c0bd/.git # timeout=10
+Setting origin to https://github.com/jmagit/REM20251117.git
+ > git config remote.origin.url https://github.com/jmagit/REM20251117.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --no-tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/back
+Seen branch in repository origin/front
+Seen branch in repository origin/main
+Seen branch in repository origin/production
+Seen 4 remote branches
+Obtained Jenkinsfile from e713cfcbf62c1885c5d5d3f9c5635cfde4b9a79b
+[8mha:////4Nkxw2Pknq5r4lyuaDDdKz4buvOJ/Goed11SEzrGZ0yZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KxvG67cq1HT5heQitTykHAeszpc9DEtMiugItZxSbgAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4N5i4Zv1ptu0e//pcodeH+fJO5EScWVid5yfNwze0udCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/51117_multi-branch-pipeline_main
+[8mha:////4OIaG9+P1HjQ1MyCpjqcYZvG1cgSfa5jE6xKkAOktdxGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4CCwwPZa5W31/LSEtVVYoC9uBWkBk+aAEQMjYl8mTZPxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BefwS89DLNzRtK27IX5gpBq8IRvH0DQP/0iSrox7QrxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4PZRysf8CZOj/SMY2GGZ69Xm+in5o1wKhAUgKt0/khuOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jmagit/REM20251117.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/jmagit/REM20251117.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --no-tags --force --progress -- https://github.com/jmagit/REM20251117.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision e713cfcbf62c1885c5d5d3f9c5635cfde4b9a79b (main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e713cfcbf62c1885c5d5d3f9c5635cfde4b9a79b # timeout=10
+Commit message: "calidad"
+ > git rev-list --no-walk d450ad9cb3c3122cd72dcabc263e4b9b41242a47 # timeout=10
+[8mha:////4FGU7+jxkPYLupvqzPvmvdclmQLFxpgQDzXGMm1E53PJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4L9gkgRqZQWukoO7YHyU/dJFnIMF+rzugTTHCrrnOC9QAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OL+ZdAc9rrPiKHTxeVVyRqGD59sYQpiGReThxnhU6+wAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GhSU1YZChcFTmuGG9XmJ4bFPpklcsiFHffU6aolPiz+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4LigaCgFWW/Z4jd0EM/c6YjajaACVuGwRos0N/Sf8LT6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4DoZtIHGSkuIwxWW1borME9bNnI3c5Yo49LdfEc4Cj1aAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4FSC4D3jwnScN/tz5Rs8laJEEGRoVT0Hzbv4fxvS6rRcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4A9+IrPmZbdgK5LtGxMmkrbwL6tzsD1xjQ/oelkjcN7qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4NYhELjdpnhsw5ReSQXRsv1Jyg4GbsX/0MMOP+e0BY+NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4CfrVKE7k757zYqijUkXeDw8UiUqcFrbDJpSArgsVOSMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4H11oibjLqg/q/xWZLdhM2//mZxv3lG9sRTkhY8MUvo/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4A/u3IkfO1P4TL7ZfzfnlPjT9khoKxR5bEaltkf9TA3jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4KQ7SNtg4pFVUud1aSLKhB8GpaKk3+M6iFNqK7+yv3URAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4BgaYkTU7aBVZ2ptCIpndAmI7n40YetgAtWYy0+FJL4IAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (init)
+[8mha:////4Ex4zeJ65vnkxqLaBbRyMgPvLiT+7PBD8fsUHXVEuu8UAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4DJnWGyVjbASA7A3+yqFE7RsdwusaWh29ljWv9TCTRbjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4M8HztY9jqMG5nO1mh+YjhX7XwQmBfV6IVqSd7GZaMKgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4MmwqTSJCqRZwXZX8IMg3n6k4IdIwI4/WLBLOIBuU1pGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4DpqBMilubAMMWpjAoq/dNnFS1bgoGlinNaLmn1h4b9ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] echo
+BRANCH: main
+[8mha:////4Ezw9SClSyNOLnTZ5PFW8UUhlB6I70itFr3LNUj2I2SsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jmagit/demos-devops.git # timeout=10
+Fetching upstream changes from https://github.com/jmagit/demos-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/jmagit/demos-devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0547ef5374c030dad625a2dfc3991d4ca9accaed (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0547ef5374c030dad625a2dfc3991d4ca9accaed # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 0547ef5374c030dad625a2dfc3991d4ca9accaed # timeout=10
+Commit message: "reactivadas las pruebas"
+ > git rev-list --no-walk 0547ef5374c030dad625a2dfc3991d4ca9accaed # timeout=10
+[8mha:////4F5JbTpQ6eMg95eNUdF9fZwtneX5Xzg6Oh8Cnwz6A6qvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] }
+[8mha:////4EV1RkQHzTRFM9XTzgMK8gqX030Re3X9oCeg71c5B3eEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQE2e00svgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4HLd8qQaxZn9ah+8jCk8UZkQbNM7RznDYhR0x77EVUuWAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPsXVX92+AAAA[0m[Pipeline] }
+[8mha:////4FtHmcnsdfs5GILMIGPwcZ/so0WsstUFAszYqUM9V+fsAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5dpvP/Y2BGG+AAAA[0m[Pipeline] // stage
+[8mha:////4GJK07los5ipsp3+QZiwBzTG5ZVFxybITg+9Bq1D9ctcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQED/Pa2wgAAAA==[0m[Pipeline] stage
+[8mha:////4D63DL7X89LntybQugYgxBFPN95LFmVCOCNtWv4lhMmHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (compile)
+[8mha:////4K50yE2ytd4dPtcH67GnAKsO47rKdpmEtSVHjcf1OMsnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] tool
+[8mha:////4DdETaAhKloaALxmiKIxNvqwahoRSibL5T8LI9kJsIY5AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fWFYUrL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4CXP0e7rQrLd7lx+SDkNGGwB6lXTHoxSgbA4yEJ28yQBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qMSCmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qAw548yPCAAAA[0m[Pipeline] withEnv
+[8mha:////4HykEdOvOEnUgiZtDOo2UUlaldy38ld0sfleQ7USPwDbAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] {
+[8mha:////4ESk2Rdq5RbFRwgG/Fbk8aK0Cr9W8BTFypJDFqFk1GGEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] sh
++ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files with javac [debug target 1.8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.739 s
+[INFO] Finished at: 2025-11-20T12:55:33Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4FhsAu/VlCMydMLcY4hZ2QVAbqyXP3BHHcGPZhXfRvbJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4CEb0VV7DGAUFzzQi6PODRYAeitQ22Z+nx0lIjw2K0MfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LBGiVfFwb3sDdCa4QPU6GPEjs0PyQzxn+l5+RsK+SyKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP4NosSS+AAAA[0m[Pipeline] }
+[8mha:////4MvBLrnjKEdM3JOUz0xD39TXCAK/bsrafOeiHWrQOK4MAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP7sqItW+AAAA[0m[Pipeline] // stage
+[8mha:////4BVDo73d6zojaH1/Cb7WVmHRG3ruwnDWyg8iQNM60vW1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCBaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WfbbT/P6g0oEQ24wgAAAA==[0m[Pipeline] stage
+[8mha:////4D83sHEUsoCToCOnn4m03bf54LW7YcTZRuBKoiNCvFklAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (test)
+[8mha:////4J3gDl8qARW/5TrDjBTGIAiutJCge7JwCbSbPx70i/mdAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] tool
+[8mha:////4B7TdKxAuG+EEi+cvxsEK2HBOpAqpHLnopZYlOJspJ2DAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fiSQUTb4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4FaHMzWgvvMiMiY/PYPKwb88ekq/AnX6dxIS6omXKxWEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qcSAmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qAylpq3DCAAAA[0m[Pipeline] withEnv
+[8mha:////4DwDCXW3j5bCiWfJ3vKeKLxyNkLKWAvbdJYZDk7ynw20AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4Jbbnd8XYyW87Q9BRXCu8OP8DRXbuUpMa2b/g0EUst5DAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 11 source files with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.gildedrose.GildedRoseTest
+[WARNING] Tests run: 26, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.679 s -- in com.gildedrose.GildedRoseTest
+[INFO] Running com.gildedrose.ItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s -- in com.gildedrose.ItemTest
+[INFO] Running com.gildedrose.FuncionalesTest
+-------- day 0 --------
+name, sellIn, quality
++5 Dexterity Vest, 10, 20
+Aged Brie, 2, 0
+Elixir of the Mongoose, 5, 7
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 15, 20
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+Conjured Mana Cake, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
++5 Dexterity Vest, 9, 19
+Aged Brie, 1, 1
+Elixir of the Mongoose, 4, 6
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 14, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 50
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Conjured Mana Cake, 2, 4
+
+-------- day 2 --------
+name, sellIn, quality
++5 Dexterity Vest, 8, 18
+Aged Brie, 0, 2
+Elixir of the Mongoose, 3, 5
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 13, 22
+Backstage passes to a TAFKAL80ETC concert, 8, 50
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Conjured Mana Cake, 1, 2
+
+-------- day 3 --------
+name, sellIn, quality
++5 Dexterity Vest, 7, 17
+Aged Brie, -1, 4
+Elixir of the Mongoose, 2, 4
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 12, 23
+Backstage passes to a TAFKAL80ETC concert, 7, 50
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Conjured Mana Cake, 0, 0
+
+-------- day 4 --------
+name, sellIn, quality
++5 Dexterity Vest, 6, 16
+Aged Brie, -2, 6
+Elixir of the Mongoose, 1, 3
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 11, 24
+Backstage passes to a TAFKAL80ETC concert, 6, 50
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Conjured Mana Cake, -1, 0
+
+-------- day 5 --------
+name, sellIn, quality
++5 Dexterity Vest, 5, 15
+Aged Brie, -3, 8
+Elixir of the Mongoose, 0, 2
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 10, 25
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+Conjured Mana Cake, -2, 0
+
+-------- day 6 --------
+name, sellIn, quality
++5 Dexterity Vest, 4, 14
+Aged Brie, -4, 10
+Elixir of the Mongoose, -1, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 9, 27
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Conjured Mana Cake, -3, 0
+
+-------- day 7 --------
+name, sellIn, quality
++5 Dexterity Vest, 3, 13
+Aged Brie, -5, 12
+Elixir of the Mongoose, -2, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 8, 29
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Conjured Mana Cake, -4, 0
+
+-------- day 8 --------
+name, sellIn, quality
++5 Dexterity Vest, 2, 12
+Aged Brie, -6, 14
+Elixir of the Mongoose, -3, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 7, 31
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Conjured Mana Cake, -5, 0
+
+-------- day 9 --------
+name, sellIn, quality
++5 Dexterity Vest, 1, 11
+Aged Brie, -7, 16
+Elixir of the Mongoose, -4, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 6, 33
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Conjured Mana Cake, -6, 0
+
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.405 s -- in com.gildedrose.FuncionalesTest
+[INFO] Running com.gildedrose.AppTest
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 2 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 8, 18
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, 0, 2
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 3, 5
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 13, 22
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 1, 2
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 3 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 7, 17
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, -1, 4
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 2, 4
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 12, 23
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 0, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 4 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 6, 16
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, -2, 6
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 1, 3
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 11, 24
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -1, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 5 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 5, 15
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, -3, 8
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 0, 2
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 25
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 0, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -2, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 6 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 4, 14
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Aged Brie, -4, 10
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -1, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 27
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -1, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -3, 0
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: -------- day 7 --------
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:51 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 3, 13
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Aged Brie, -5, 12
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -2, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 29
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -2, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -4, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: -------- day 8 --------
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 2, 12
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Aged Brie, -6, 14
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -3, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 31
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -3, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -5, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: -------- day 9 --------
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 1, 11
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Aged Brie, -7, 16
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -4, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 33
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -4, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -6, 0
+Nov 20, 2025 12:55:52 PM com.gildedrose.App print
+INFO: 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.377 s -- in com.gildedrose.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 37, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/jacoco.exec
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.704 s
+[INFO] Finished at: 2025-11-20T12:55:52Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4PI2mVxI17lkqpEUvS75FM2TTpAViKKHShppp09Fe1cBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wATIMs3b4AAAA=[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4McK235IsWbKKfCA9mhpLg8Ouzr/kVw9oeLFENP+a3ayAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpiFDuDrn22+EDDbI3xL4AAAA=[0m[Pipeline] recordCoverage
+[Coverage] Recording coverage results
+[Coverage] Creating parser for JaCoCo Coverage Reports
+[Coverage] Using default pattern '**/jacoco.xml,**/jacocoTestReport.xml' since user defined pattern is not set
+[Coverage] Searching for all files in '/var/jenkins_home/workspace/51117_multi-branch-pipeline_main' that match the pattern '**/jacoco.xml,**/jacocoTestReport.xml'
+[Coverage] Traversing of symbolic links: enabled
+[Coverage] -> found 1 file
+[Coverage] Successfully parsed file '/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/site/jacoco/jacoco.xml'
+[Coverage] MODULE: 100.00% (1/1)
+[Coverage] PACKAGE: 100.00% (1/1)
+[Coverage] FILE: 100.00% (5/5)
+[Coverage] CLASS: 100.00% (5/5)
+[Coverage] METHOD: 80.00% (36/45)
+[Coverage] LINE: 83.85% (109/130)
+[Coverage] BRANCH: 96.67% (58/60)
+[Coverage] INSTRUCTION: 92.19% (602/653)
+[Coverage] LOC: 130
+[Coverage] CYCLOMATIC_COMPLEXITY: 75
+[Coverage] Successfully processed file 'target/site/jacoco/jacoco.xml'
+[Coverage] Resolving source code files...
+[Coverage] Searching for source code files in '/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/src/main/java'
+[Coverage] -> resolved absolute paths for all 5 source files
+[Coverage] Making paths of 5 source code files relative to workspace root...
+[Checks API] No suitable checks publisher found.
+[Coverage] Obtaining result action of reference build
+[Coverage] Reference build recorder is not configured
+[Coverage] -> Found no reference build
+[Coverage] No quality gates have been set - skipping
+[Coverage] Executing source code painting...
+[Coverage] Painting 5 source files on agent
+[Coverage] -> finished painting successfully
+[Coverage] -> zipping sources from folder '/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/coverage' as '/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/coverage-sources.zip'
+[Coverage] Copying painted sources from agent to build folder
+[Coverage] -> extracting...
+[Coverage] -> done
+[Coverage] Deleting source code files of build #9
+[Coverage] Finished coverage processing - adding the action to the build...
+[8mha:////4P+riJ5EUjavENSFX/L70XT0y0SMXDAScU8l3tv2EhKrAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eED1l7B3L4AAAA=[0m[Pipeline] }
+[8mha:////4MJRJyjDB6265Gx4JfD82YUo+OwA59714JExlAyMqiP3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/ikCKHvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Gw6KE6jntxyaHjNbyf2pbNRE53yj72mkaaqc80nRoNmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpQoWoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AODxLgO+AAAA[0m[Pipeline] }
+[8mha:////4DovQ4EdkoeunJtmc3m5sOSfMI3dQCHhuwfqSyco4eiVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd5zrsP+a3Fla+AAAA[0m[Pipeline] // stage
+[8mha:////4LUgtW+2MpNH+lvSdd4lrbty/QwppVdbOqsiXKCaMps6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDCAh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm8vi7dOwgAAAA==[0m[Pipeline] stage
+[8mha:////4FBplKDsfZ3r/0UAT8GDwVK6uJH6Y58+/45YzSTbP4OBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (SonarQube Analysis)
+[8mha:////4AcrKn/5YXgh54EuTTUcLvLKAsoayjygWHxqwPh7J5RXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] tool
+[8mha:////4GXEjYtKGg1FAqYWwSUpWzXL3K1mtj2tJM6ZUSK0eGgoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3JIDDa+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4MAYWFISl+o40z8pymmoDpYX5YrvvjXETbZIckFP6Sq9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBRhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQHWYnb4wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JiOrXpeKud0L/+SVeFwnDYOiOvyKr4T5ofWQaYewtZMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] {
+[8mha:////4FuDa+jzMtLrUMGI8zCTAIwHar61HvFGPFci15im/c3lAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: SonarQubeDockerServer
+[8mha:////4BpEkCi04MUaDM66pjhjE0P9wRWcREnZSwzZ5qNnisO6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4CGAlgehv09aqMwcVOv4HWyr4/0jVpNJyckxXy9RTCXnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] sh
++ mvn clean verify sonar:sonar
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ DevOps ---
+[INFO] Deleting /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files with javac [debug target 1.8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Recompiling the module because of changed dependency.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 11 source files with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.gildedrose.GildedRoseTest
+[WARNING] Tests run: 26, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.131 s -- in com.gildedrose.GildedRoseTest
+[INFO] Running com.gildedrose.ItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s -- in com.gildedrose.ItemTest
+[INFO] Running com.gildedrose.FuncionalesTest
+-------- day 0 --------
+name, sellIn, quality
++5 Dexterity Vest, 10, 20
+Aged Brie, 2, 0
+Elixir of the Mongoose, 5, 7
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 15, 20
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+Conjured Mana Cake, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
++5 Dexterity Vest, 9, 19
+Aged Brie, 1, 1
+Elixir of the Mongoose, 4, 6
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 14, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 50
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Conjured Mana Cake, 2, 4
+
+-------- day 2 --------
+name, sellIn, quality
++5 Dexterity Vest, 8, 18
+Aged Brie, 0, 2
+Elixir of the Mongoose, 3, 5
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 13, 22
+Backstage passes to a TAFKAL80ETC concert, 8, 50
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Conjured Mana Cake, 1, 2
+
+-------- day 3 --------
+name, sellIn, quality
++5 Dexterity Vest, 7, 17
+Aged Brie, -1, 4
+Elixir of the Mongoose, 2, 4
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 12, 23
+Backstage passes to a TAFKAL80ETC concert, 7, 50
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Conjured Mana Cake, 0, 0
+
+-------- day 4 --------
+name, sellIn, quality
++5 Dexterity Vest, 6, 16
+Aged Brie, -2, 6
+Elixir of the Mongoose, 1, 3
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 11, 24
+Backstage passes to a TAFKAL80ETC concert, 6, 50
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Conjured Mana Cake, -1, 0
+
+-------- day 5 --------
+name, sellIn, quality
++5 Dexterity Vest, 5, 15
+Aged Brie, -3, 8
+Elixir of the Mongoose, 0, 2
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 10, 25
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+Conjured Mana Cake, -2, 0
+
+-------- day 6 --------
+name, sellIn, quality
++5 Dexterity Vest, 4, 14
+Aged Brie, -4, 10
+Elixir of the Mongoose, -1, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 9, 27
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Conjured Mana Cake, -3, 0
+
+-------- day 7 --------
+name, sellIn, quality
++5 Dexterity Vest, 3, 13
+Aged Brie, -5, 12
+Elixir of the Mongoose, -2, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 8, 29
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Conjured Mana Cake, -4, 0
+
+-------- day 8 --------
+name, sellIn, quality
++5 Dexterity Vest, 2, 12
+Aged Brie, -6, 14
+Elixir of the Mongoose, -3, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 7, 31
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Conjured Mana Cake, -5, 0
+
+-------- day 9 --------
+name, sellIn, quality
++5 Dexterity Vest, 1, 11
+Aged Brie, -7, 16
+Elixir of the Mongoose, -4, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 6, 33
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Conjured Mana Cake, -6, 0
+
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.629 s -- in com.gildedrose.FuncionalesTest
+[INFO] Running com.gildedrose.AppTest
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 2 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 8, 18
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, 0, 2
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 3, 5
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 13, 22
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 1, 2
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 3 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 7, 17
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, -1, 4
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 2, 4
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 12, 23
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 0, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 4 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 6, 16
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, -2, 6
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 1, 3
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 11, 24
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -1, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 5 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 5, 15
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, -3, 8
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 0, 2
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 25
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 0, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -2, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 6 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 4, 14
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, -4, 10
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -1, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 27
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -1, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -3, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 7 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 3, 13
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, -5, 12
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -2, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 29
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -2, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -4, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 8 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 2, 12
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, -6, 14
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -3, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 31
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -3, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -5, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: -------- day 9 --------
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 1, 11
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Aged Brie, -7, 16
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -4, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 33
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -4, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -6, 0
+Nov 20, 2025 12:56:10 PM com.gildedrose.App print
+INFO: 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.295 s -- in com.gildedrose.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 37, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/jacoco.exec
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ DevOps ---
+[INFO] Building jar: /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/DevOps-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar:3.9.0.2155:sonar (default-cli) @ DevOps ---
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] SonarQube version: 9.9.8.100196
+[WARNING] Direct modification of testCompileSourceRoots through iterator.remove() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+[INFO] Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=254ms
+[INFO] Server id: 147B411E-AZKCrL3sidpwIoz7-JSZ
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=176ms
+[INFO] Load/download plugins (done) | time=295ms
+[INFO] Process project properties
+[INFO] Process project properties (done) | time=31ms
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=3ms
+[INFO] Project key: com.example:DevOps
+[INFO] Base dir: /var/jenkins_home/workspace/51117_multi-branch-pipeline_main
+[INFO] Working dir: /var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/sonar
+[INFO] Load project settings for component key: 'com.example:DevOps'
+[INFO] Load project settings for component key: 'com.example:DevOps' (done) | time=1305ms
+[INFO] Auto-configuring with CI 'Jenkins'
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=58ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3412ms
+[INFO] Load analysis cache
+[INFO] Load analysis cache (216 bytes) | time=30ms
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=28ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 19 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module DevOps
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=28ms
+[INFO] Sensor JavaSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=10ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=3ms
+[INFO] Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[INFO] Using ECJ batch to parse 5 Main java source files with batch size 208 KB.
+[INFO] Starting batch processing.
+[INFO] The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[INFO] 100% analyzed
+[INFO] Batch processing: Done.
+[INFO] Did not optimize analysis for any files, performed a full analysis for all 5 files.
+[INFO] Using ECJ batch to parse 11 Test java source files with batch size 208 KB.
+[INFO] Starting batch processing.
+[INFO] 100% analyzed
+[INFO] Batch processing: Done.
+[INFO] Did not optimize analysis for any files, performed a full analysis for all 11 files.
+[INFO] No "Generated" source files to scan.
+[INFO] Sensor JavaSensor [java] (done) | time=6421ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] Importing 1 report(s). Turn your logs in debug mode in order to see the exhaustive list.
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=121ms
+[INFO] Sensor CSS Rules [javascript]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [javascript] (done) | time=1ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=2ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=22ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=1ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/51117_multi-branch-pipeline_main/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=114ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=4ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source file to be analyzed
+[INFO] 1/1 source file has been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=237ms
+[INFO] Sensor TextAndSecretsSensor [text]
+[INFO] 17 source files to be analyzed
+[INFO] 17/17 source files have been analyzed
+[INFO] Sensor TextAndSecretsSensor [text] (done) | time=77ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=22ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=0ms
+[INFO] Sensor IaC Docker Sensor [iac]
+[INFO] 0 source files to be analyzed
+[INFO] 0/0 source files have been analyzed
+[INFO] Sensor IaC Docker Sensor [iac] (done) | time=112ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Analysis Warnings import [csharp]
+[INFO] Sensor Analysis Warnings import [csharp] (done) | time=1ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=1ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=42ms
+[INFO] CPD Executor Calculating CPD for 5 files
+[INFO] CPD Executor CPD calculation finished (done) | time=9ms
+[INFO] Analysis report generated in 129ms, dir size=188.5 kB
+[INFO] Analysis report compressed in 59ms, zip size=52.0 kB
+[INFO] Analysis report uploaded in 32ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: http://sonarqube:9000/dashboard?id=com.example%3ADevOps
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://sonarqube:9000/api/ce/task?id=AZqhVomvt8fbNnutIU_C
+[INFO] Analysis total time: 19.068 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  36.671 s
+[INFO] Finished at: 2025-11-20T12:56:34Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4PFYQCR+Xs+AtSTecB4JTM5hVRD1s6MaiY/DRSf87gAZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/nPyFW+AAAA[0m[Pipeline] }
+[8mha:////4B2xTVvDCXLyLya/BaKhSAeRmQ8/sYSezdjVxhkKNllhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUaRBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N8GNW6S+AAAA[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4EZM9ClGkPirNMm6KU/TC3UEfSymBiWBqhyUC/oucAJoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD91KWHrCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 2 min 0 sec
+[8mha:////4Jvc113+r9Kd9GLKzNvB4B7QBIdqqZBqf/RhbdVF+XNrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] {
+[8mha:////4PaM3q+pUXE3RDiAsKSfWV388YIzZ3YQyZhdbAZpaFbiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AZqhVomvt8fbNnutIU_C' on server 'SonarQubeDockerServer'
+SonarQube task 'AZqhVomvt8fbNnutIU_C' status is 'PENDING'
+SonarQube task 'AZqhVomvt8fbNnutIU_C' status is 'SUCCESS'
+SonarQube task 'AZqhVomvt8fbNnutIU_C' completed. Quality gate is 'OK'
+[8mha:////4GY84geBN1HjF0XdKWgPiRFhudjvSN1t6J4iVntewY6eAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AFfUI2cvgAAAA==[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AZqhVomvt8fbNnutIU_C' on server 'SonarQubeDockerServer'
+SonarQube task 'AZqhVomvt8fbNnutIU_C' status is 'IN_PROGRESS'
+SonarQube task 'AZqhVomvt8fbNnutIU_C' status is 'SUCCESS'
+SonarQube task 'AZqhVomvt8fbNnutIU_C' completed. Quality gate is 'OK'
+[8mha:////4D2BubNQ994KjuIeMbaPT+CMw5r0d9Xjs8ls1k6Tjuu1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGkBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/TX/z/vgAAAA==[0m[Pipeline] }
+[8mha:////4NSz7oMToHIkPGZF6qHjzRubvm1uSRAHjhUMugnN+TqkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUZACUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/sMNfpvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4DlRffUdOwN83ZEL9g4Q4U0B7yrkuVhtHQiSLJm5QgOcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AfEboy74AAAA=[0m[Pipeline] }
+[8mha:////4L6uQ4imcB+BsWDK+EVb17S6BzefClTFioPgQHigFZWrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgaBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w9SRuqhvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4H6jiq1Dea0VZn0yTx8GXrF4sU3QOi7WuaG8epHPxe+XAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpohSIitZKwwtMbIwT686xLyQVL+Jr/AGLSFRssdrZZl5v2KYIJ4pW9AYHh6lzIvjJ5iVmisPN0yx6uoqOMJE3ojVzS9qcV2yJDawpSthI2BnsPCWHlmEve/VQlVdoqwvH/B0llE6P8IRCZjOryF9YIhzuk06EP89fASwhMJRNnatuPpdT/9++AAAA[0m[Pipeline] }
+[8mha:////4JUceWf66qtP1pvb3AO37Un2jQXc76QPyu8oDfFLPv6/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpCAWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzrWvP68RbC6+AAAA[0m[Pipeline] // stage
+[8mha:////4L60JR4HTQgsBF2EBmVwpKTWAK0cN/BsHB57Fer0XTj4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTBVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQGjSXQSwgAAAA==[0m[Pipeline] stage
+[8mha:////4KhRbaoCD1wFRcbKGLNHMxFFym6cYPy8nKzGCG57PviMAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] { (build)
+Stage "build" skipped due to when conditional
+[8mha:////4IYm/YCQ50ml8hgwMTpWeobyl/UImjCYHoZQgtf3+EdNAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eiOvlgb4AAAA=[0m[Pipeline] getContext
+[8mha:////4KDyOuJ6pHam3eXQCmpnoS/yDhrOApT8oyLW/ukRWRPyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUjUqIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Jluz+zyrN9JzitfCAAAA[0m[Pipeline] parallel
+[8mha:////4N6hcNRgcI/1DfjocmeKP/L4ZYlj84XNcPtwei4RSTE2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUMSEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD+2sFVLCAAAA[0m[Pipeline] { (Branch: package)
+[8mha:////4LtO43z2xm0GyYP/ZYufYg7TkONeXg0KaXPlxlX03O48AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUiQUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABIf0mZwgAAAA==[0m[Pipeline] { (Branch: site)
+[8mha:////4O20laOUAs9kCQFBD0zT0dqJXKyOSK2Xy78myt53eHp5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQgxIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cgP+xm28/P4gMx9iDcwgAAAA==[0m[Pipeline] stage
+[8mha:////4AuwaarRkrHyvd1qYFHmJVF81ayMfdPiolml2LDA1V5dAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] { (package)
+[8mha:////4MF6THLwosDwszoPy02q56XA8X/cvRGK7lkAl3KLUqoSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEJIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cgP+xm28/P4gP6iGZQwgAAAA==[0m[Pipeline] stage
+[8mha:////4B6QgaG9UV93jbr+NwQ4Io24D4zFLzJoy7xxP7k/cGmMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] { (site)
+Stage "package" skipped due to when conditional
+[8mha:////4N3TlCVcTrt++KU+zJYwfJfxSMPj/eJVaEvYmawEYEYWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIUVCVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUw+QVnvP1X7N5juVSu+AAAA[0m[Pipeline] getContext
+[8mha:////4N2m16U0NNdiVzj19K5yB1nx34KEBIEwRIlxWZy8yRZtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN2T81QW+AAAA[0m[Pipeline] }
+Stage "site" skipped due to when conditional
+[8mha:////4N1zqxftdHzvFWuTwa6Oec9Nq/W3HbAleaRTAXdrWW2NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5X6X67AdPo4f0XW+AAAA[0m[Pipeline] getContext
+[8mha:////4CAeSE+KQfbBCZf+kqDLMltfXDoNXn8B6U849O7hAR3PAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wGRFP+hvgAAAA==[0m[Pipeline] }
+[8mha:////4E/qSp8Z1Cwac++nI976fIG+ZaIlW28rbDQn3K/sD3lYAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQoQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AhTdivr4AAAA=[0m[Pipeline] // stage
+[8mha:////4J4Onc175lOQJ3VI7tjEkBojoBB/4AewX8hYG0HTjiqvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330ADIUwm74AAAA=[0m[Pipeline] // stage
+[8mha:////4Nc32nlHfLCjCG4TtxE+EvfgTnyVBmUp4otU7Kg33S4PAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQoQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334ArXFYgb4AAAA=[0m[Pipeline] }
+[8mha:////4NgoGOlMXA5YzyVC4+AB7PtcLsg8UrhvKajsWGC/k1IcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AnpIDPb4AAAA=[0m[Pipeline] }
+[8mha:////4ISa4jtmVYDpz2hHTEjWSCTRoA1U6a/HeuHu2KPunpGDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChUAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wGKsZ4ivgAAAA==[0m[Pipeline] // parallel
+[8mha:////4DVgLH4dKIgkaIuumhb/GBQf9s3s8I57Z0/zG5PNMmMNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUuer9B9L2gWC+AAAA[0m[Pipeline] }
+[8mha:////4DmX7Ovr0ZbomUwHHitgPqpwNhddrYRDzVq/AFa9W/p9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzsc9X1B5ZZaAG+AAAA[0m[Pipeline] // stage
+[8mha:////4AMA8AlIiBjpuuuVxLDtwijH6ArnnAiqXdmupzyjbo8vAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUjBViYo2ycIKQhpA2+r/8pLQTJ+Jq3IFAJSY8WLYl6z1fUEWGA7ETncXeYzReDGF0OYmJuL8EmkRHZ2EIIwUrlJ0Utfa4VEXJwqKihJWEtUUTKHp0CTay03ddB42uPiXO215C6dsbPKCQmZw0p2+ZGbbXsY2EP85fAMxDgnLXZGuaz7N6A45TQXjCAAAA[0m[Pipeline] stage
+[8mha:////4L9R6R6P3mcMmRSjePO+cvk52NUTyHpKV/5WPA3MIJ4BAAAApx+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LgSIwTa8PiF9RSa6F5D9uHMPlF/pr/IEri5J3uucnNeb4gjwGOFKzoDPYOo3Zi8KNdmpgo9BdPk+joLDRhJG9EY6aGWlOv2BAbWJOkkEnYGNSeokPLsJWduqvCK7TFicOyHSSkrr3BAxK5mFkF/sIcYHcd20j48/wVwDwwpFXFkO3L8nPN3zgbWwvDAAAA[0m[Pipeline] { (deploy)
+Stage "deploy" skipped due to when conditional
+[8mha:////4IkVJzfmwPjn4Ik54wnWE+cmcBzAVBgvC/WqhGcL1Aw4AAAAox+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgdqxsMzSeIIYYA5ndkCxC5Ym8mneQgRkrf/Hnv9+89wd2KcKZohWdwd5h0k4EP9pliYlif/c0iY5uQhMm8kY0ZmqoNZcNG2IDW7IcCgl7g9pTcmgZDrJTT1V6hba8cly+k4TctQO8IJOLmVXkFeYIx8fYJsKf568A5sBQ1FW1dh2+9eP8fcAAAAA=[0m[Pipeline] getContext
+[8mha:////4P8f4kRUkTCzs9/m9uQVaZGYe/N2/e9K+yNnkPy0s5+mAAAApB+LCAAAAAAAAP9tjTESgjAURD8wFraWHiKgrWNFm6HxBJHEmJD5PyZBqDyRV/MOZmDGyi129m3z3h/YxABnCppZhYPB2Bvm3ajzYhOF4eZoYpaurCeM5BTr1NSRVO2KHSUFa4oSKg5bhb2jaFAn2HErnqJ2AnV9SSF/Jw6lkQ94QcGzOYmQFpgD7O+jjIQ/z18BzN4nqA7NcenmCydMebzAAAAA[0m[Pipeline] }
+[8mha:////4MNBnXf323KDkpUNjlRJ5OH3VR21krrfMCK5ngW+QSZ2AAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiLoWDEOlW2GxhPEEGMgs4vJIlSeyKt5BxmZsfJX/73mvd6wShEqik62FjuPyXjZh8HNT44Uu2ugUbZ0kYYwUbCytmNNjT0tWBNbWJYJyBWsLZpAyaNj2KhWP3QRNLrizHF2RwXCN3d4QqbmMuvIX5gibG9Dkwh/nb8BmPqeId/vDgyiLD+Zxj5rvwAAAA==[0m[Pipeline] // stage
+[8mha:////4E9D2UNw7z9Fncq0w5+cI/7yqiLB4M+PjvA1JwpcmPh+AAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JI4mIMk2vD4hfUUmuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h1E70fvBzk2MFLqLp1G0dBaaMJI3ojZjTY05LlgTG1iSpJBJWBnUnqJDy7CWrbqrwiu0xYnDvB0kpK65wQMSOZtZBf7CFGBzHZpI+PP8FcDUM6TlniErt7vPNX8DQ4rJysMAAAA=[0m[Pipeline] stage
+[8mha:////4NkV2tcOD8wvISbMCziJn2zCdkwEZdJVck99e9uBFMDVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApSDChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QdMFRcmxAAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4FunCmJ7IQZa1pYcPuOMv+ej6YP6YjJomG06pdvSV6D6AAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEC22cVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLFPUO13h7mP/RdWe116wAAAAA==[0m[Pipeline] mail
+[8mha:////4GowKSWkMejNxlsFWjA9LjwpksgiFYx5DVjys4qawTG/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBaJAqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwBD5crnsAAAAA=[0m[Pipeline] }
+[8mha:////4MRHPPfyjufB40ZVxLHPYWPmicezxIyO2FlAZKsdAcf2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEgUSSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq/e449+ELcNdkH8AAAAA=[0m[Pipeline] // stage
+[8mha:////4JJewwt9+7okPya314sjcn4RZshRkHf692I1KpAhK7oxAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGkZBwr2gyNJ4ghxkBmF5NFqDyRV/MOZmTGyl/995r3esMmBjhRsKI3ODiM2onRTzY9MVMYrp5m0dNFaMJI3ojWzC11plmxJTawLsuhkLA1qD1Fh5ZhJ3v1UKVXaMszh+SOEnLX3eEJmUxlVoG/sATY36YuEv46fwOwjCNDUR1qhryqP/dvfAK/AAAA[0m[Pipeline] }
+[8mha:////4NeqPkdFSRjnehA5HkrJM/t+9kQ8vJuqD8slqIE0B+8vAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDOiRERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgMVdPsGMpm/wEdBQP0vwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4PNq2DblWWNjz2SBtbL5e7TCEbhP03HjN5R4Noth3rYfAAAAox+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQj14iK1nLDC0xsjBPrLtgXkooX8TX+gEUkKrbamWZeb9jkBEdKXvQOh4C5C2KMky9PzJSGa6RZ9HQRHWGm6IR2sybrTitqYgfrqhoaBVuHXaQc0DPsVG8epo0GfXvmVNxBQR3sHZ5QqVJmk/gLS4L9bbKZ8Nf5G4BlHBkaKSVDLeUHHG6DRr8AAAA=[0m[Pipeline] }
+[8mha:////4B9gwrbYGLy3eu3BQbtI77+nguBTLaP9OmgnTv/qw8vPAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHE1rGyzdB4gkhiDGR2Y7IYKk/k1byDjMxY+av/XvNeb1ilCEeKVvQGB4epcyL40c5PZIrD1VMWPV1ER5jIG9Ga3JI2pwVbYgPLihIqCWuDnafk0DJsZK8eqvYKbX3mOLuDhNLpOzyhkHOZVeQvTBG2t1Enwl/nbwCmEBiqptkzlM3uAyQsELe/AAAA[0m[Pipeline] // withEnv
+[8mha:////4Hji9rIlOHAyfuqRTSg0VZWYCtiHoie1Rq8FEQRWvkqGAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCDpERWul4QUmNsaJdRfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSc7i73H1Ho5hNHNT2aK/TVQlh1dZEuYKFjZ2NyQsacFG2ILy0QBpYK1xTZQ8ugYNqrTD10Fja46c5zdQUHhzR2eINRcZh35C1OE7W00ifDX+RuAaRgYyrreMYj9B5ThPcS+AAAA[0m[Pipeline] }
+[8mha:////4J6cOshda1B+otq7umUAmaTA5+lsGLJVuW6yz7Jh0o5vAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCDpERWul4QUmNsaJdRfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSc7i73H1Ho5hNHNT2aK/TVQlh1dZEuYKFjZ2NyQsacFG2ILy0QBpYK1xTZQ8ugYNqrTD10Fja46c5zdQUHhzR2eINRcZh35C1OE7W00ifDX+RuAaRgYyrreM4jdByeoeei+AAAA[0m[Pipeline] // node
+[8mha:////4MnmMmIs7EffIKTJYXomp9Qp5lx7Zmdq6SethuAaTO4MAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjIFEhKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb1nkHsPgGxHqK+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

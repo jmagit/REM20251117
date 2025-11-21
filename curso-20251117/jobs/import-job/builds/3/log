@@ -1,0 +1,21 @@
+Started by user [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/curso-20251117/import-job
+No emails were triggered.
+[import-job] $ /bin/sh -xe /tmp/jenkins10146867018560067757.sh
++ echo Paso 1
+Paso 1
++ echo hola mundo
+[import-job] $ /bin/sh -xe /tmp/jenkins8974356078309917446.sh
++ echo Paso 2
+Paso 2
++ cat fichero.txt
+hola mundo
+hola mundo
+hola mundo
+[import-job] $ /bin/sh -xe /tmp/jenkins5813694993647721434.sh
++ echo Paso 2
+Paso 2
++ cp fichero.txt /externo/curso20251117.txt
+No emails were triggered.
+Finished: SUCCESS

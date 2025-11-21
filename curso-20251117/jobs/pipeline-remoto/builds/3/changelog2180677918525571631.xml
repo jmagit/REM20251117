@@ -1,0 +1,10 @@
+commit 19d64042394fa0dd5db85ec4abfce2da36f93dae
+tree faa24349c8378d31fe2ed4f1c0af42671bd6b493
+parent 3aab453d340077c636a3e2ad11c0568fc6a3e77c
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:19:28 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:19:28 +0100
+
+    vuelta a cambiar
+
+
+:100644 100644 fe97ba257987b59c6281ff7bb02a635eed54877f 6ecdb770bb2e19029ae30b87ac0c5a3a19f24835 M	Jenkinsfile

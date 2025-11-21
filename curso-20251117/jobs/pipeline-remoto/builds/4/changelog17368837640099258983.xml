@@ -1,0 +1,10 @@
+commit e01464e5cfaaebdb4182bb838687c202c70b2749
+tree 37b2202c1f3ab78562330e4d5ec3a684d05212e4
+parent 19d64042394fa0dd5db85ec4abfce2da36f93dae
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:35:07 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:35:07 +0100
+
+    cambio en el main
+
+
+:100644 100644 6ecdb770bb2e19029ae30b87ac0c5a3a19f24835 41c93bddfe5fa4ce14f312f537362aa0c7f842e1 M	Jenkinsfile

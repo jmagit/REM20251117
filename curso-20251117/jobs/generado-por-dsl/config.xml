@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+    <actions/>
+    <description>La tarea se ha generado desde otro job</description>
+    <keepDependencies>false</keepDependencies>
+    <properties>
+        <hudson.model.ParametersDefinitionProperty>
+            <parameterDefinitions>
+                <hudson.model.BooleanParameterDefinition>
+                    <name>FLAG</name>
+                    <defaultValue>true</defaultValue>
+                </hudson.model.BooleanParameterDefinition>
+                <hudson.model.ChoiceParameterDefinition>
+                    <choices class="java.util.Arrays$ArrayList">
+                        <a class="string-array">
+                            <string>option 1 (default)</string>
+                            <string>option 2</string>
+                            <string>option 3</string>
+                        </a>
+                    </choices>
+                    <name>OPTION</name>
+                </hudson.model.ChoiceParameterDefinition>
+            </parameterDefinitions>
+        </hudson.model.ParametersDefinitionProperty>
+        <com.coravy.hudson.plugins.github.GithubProjectProperty>
+            <projectUrl>https://github.com/jenkins-docs/simple-java-maven-app/</projectUrl>
+        </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    </properties>
+    <canRoam>true</canRoam>
+    <disabled>false</disabled>
+    <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+    <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+    <triggers/>
+    <concurrentBuild>false</concurrentBuild>
+    <builders>
+        <hudson.tasks.Shell>
+            <command>echo 'Empiezo el proceso generado'</command>
+        </hudson.tasks.Shell>
+    </builders>
+    <publishers>
+        <hudson.tasks.Mailer>
+            <recipients>me@example.com</recipients>
+            <dontNotifyEveryUnstableBuild>true</dontNotifyEveryUnstableBuild>
+            <sendToIndividuals>true</sendToIndividuals>
+        </hudson.tasks.Mailer>
+    </publishers>
+    <buildWrappers/>
+    <scm class="hudson.plugins.git.GitSCM">
+        <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+                <url>https://github.com/jenkins-docs/simple-java-maven-app.git</url>
+            </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+            <hudson.plugins.git.BranchSpec>
+                <name>master</name>
+            </hudson.plugins.git.BranchSpec>
+        </branches>
+        <configVersion>2</configVersion>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <gitTool>Default</gitTool>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+            <url>https://github.com/jenkins-docs/simple-java-maven-app/</url>
+        </browser>
+    </scm>
+</project>

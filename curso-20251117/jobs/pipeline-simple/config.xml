@@ -1,0 +1,88 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1559.va_a_533730b_ea_d">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1">
+      <jobProperties/>
+      <triggers>
+        <string>hudson.triggers.TimerTrigger</string>
+      </triggers>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>Greeting</name>
+          <description>How should I greet the world?</description>
+          <defaultValue>Hello</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>visible</name>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4218.vff679a_5c0f3a_">
+    <script>pipeline {
+    agent any
+    environment {
+        VERSION = &quot;v.2.0.${env.BUILD_ID}&quot;
+        NOMBRE = &quot;Build ${env.JOB_NAME.toUpperCase()} ${VERSION}&quot;
+        SECRETO = credentials(&apos;SonarToken&apos;)
+    }
+    // parameters {
+    //     string(name: &apos;Greeting&apos;, defaultValue: &apos;Hello&apos;, description: &apos;How should I greet the world?&apos;)
+    //     booleanParam defaultValue: true, name: &apos;visible&apos;
+    // }
+    triggers {
+      cron &apos;H/15 * * * 1-5&apos;
+    }
+    stages {
+        stage(&apos;inicializo&apos;) {
+            steps {
+                echo NOMBRE
+                echo SECRETO
+                // echo &quot;Clonar el repositorio ${params.Greeting} ${SECRETO}&quot;
+                echo &quot;Clonar el repositorio ${SECRETO}&quot;
+            }
+        }
+        stage(&apos;compilo&apos;) {
+            steps {
+                echo &quot;mvn compile ${VERSION}&quot;
+            }
+        }
+        stage(&apos;test&apos;) {
+            steps {
+                echo &apos;mvn test&apos;
+            }
+        }
+        stage(&apos;empaqueta&apos;) {
+            steps {
+                // sh &apos;cp /target/*.war /appserver&apos;
+                echo &apos;mvn package -DskipTests&apos;
+            }
+        }
+        stage(&apos;despliega&apos;) {
+            steps {
+                echo &apos;cp /target/*.war /appserver&apos;
+                // echo &apos;mvn intall -DskipTests&apos;
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

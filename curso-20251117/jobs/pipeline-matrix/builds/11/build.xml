@@ -1,0 +1,292 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1559.va_a_533730b_ea_d">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>javier</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.37-489.vb_6db_69b_ce753">
+      <queuingDurationMillis>100</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>69</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@787.ve2fef0efdca_6">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1">
+      <stagesUUID>b1161dad-1673-4e6d-9fde-db0e0a4f59bb</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2277.v00573e73ddf1">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>multiple</name>
+                <branches/>
+                <matrix>
+                  <axes>
+                    <axes>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTAxis>
+                        <name>
+                          <key>PLATFORM</key>
+                        </name>
+                        <values>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">linux</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">mac</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">windows</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                        </values>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTAxis>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTAxis>
+                        <name>
+                          <key>BROWSER</key>
+                        </name>
+                        <values>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">chrome</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">edge</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">firefox</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">safari</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                        </values>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTAxis>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTAxis>
+                        <name>
+                          <key>ARCHITECTURE</key>
+                        </name>
+                        <values>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">32-bit</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            <value class="string">64-bit</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                        </values>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTAxis>
+                    </axes>
+                  </axes>
+                  <excludes>
+                    <excludes>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExclude>
+                        <axes>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                            <name>
+                              <key>PLATFORM</key>
+                            </name>
+                            <values>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mac</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </values>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                            <name>
+                              <key>ARCHITECTURE</key>
+                            </name>
+                            <values>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">32-bit</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </values>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                        </axes>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExclude>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExclude>
+                        <axes>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                            <name>
+                              <key>PLATFORM</key>
+                            </name>
+                            <values>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">linux</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </values>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                            <name>
+                              <key>BROWSER</key>
+                            </name>
+                            <values>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">safari</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </values>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExcludeAxis>
+                        </axes>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTExclude>
+                    </excludes>
+                  </excludes>
+                  <stages>
+                    <stages>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                        <name>build</name>
+                        <branches>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                            <name>default</name>
+                            <steps>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>echo</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>message</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                        <value class="string">&quot;Version para le navegador ${BROWSER} en ${PLATFORM} (${ARCHITECTURE})&quot;</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            </steps>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        </branches>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    </stages>
+                    <uuid>d22097d7-670a-4234-bf5a-0e14e9b6b984</uuid>
+                  </stages>
+                </matrix>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>b1161dad-1673-4e6d-9fde-db0e0a4f59bb</uuid>
+          </stages>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@4218.vff679a_5c0f3a_">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.37-489.vb_6db_69b_ce753">
+      <queuingDurationMillis>28</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>24</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>12018</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>1810</queueId>
+  <timestamp>1763625907428</timestamp>
+  <startTime>1763625907443</startTime>
+  <result>SUCCESS</result>
+  <duration>19754</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;multiple&apos;) {
+            matrix {
+                axes {
+                    axis {
+                        name &apos;PLATFORM&apos;
+                        values &apos;linux&apos;, &apos;mac&apos;, &apos;windows&apos;
+                    }
+                    axis {
+                        name &apos;BROWSER&apos;
+                        values &apos;chrome&apos;, &apos;edge&apos;, &apos;firefox&apos;, &apos;safari&apos;
+                    }
+                    axis { 
+                        name &apos;ARCHITECTURE&apos; 
+                        values &apos;32-bit&apos;, &apos;64-bit&apos;
+                    }
+                }
+                excludes {
+                    exclude {
+                        axis { 
+                            name &apos;PLATFORM&apos; 
+                            values &apos;mac&apos;
+                        }
+                        axis { 
+                            name &apos;ARCHITECTURE&apos; 
+                            values &apos;32-bit&apos; 
+                        }
+                    }
+                    exclude { 
+                        axis { 
+                            name &apos;PLATFORM&apos; 
+                            values &apos;linux&apos; 
+                        }
+                        axis { 
+                            name &apos;BROWSER&apos; 
+                            values &apos;safari&apos; 
+                        }
+                    }
+                }
+                stages {
+                    stage(&apos;build&apos;) {
+                        steps {
+                            echo &quot;Version para le navegador ${BROWSER} en ${PLATFORM} (${ARCHITECTURE})&quot;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>4499096736</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>10073458244</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>722276802899</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>15169989729</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>1579480426</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>2288848113</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>300</iota>
+    <head>1:300</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

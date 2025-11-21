@@ -1,0 +1,53 @@
+commit e01464e5cfaaebdb4182bb838687c202c70b2749
+tree 37b2202c1f3ab78562330e4d5ec3a684d05212e4
+parent 19d64042394fa0dd5db85ec4abfce2da36f93dae
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:35:07 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:35:07 +0100
+
+    cambio en el main
+
+
+:100644 100644 6ecdb770bb2e19029ae30b87ac0c5a3a19f24835 41c93bddfe5fa4ce14f312f537362aa0c7f842e1 M	Jenkinsfile
+commit 19d64042394fa0dd5db85ec4abfce2da36f93dae
+tree faa24349c8378d31fe2ed4f1c0af42671bd6b493
+parent 3aab453d340077c636a3e2ad11c0568fc6a3e77c
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:19:28 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:19:28 +0100
+
+    vuelta a cambiar
+
+
+:100644 100644 fe97ba257987b59c6281ff7bb02a635eed54877f 6ecdb770bb2e19029ae30b87ac0c5a3a19f24835 M	Jenkinsfile
+commit 3aab453d340077c636a3e2ad11c0568fc6a3e77c
+tree ed907d19dcbe1566ff7ddaff2d61ca1738b73f3d
+parent 27cf0beb23fd8ecd1291f4aee0f79a59a10dc526
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:17:53 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 10:17:53 +0100
+
+    cambio pipeline
+
+
+:100644 100644 de3d2f68a381dd2874317886cb45d101f4007b23 fe97ba257987b59c6281ff7bb02a635eed54877f M	Jenkinsfile
+commit 27cf0beb23fd8ecd1291f4aee0f79a59a10dc526
+tree 4adb06331489123f8e2343b629b3da137a587639
+parent 45911c56c7a782da1c4b8548f20242a4f36854f9
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 09:04:19 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 09:04:19 +0100
+
+    pipeline
+
+
+:100644 100644 84c35f6d593591629fc66c485fcdc9e9e14f6368 de3d2f68a381dd2874317886cb45d101f4007b23 M	Jenkinsfile
+:160000 160000 b71ccfe21b8b24e2c22dc9b0b404fe1521b4412d 02b90c8583cfe91b7b25c3f3b2591892c74d908f M	demos-devops
+:100644 100644 2418588bc8d6e502c29d1033fb2b6bd6e6f9a9d9 620c40742cb1332657072458fa9b2e3898919390 M	jenkins-with-docker/Dockerfile
+commit 45911c56c7a782da1c4b8548f20242a4f36854f9
+tree 9b1d865e1e6edb795821e7b60be2a08a84116b80
+parent 256697298a283c1267768ba1ce1fc02b6d2401fd
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 21:00:08 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 21:00:08 +0100
+
+    job
+
+
+:160000 160000 4270e1ccd08297d87cf8f911b7194100c8aa9a29 b71ccfe21b8b24e2c22dc9b0b404fe1521b4412d M	demos-devops
+:160000 160000 2aab5387255185c06935989a302a25b90ee9c5c0 256697298a283c1267768ba1ce1fc02b6d2401fd M	production

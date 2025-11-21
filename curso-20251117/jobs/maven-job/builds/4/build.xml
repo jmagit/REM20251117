@@ -1,0 +1,169 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.27">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.37-489.vb_6db_69b_ce753">
+      <queuingDurationMillis>8842</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>13</buildableDurationMillis>
+      <waitingDurationMillis>6102</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.8.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@6.4.0">
+              <sha1>2728b1f879ad94f766cc7814775e189d5908972c</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>4</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/jmagit/demos-devops.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.SurefireAggregatedReport>
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>1</skipCount>
+      <totalCount>37</totalCount>
+      <children>
+        <hudson.tasks.test.AggregatedTestResultAction_-Child plugin="junit@1369.v15da_00283f06">
+          <name>com.example:DevOps</name>
+          <build>4</build>
+        </hudson.tasks.test.AggregatedTestResultAction_-Child>
+      </children>
+    </hudson.maven.reporters.SurefireAggregatedReport>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction plugin="htmlpublisher@427">
+      <actualHtmlPublisherTarget>
+        <reportName>HTML Report</reportName>
+        <reportDir></reportDir>
+        <reportFiles>index.html</reportFiles>
+        <alwaysLinkToLastBuild>false</alwaysLinkToLastBuild>
+        <reportTitles></reportTitles>
+        <keepAll>false</keepAll>
+        <allowMissing>false</allowMissing>
+        <icon></icon>
+        <includes>**/*</includes>
+        <escapeUnderscores>true</escapeUnderscores>
+        <useWrapperFileDirectly>true</useWrapperFileDirectly>
+        <numberOfWorkers>0</numberOfWorkers>
+      </actualHtmlPublisherTarget>
+    </htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.apiguardian:apiguardian-api-1.1.0.jar</string>
+          <string>944805817b648e558ed6be6fc7f054f3</string>
+        </entry>
+        <entry>
+          <string>com.approvaltests:approvaltests-24.21.0.jar</string>
+          <string>ace3910c0e5a8f053ce66217662154c2</string>
+        </entry>
+        <entry>
+          <string>com.example:DevOps-0.0.1-SNAPSHOT.jar</string>
+          <string>0a23439cc7d593924bd9e9e82e47a263</string>
+        </entry>
+        <entry>
+          <string>org.junit.jupiter:junit-jupiter-engine-5.7.0.jar</string>
+          <string>7e4f06555826c36fb1f7a44598431d4e</string>
+        </entry>
+        <entry>
+          <string>org.apache.commons:commons-lang3-3.17.0.jar</string>
+          <string>7730df72b7fdff4a3a32d89a314f826a</string>
+        </entry>
+        <entry>
+          <string>org.opentest4j:opentest4j-1.2.0.jar</string>
+          <string>45c9a837c21f68e8c93e85b121e2fb90</string>
+        </entry>
+        <entry>
+          <string>org.junit.jupiter:junit-jupiter-params-5.7.0.jar</string>
+          <string>5584d8379e67651127101893d083596d</string>
+        </entry>
+        <entry>
+          <string>org.mockito:mockito-core-5.7.0.jar</string>
+          <string>4df8dd230071bc192161d0e54a76f6b5</string>
+        </entry>
+        <entry>
+          <string>com.example:DevOps:pom.xml</string>
+          <string>fc245375c677aa73557a21862045f065</string>
+        </entry>
+        <entry>
+          <string>net.bytebuddy:byte-buddy-agent-1.14.9.jar</string>
+          <string>49a39867e065da706afaef6291334d3b</string>
+        </entry>
+        <entry>
+          <string>org.objenesis:objenesis-3.3.jar</string>
+          <string>ab0e0b2ab81affdd7f38bcc60fd85571</string>
+        </entry>
+        <entry>
+          <string>org.junit.platform:junit-platform-commons-1.7.0.jar</string>
+          <string>d398290c354b2aeb6af8c420eff049c0</string>
+        </entry>
+        <entry>
+          <string>net.bytebuddy:byte-buddy-1.14.9.jar</string>
+          <string>48280c1c2676e942863de9b01e9cb03b</string>
+        </entry>
+        <entry>
+          <string>com.approvaltests:approvaltests-util-24.21.0.jar</string>
+          <string>2c82d2d853725a57bb9d9e489f16a5ad</string>
+        </entry>
+        <entry>
+          <string>org.junit.platform:junit-platform-engine-1.7.0.jar</string>
+          <string>499a279ad63eb48941b252d9e1434102</string>
+        </entry>
+        <entry>
+          <string>org.mockito:mockito-junit-jupiter-5.7.0.jar</string>
+          <string>ab44b412aa650651eedf323e945fe367</string>
+        </entry>
+        <entry>
+          <string>org.junit.jupiter:junit-jupiter-api-5.7.0.jar</string>
+          <string>e8567a8fe9ea0fa92b4da7a25f0c572c</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>1767</queueId>
+  <timestamp>1763585183620</timestamp>
+  <startTime>1763585183642</startTime>
+  <result>SUCCESS</result>
+  <duration>40683</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/curso-20251117/maven-job</workspace>
+  <hudsonVersion>2.528.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.8.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set">
+      <string>javier</string>
+    </c>
+  </culprits>
+  <mavenVersionUsed>3.9.11</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

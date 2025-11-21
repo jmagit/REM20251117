@@ -1,0 +1,20 @@
+commit 2aab5387255185c06935989a302a25b90ee9c5c0
+tree 6d81d941f83f85f38b9322290c69b351a7bda7d1
+parent 27efc76cc4d9e55bf9615862628be3188fc0e166
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 14:25:54 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 14:25:54 +0100
+
+    scan
+
+
+:100644 100644 eacc0d637440e3695f34c2c9cd8d1f19d82c5009 d4e6b07f6d100968b0427aea00b8af66991b7c8d M	pipelines/pipeline-completo.jenkinsfile
+commit 27efc76cc4d9e55bf9615862628be3188fc0e166
+tree fe97757e89df1d5c137574c11c2350e8012742a6
+parent e70deada0a6409db2364f74a898dc8da1e4457c6
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 14:13:41 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 14:13:41 +0100
+
+    when
+
+
+:100644 100644 d4e6b07f6d100968b0427aea00b8af66991b7c8d eacc0d637440e3695f34c2c9cd8d1f19d82c5009 M	pipelines/pipeline-completo.jenkinsfile

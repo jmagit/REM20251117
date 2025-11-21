@@ -1,0 +1,10 @@
+commit 02b90c8583cfe91b7b25c3f3b2591892c74d908f
+tree b61bcfb81b0e27627b2119feed97b19cbe88529b
+parent 2728b1f879ad94f766cc7814775e189d5908972c
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 22:20:57 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-19 22:20:57 +0100
+
+    publishHTML update
+
+
+:100644 100644 e5c55adfed9ae6c6ac625bcc25f5b9540be158e7 1b270dda0d57bd2cbca928cb95d9bdc27ce87484 M	Jenkinsfile

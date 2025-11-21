@@ -1,0 +1,826 @@
+Branch indexing
+ > git rev-parse --resolve-git-dir /var/jenkins_home/caches/git-ac42017261e7de6b81313748cc92c0bd/.git # timeout=10
+Setting origin to https://github.com/jmagit/REM20251117.git
+ > git config remote.origin.url https://github.com/jmagit/REM20251117.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --no-tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/back
+Seen branch in repository origin/front
+Seen branch in repository origin/main
+Seen branch in repository origin/production
+Seen 4 remote branches
+Obtained Jenkinsfile from 256697298a283c1267768ba1ce1fc02b6d2401fd
+[8mha:////4Nkxw2Pknq5r4lyuaDDdKz4buvOJ/Goed11SEzrGZ0yZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KxvG67cq1HT5heQitTykHAeszpc9DEtMiugItZxSbgAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4N5i4Zv1ptu0e//pcodeH+fJO5EScWVid5yfNwze0udCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/lti-branch-pipeline_production_2
+[8mha:////4OIaG9+P1HjQ1MyCpjqcYZvG1cgSfa5jE6xKkAOktdxGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4CCwwPZa5W31/LSEtVVYoC9uBWkBk+aAEQMjYl8mTZPxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BefwS89DLNzRtK27IX5gpBq8IRvH0DQP/0iSrox7QrxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4PZRysf8CZOj/SMY2GGZ69Xm+in5o1wKhAUgKt0/khuOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/jmagit/REM20251117.git
+ > git init /var/jenkins_home/workspace/lti-branch-pipeline_production_2 # timeout=10
+Fetching upstream changes from https://github.com/jmagit/REM20251117.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --no-tags --force --progress -- https://github.com/jmagit/REM20251117.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jmagit/REM20251117.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 256697298a283c1267768ba1ce1fc02b6d2401fd (production)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 256697298a283c1267768ba1ce1fc02b6d2401fd # timeout=10
+Commit message: "Merge branch 'production'"
+First time build. Skipping changelog.
+[8mha:////4FGU7+jxkPYLupvqzPvmvdclmQLFxpgQDzXGMm1E53PJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4L9gkgRqZQWukoO7YHyU/dJFnIMF+rzugTTHCrrnOC9QAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OL+ZdAc9rrPiKHTxeVVyRqGD59sYQpiGReThxnhU6+wAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GhSU1YZChcFTmuGG9XmJ4bFPpklcsiFHffU6aolPiz+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4LigaCgFWW/Z4jd0EM/c6YjajaACVuGwRos0N/Sf8LT6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4DoZtIHGSkuIwxWW1borME9bNnI3c5Yo49LdfEc4Cj1aAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4FSC4D3jwnScN/tz5Rs8laJEEGRoVT0Hzbv4fxvS6rRcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4A9+IrPmZbdgK5LtGxMmkrbwL6tzsD1xjQ/oelkjcN7qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4NYhELjdpnhsw5ReSQXRsv1Jyg4GbsX/0MMOP+e0BY+NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4CfrVKE7k757zYqijUkXeDw8UiUqcFrbDJpSArgsVOSMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4H11oibjLqg/q/xWZLdhM2//mZxv3lG9sRTkhY8MUvo/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4A/u3IkfO1P4TL7ZfzfnlPjT9khoKxR5bEaltkf9TA3jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4KQ7SNtg4pFVUud1aSLKhB8GpaKk3+M6iFNqK7+yv3URAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4BgaYkTU7aBVZ2ptCIpndAmI7n40YetgAtWYy0+FJL4IAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (init)
+[8mha:////4Ex4zeJ65vnkxqLaBbRyMgPvLiT+7PBD8fsUHXVEuu8UAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4DJnWGyVjbASA7A3+yqFE7RsdwusaWh29ljWv9TCTRbjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4M8HztY9jqMG5nO1mh+YjhX7XwQmBfV6IVqSd7GZaMKgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4MmwqTSJCqRZwXZX8IMg3n6k4IdIwI4/WLBLOIBuU1pGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4DpqBMilubAMMWpjAoq/dNnFS1bgoGlinNaLmn1h4b9ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/lti-branch-pipeline_production_2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jmagit/demos-devops.git # timeout=10
+Fetching upstream changes from https://github.com/jmagit/demos-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/jmagit/demos-devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 02b90c8583cfe91b7b25c3f3b2591892c74d908f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 02b90c8583cfe91b7b25c3f3b2591892c74d908f # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 02b90c8583cfe91b7b25c3f3b2591892c74d908f # timeout=10
+Commit message: "publishHTML update"
+First time build. Skipping changelog.
+[8mha:////4JOckCQYRFe5wOhGMg50YlIB9gO6ZSVgjbCBr6tMB6VXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4OIefrqwVtbw3YY2YnKf2DZOJN3dwXc8CyC97hlFI/LnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4IwXhNm+cbNCKPKpHjWhQkZ7CNqq2vxrJW8uh/vYtn0gAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BrmPJ1y+AAAA[0m[Pipeline] }
+[8mha:////4A6ycb5fYSg4khqoIfuY/NlDYgJpXPtoLAmVOv2E9rFNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISQYmo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B1PlWKq+AAAA[0m[Pipeline] // stage
+[8mha:////4N6GRCq1hf/ZY9mC6YrdPKEJKnJyY9YDktUTx+STo0sDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFRNCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQGtjmIwwgAAAA==[0m[Pipeline] stage
+[8mha:////4HOa3ho2gX1YsWR9mKy0O4UWvW/8ayzUcbZ1n44GywK5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (compile)
+[8mha:////4OK4M7KlTVqfEq3VKpv6omSCeE8chZLF0iyzJF1znjwLAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] tool
+[8mha:////4CwxjaoY3AzfLo52Pdj1N4YOQEORUpzYtTQJE9GovUVfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4DixaDXgHp3laHL4jOgDEw3RXhPM7BBE9q2BmsS+qz6CAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD2DV6WTCAAAA[0m[Pipeline] withEnv
+[8mha:////4Ed6/X56WC0V8TudYIzGCef6p1LRXTA8h+ztuGuiTF22AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4G/AYKZPGgYAG/bJQmoTiZuuM8+PQemXUxkCUFymtBCRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] sh
++ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files with javac [debug target 1.8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.148 s
+[INFO] Finished at: 2025-11-20T09:28:08Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4OOp0ZpC3PQ00NWtBjbAIXxdpGjVMAyr6CeA7stFufXVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
+[8mha:////4GI8mE7pTcn6BBC9dQ+LARiRo1s1UaY7bpv6nxWcgb3oAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4E3jIcDGKjBrukzM3wVVX5v2ppTas4u1yohVDIO053RqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPrCL6pi+AAAA[0m[Pipeline] }
+[8mha:////4MBttNxd/5WIiBxiI7NME7emsFTxifCAvAAjJSnd1wXvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP68Jv8q+AAAA[0m[Pipeline] // stage
+[8mha:////4Eha66/aHVYuJRm2eQWociZ33sGB/dC0CxuVY7XNw/SwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIBaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WfbbT/P6g2NwlFzwgAAAA==[0m[Pipeline] stage
+[8mha:////4HsbidiL3hLbU16WlDGwPVEOjW3+quvlUhNiq1PYOErOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (test)
+[8mha:////4AHz9hOfjiDXqgjJ89ZEHjvcCeSfol/LH6jYBdUQxKnEAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] tool
+[8mha:////4CAzDny4OfOM9pVR1zedq3rpiTMbOgfvepiPg8hFvSJNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBsRJnqO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4EgCQNPKUToL58xVQsEebOvp/fJgfUHSU4xUe/loIEUZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LDw+vzJLCAAAA[0m[Pipeline] withEnv
+[8mha:////4MZaIR2zjExuvIKxooy6N2PkhaaOAKSxTAKMLyr81xVBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4DbfWVbGICzYz7FjYAZEqURQqrr+4W6lioCD2cRwqXH4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 11 source files with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.gildedrose.GildedRoseTest
+[WARNING] Tests run: 26, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 2.482 s -- in com.gildedrose.GildedRoseTest
+[INFO] Running com.gildedrose.ItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 s -- in com.gildedrose.ItemTest
+[INFO] Running com.gildedrose.FuncionalesTest
+-------- day 0 --------
+name, sellIn, quality
++5 Dexterity Vest, 10, 20
+Aged Brie, 2, 0
+Elixir of the Mongoose, 5, 7
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 15, 20
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+Conjured Mana Cake, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
++5 Dexterity Vest, 9, 19
+Aged Brie, 1, 1
+Elixir of the Mongoose, 4, 6
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 14, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 50
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Conjured Mana Cake, 2, 4
+
+-------- day 2 --------
+name, sellIn, quality
++5 Dexterity Vest, 8, 18
+Aged Brie, 0, 2
+Elixir of the Mongoose, 3, 5
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 13, 22
+Backstage passes to a TAFKAL80ETC concert, 8, 50
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Conjured Mana Cake, 1, 2
+
+-------- day 3 --------
+name, sellIn, quality
++5 Dexterity Vest, 7, 17
+Aged Brie, -1, 4
+Elixir of the Mongoose, 2, 4
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 12, 23
+Backstage passes to a TAFKAL80ETC concert, 7, 50
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Conjured Mana Cake, 0, 0
+
+-------- day 4 --------
+name, sellIn, quality
++5 Dexterity Vest, 6, 16
+Aged Brie, -2, 6
+Elixir of the Mongoose, 1, 3
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 11, 24
+Backstage passes to a TAFKAL80ETC concert, 6, 50
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Conjured Mana Cake, -1, 0
+
+-------- day 5 --------
+name, sellIn, quality
++5 Dexterity Vest, 5, 15
+Aged Brie, -3, 8
+Elixir of the Mongoose, 0, 2
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 10, 25
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+Conjured Mana Cake, -2, 0
+
+-------- day 6 --------
+name, sellIn, quality
++5 Dexterity Vest, 4, 14
+Aged Brie, -4, 10
+Elixir of the Mongoose, -1, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 9, 27
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Conjured Mana Cake, -3, 0
+
+-------- day 7 --------
+name, sellIn, quality
++5 Dexterity Vest, 3, 13
+Aged Brie, -5, 12
+Elixir of the Mongoose, -2, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 8, 29
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Conjured Mana Cake, -4, 0
+
+-------- day 8 --------
+name, sellIn, quality
++5 Dexterity Vest, 2, 12
+Aged Brie, -6, 14
+Elixir of the Mongoose, -3, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 7, 31
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Conjured Mana Cake, -5, 0
+
+-------- day 9 --------
+name, sellIn, quality
++5 Dexterity Vest, 1, 11
+Aged Brie, -7, 16
+Elixir of the Mongoose, -4, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 6, 33
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Conjured Mana Cake, -6, 0
+
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.186 s -- in com.gildedrose.FuncionalesTest
+[INFO] Running com.gildedrose.AppTest
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 20, 2025 9:28:36 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 2 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 8, 18
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, 0, 2
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 3, 5
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 13, 22
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, 1, 2
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 3 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 7, 17
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, -1, 4
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 2, 4
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 12, 23
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, 0, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 4 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 6, 16
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, -2, 6
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 1, 3
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 11, 24
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, -1, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 5 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 5, 15
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, -3, 8
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 0, 2
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 25
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 0, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, -2, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 6 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 4, 14
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, -4, 10
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -1, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 27
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -1, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, -3, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 7 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 3, 13
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, -5, 12
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -2, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 29
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -2, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, -4, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 8 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 2, 12
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, -6, 14
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -3, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 31
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -3, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, -5, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: -------- day 9 --------
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 1, 11
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Aged Brie, -7, 16
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -4, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 33
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -4, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: Conjured Mana Cake, -6, 0
+Nov 20, 2025 9:28:39 AM com.gildedrose.App print
+INFO: 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.716 s -- in com.gildedrose.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 37, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/jacoco.exec
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.028 s
+[INFO] Finished at: 2025-11-20T09:28:40Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4PIvBjaVMQHAqt/qqlm8a/RVlE/rW5uM5v05jIx3lxhlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHbImT7vgAAAA==[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4JkaqDUBnMJoWNdvD04CIfrzycHi7zknbNPNezB3CRFDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAaJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+l82QrvgAAAA==[0m[Pipeline] recordCoverage
+[Coverage] Recording coverage results
+[Coverage] Creating parser for JaCoCo Coverage Reports
+[Coverage] Using default pattern '**/jacoco.xml,**/jacocoTestReport.xml' since user defined pattern is not set
+[Coverage] Searching for all files in '/var/jenkins_home/workspace/lti-branch-pipeline_production_2' that match the pattern '**/jacoco.xml,**/jacocoTestReport.xml'
+[Coverage] Traversing of symbolic links: enabled
+[Coverage] -> found 1 file
+[Coverage] Successfully parsed file '/var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/site/jacoco/jacoco.xml'
+[Coverage] MODULE: 100.00% (1/1)
+[Coverage] PACKAGE: 100.00% (1/1)
+[Coverage] FILE: 100.00% (5/5)
+[Coverage] CLASS: 100.00% (5/5)
+[Coverage] METHOD: 80.00% (36/45)
+[Coverage] LINE: 83.85% (109/130)
+[Coverage] BRANCH: 96.67% (58/60)
+[Coverage] INSTRUCTION: 92.19% (602/653)
+[Coverage] LOC: 130
+[Coverage] CYCLOMATIC_COMPLEXITY: 75
+[Coverage] Successfully processed file 'target/site/jacoco/jacoco.xml'
+[Coverage] Resolving source code files...
+[Coverage] Searching for source code files in '/var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/main/java'
+[Coverage] -> resolved absolute paths for all 5 source files
+[Coverage] Making paths of 5 source code files relative to workspace root...
+[Checks API] No suitable checks publisher found.
+[Coverage] Obtaining result action of reference build
+[Coverage] Reference build recorder is not configured
+[Coverage] -> Found no reference build
+[Coverage] No quality gates have been set - skipping
+[Coverage] Executing source code painting...
+[Coverage] Painting 5 source files on agent
+[Coverage] -> finished painting successfully
+[Coverage] -> zipping sources from folder '/var/jenkins_home/workspace/lti-branch-pipeline_production_2/coverage' as '/var/jenkins_home/workspace/lti-branch-pipeline_production_2/coverage-sources.zip'
+[Coverage] Copying painted sources from agent to build folder
+[Coverage] -> extracting...
+[Coverage] -> done
+[Coverage] Finished coverage processing - adding the action to the build...
+[8mha:////4NhVvbN/Zc7gY/laTwKZsqB7jUYID4sgEJMNwq16K5QGAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] }
+[8mha:////4E3/UR2/j4CcffrlyeSSuVD5KGGQhNsEuWvaMpiTkcP3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Rc3k7vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Nz1t/qS276z92XbHxQ5p4ldjQNRRfg05Zf/bI7fxaA0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP/tUT4C+AAAA[0m[Pipeline] }
+[8mha:////4O1cZgYWhwiQ34AUW4UXoPuVwIsYweuuwFPOWQKa2x0rAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRUKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wHVVE3qvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JsEoJ3HFDnenaUhp2oG7XWM8gr/0f3Epxliv0K3CmgkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDB0QYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2B+SPIwgAAAA==[0m[Pipeline] stage
+[8mha:////4BEw4eANsjVL+lhJgMx2XA2Rl6OpsQ0kTcTgzkKMtehKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] { (build)
+[8mha:////4FBplKDsfZ3r/0UAT8GDwVK6uJH6Y58+/45YzSTbP4OBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] parallel
+[8mha:////4EqnHoP+zJ2oKElwM88ehlkt0ZQtNQbJm3JsPSY29BsMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0Qgghpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD4Mpke7CAAAA[0m[Pipeline] { (Branch: package)
+[8mha:////4MAYWFISl+o40z8pymmoDpYX5YrvvjXETbZIckFP6Sq9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBRhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQHWYnb4wgAAAA==[0m[Pipeline] { (Branch: site)
+[8mha:////4ABkuPNKqKfiSM4h5q0g7MYb62q9cFN+bwtrt38ALk/YAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDCAh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm91mlxhwgAAAA==[0m[Pipeline] stage
+[8mha:////4FuDa+jzMtLrUMGI8zCTAIwHar61HvFGPFci15im/c3lAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (package)
+[8mha:////4AH9QOJu9D0UfsW/E83bqsEEyX6nx31i2fvCBXm9uHzNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCYkFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAAL10cgwgAAAA==[0m[Pipeline] stage
+[8mha:////4MHM+nGiYYVc1JvmE3FhBloYTFmt6gSDQdK2ID/JAqZYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] { (site)
+[8mha:////4F+QEdvMs9fiGggDAiDmrF8zi+jBHig2kXXynIkaBy6ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFjkUhEvgAAAA==[0m[Pipeline] tool
+[8mha:////4EciQDa4sd5iAg0d7Rg8MQLK0GeHlDpfdPG3x9gqs3oGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/Bpr3tQy+AAAA[0m[Pipeline] tool
+[8mha:////4N2Xiozme568wSm0P5/p8Lc4NIBbftLC8YTZdDkgZfXvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAHh8352vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4ICAZ2yKlGf8KPF2z1QyxrN1xKFrykiTeqMmURfTVhwWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAEU2jaSvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4OYo4zVLSu8oAmCu1iFg7g+ojq+S0rQooYi+hx6enZvdAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYkBCiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+9mO8zP4gOsTbDZwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4BnhxOtxBQku7PQBsRiVqjwaJsFBEtXRBul+K1Kd2bcIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] {
+[8mha:////4OovJGhW2wnPfBgq2IQ8GfJ0kAOsBzmUYstTPx88qjBnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSAgG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK3TbbfvN5Vm82DiF7wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4CMrGCT1uXtNDwztL7bdSmjuH5+NHshtqdB9CBNImj5gAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] {
+[8mha:////4Kkc8uzjmY3xtg6y1hTqbUtQBGHuEM2S4y1oeziva7TwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFlTeVIvgAAAA==[0m[Pipeline] sh
+[8mha:////4Db1GEX0Py9vhQBKX32DtrQ5V2vezkidHAhdkX+U/ryWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q2LyjuQvgAAAA==[0m[Pipeline] sh
++ mvn package -DskipTests
++ mvn site
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- site:3.21.0:site (default-site) @ DevOps ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/jacoco.exec
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ DevOps ---
+[INFO] Building jar: /var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/DevOps-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.265 s
+[INFO] Finished at: 2025-11-20T09:28:58Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4Gk9jHG3aik5MOw4bvaSo9yVf/4SNvcszRCNlHpuy1ZLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgygQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN+Pqvx6+AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+[8mha:////4PJEZmswYP9e5IOXu2+Rxc1+kMCMArp3hk1GsHoXK/OBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BhjWOfW+AAAA[0m[Pipeline] }
+[8mha:////4AR5Rv4M06dtjvA2Txba2flUJiLU05eO4flptDiPnVMuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpiBCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPliMol6+AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdATYMAvz6xSLf8YOQLR/9Pt3K+RuHLp0NxoxkvBayhAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUQASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234ABecmOL4AAAA=[0m[Pipeline] }
+[8mha:////4G/0nufzyZGO22KTBr04XjD1zBovGCAcOMO2lbUocXh0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8aZXNqvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Icp4xhtamaT+GoeUr7PdvvVMyW8RRhPcq1j6IFWuStUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgwRCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Kn8KevgAAAA==[0m[Pipeline] }
+[WARNING] Input file encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Rendering site for default locale
+[WARNING] Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/maven-metadata.xml
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/maven-metadata.xml (1.5 kB at 1.2 kB/s)
+[INFO] Configuring report plugin maven-project-info-reports-plugin:3.9.0
+[INFO] Detected 15 reports for maven-project-info-reports-plugin:3.9.0: ci-management, dependencies, dependency-info, dependency-management, distribution-management, index, issue-management, licenses, mailing-lists, modules, plugin-management, plugins, scm, summary, team
+[WARNING] No project URL defined - site links will not be relativized!
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO] Rendering 8 report documents
+[INFO] Generating "Dependencies" report  --- maven-project-info-reports-plugin:3.9.0:dependencies
+[INFO] Generating "Maven Coordinates" report --- maven-project-info-reports-plugin:3.9.0:dependency-info
+[INFO] Generating "About" report         --- maven-project-info-reports-plugin:3.9.0:index
+[INFO] Generating "Plugin Management" report --- maven-project-info-reports-plugin:3.9.0:plugin-management
+[INFO] Generating "Plugins" report       --- maven-project-info-reports-plugin:3.9.0:plugins
+[INFO] Generating "Source Code Management" report --- maven-project-info-reports-plugin:3.9.0:scm
+[INFO] Generating "Summary" report       --- maven-project-info-reports-plugin:3.9.0:summary
+[INFO] Generating "Project Information" report --- maven-site-plugin:3.21.0:project-info
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.462 s
+[INFO] Finished at: 2025-11-20T09:29:17Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4G9qODSaxv29EDACkeW1Z0c/u1aNKGx8ZXGdxUqEFhxcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9l93rwvgAAAA==[0m[Pipeline] }
+[8mha:////4GVSAQw1rAw6NEYOXE1ePWDtGV1zie8Z+lDxnfjASbJvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w9x1OfvvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4KhhfwX1uYdkciIFERBfutO+ASVb7x4V7HtgUpHGInxAAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AGsLKTb4AAAA=[0m[Pipeline] }
+[8mha:////4Fa3sSijcKhUHng5LhJWHTFVDtLeWFyz81Cej91zD/zcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AAWerzr4AAAA=[0m[Pipeline] // stage
+[8mha:////4Da4WQw/vt+ufUphMy/K0+DAbc68/FSE8obYOwZiJ6z9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w8e5f6cvgAAAA==[0m[Pipeline] }
+[8mha:////4OS5S59JClPSd2S194uVmekQotfvJ57JVEL8BsQ+NIitAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8ZFQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrm2+w/QUSOvvgAAAA==[0m[Pipeline] // parallel
+[8mha:////4D6SmxxaiNyisphdbq4Veq6hqxBZk2Ih02U6d+5pcW1JAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8ZFQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rm2uw/jsngTvgAAAA==[0m[Pipeline] }
+[8mha:////4ElokF7p/aB/DlVeXdUvFoG8Bt1b6vtgAQVQOur/IrVNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpIkVCVLRWGl5gYmOcWHeOfSGpeBFf4w9YRKJii9XONvN6wzZFOFG0ojc4OEydE8FPNi8xUxxunmbR01V0hIm8Ea2ZW9LmvGJLbGBNUcJGws5g5yk5tAx72auHqrxCW1045u8ooXR6hCcUMptZRf7CEuFwn3Qi/Hn+CmAJgaFsmlx1/QGMUSd7vgAAAA==[0m[Pipeline] // stage
+[8mha:////4OPAw0vdsMMopRTF115/oDDQutxhSEP5rmhf7TvheL74AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbFSIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jtu++TyrNzpYNt7CAAAA[0m[Pipeline] stage
+[8mha:////4PbabHM8R/fRYAoe9x1kzIIwWVjS2L07dAncRRQQxBZiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUkQoxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLfZGt2n2f1Btc458LCAAAA[0m[Pipeline] { (deploy)
+[8mha:////4KhJavI7cC+EpdpdrAjAjWij3Lno4OkfluUmHY1JgT8/AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICJUJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfe3xDHZb4AAAA=[0m[Pipeline] tool
+[8mha:////4M66pLz0ilRnR7eKFHj0v5z/Jz5uqGy6osfSCFT6NlyGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBhxD6k6+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Dx5JLdIe5F33e5P+vShprdWhsZ/5P6VQTjuTGXuq0LiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUiQkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD5M4m6TCAAAA[0m[Pipeline] withEnv
+[8mha:////4NqOBVrip3kKBWIslNNPPEH+IL1DV9gmlrHKULy9JFmRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] {
+[8mha:////4MZk9F8Q1ASIcQr4T7eh/1uev4btUKPgm7TAGKVW2f2JAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQIEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN8jx5PW+AAAA[0m[Pipeline] mail
+[8mha:////4BX2bW36ajFRBCHPOeNqMCviNoeScxJjZvWmbs7y2Y12AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QUgIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACi2o9EwgAAAA==[0m[Pipeline] timeout
+Timeout set to expire in 3 min 0 sec
+[8mha:////4MskNwuHonX0AtEYsehxsveVdAjP2CKZAgDiKPTSg39OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAcawv9fCAAAA[0m[Pipeline] {
+[8mha:////4Pz/0cRNmtC1B657+SVE4f0EO2NfWAyN1CafgPl//DshAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeGJWicb4AAAA=[0m[Pipeline] input
+Procedo al despliegue o aborto
+[8mha:////4D/SibaNDnb3hVtzTRGKNWRdawTZaZJTFakfXkQ/Mtv0AAABQR+LCAAAAAAAAP9dkLFOwzAQhi+pgBUxIjbm2mmTklLUCZBAqgCpvEDiuIkb1zb2mbYLDwGPAQsSr8BD8AJszAwspO0Et9yvO32//ruXL9hyFs60LcmUq1ooxwQx0peNInNt64nUc+K8MdoicciNI0IZj+Tmenx7sTTcSqHqK41896P19p3+fIYQjKDlrUTYG02z+4zKTJV0jFao8mRh4aDyhdOKMK2clpz8cTkaPr8OH817COElbEuuSqw2dnfwAEGD7//DTzd9BcOmghBgYRqxgxAcIjxViGZAaaUdkkKzmtvmCORWZXLQi6J+RKc6p8xbp9vdqNvrdDrpejTzEkU7t5liVdsIw5uYfL0xVheeodCKduj6I/Q8Z1EaR/2km7OMpRGPWZLERY8l6SQ5TuMVwzgvzmcGl7/RlzvhegEAAA==[0mAceptar or [8mha:////4PL+6RxfZ8zoMMriWVsCuxFyiPdlU3/Lvs1DZsEUvQMYAAABPh+LCAAAAAAAAP9dkLFOwzAQhi+pQIyIEbEx106alJSiToAEUgVI5QUSx03cGNvYZ9ouPAETrwELEq/AQ/ACbMwMLIR2glvu152+X3f/8ydsOAsn2lZkxlUjlGOCGOmrVpG5ts1U6jlx3hhtkTjkxhGhjEdydTm5PlsabqVQzYVGvv3eef3Kvj9CCMbQ8VYi7Ixn+V1OZa4qOkErVHW0sLBX+9JpRZhWTktO/rgcjJ5eRo/mLYTwHDYlVxXWa7tbuIegxXf/4cfr/gvDuoIQYGFasYUQ7CM81IhmSGmtHZJSs4bb9gnkVuVy2I+iQURnuqDMW6e7vajXj+M4W41uvETRLWyuWN01wvD2TL7aGKtLz1BoRWO6SoSeFizKkmiQ9gqWsyziCUvTpOyzNJumh1lC86IN8Qd3srGwcwEAAA==[0mCancelar
+Approved by [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+[8mha:////4IrxgXLEdLVdky3gCXydBwem4JvpEEsrf2a6HqGHAypkAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoghR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvae3VL4AAAA=[0m[Pipeline] }
+[8mha:////4Hi8lwad5/DIKeAYE8TxJPrM3NPrGUfJeTnbNZjCX1BLAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LgYmIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8BpqkVfb8AAAA=[0m[Pipeline] // timeout
+[8mha:////4L2kxN0Dfw76JtaR19u9IKU/4oplj959cujedGBrw48XAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JI4mIMk2vD4hdUWmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jK0Tgx9temKi0F89TaKji2gJI3kjGjM1pM1pwYbYwLIsh0LC2mDrKTq0DBvZqYcqvUJbnjkkd5SQO32HJ2QylVkF/sIcYHsbdST8df4GYB4Y8sOeoah21fABMo0wAL8AAAA=[0m[Pipeline] sh
++ mvn install -DskipTests
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/lti-branch-pipeline_production_2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/jacoco.exec
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ DevOps ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ DevOps ---
+[INFO] Installing /var/jenkins_home/workspace/lti-branch-pipeline_production_2/pom.xml to /var/jenkins_home/.m2/repository/com/example/DevOps/0.0.1-SNAPSHOT/DevOps-0.0.1-SNAPSHOT.pom
+[INFO] Installing /var/jenkins_home/workspace/lti-branch-pipeline_production_2/target/DevOps-0.0.1-SNAPSHOT.jar to /var/jenkins_home/.m2/repository/com/example/DevOps/0.0.1-SNAPSHOT/DevOps-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.585 s
+[INFO] Finished at: 2025-11-20T09:29:58Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Ph1jmH7cf7NaqcS5kYl9lpaywfjxLm4Rq97q7M6uVUqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAZFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bjyw/4DgWnT3r8AAAA=[0m[Pipeline] }
+[8mha:////4LJk6kUQbo/SfaBk/HTCzXUiYzDZ3h5L/ddW//8ushGiAAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiLoUDkOlW2GxhPEEGMgs4vJIlSeyKt5BxmZsfJX/73mvd6wShEqik62FjuPyXjZh8HNT44Uu2ugUbZ0kYYwUbCytmNNjT0tWBNbWJYJyBWsLZpAyaNj2KhWP3QRNLrizHF2RwXCN3d4QqbmMuvIX5gibG9Dkwh/nb8BmPqeId/vSgZxKD+HL+uLvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JGyRAbRbSAZ/4SMnbvr8SnlVvM5ZEsd2ZQ/8D9nacLQAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6Jg4mIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJX7RnyQ/UBhU7nD78AAAA=[0m[Pipeline] }
+[8mha:////4FY4y+FJu73BGJvPhVH6IyOKQpPs7mm2Wl6qSYAEdXf1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBRIooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtZseQ7w8fxRR8pL8AAAA=[0m[Pipeline] // stage
+[8mha:////4BeD+GQ3RHvByRv93jEd4vnztmA9KyhZs8TQ9rUxBS0BAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LIYmIMk2vD4hfUUmuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h1E70fvBzk2MFLqLp1G0dBaaMJI3ojZjTY05LlgTG1iSpJBJWBnUnqJDy7CWrbqrwiu0xYnDvB0kpK65wQMSOZtZBf7CFGBzHZpI+PP8FcDUM6TlniErt7vPNX8DSCsBh8MAAAA=[0m[Pipeline] stage
+[8mha:////4J2c7PtmVw9Td0OKo1i2caIJLbCkZSryEPdnB8JtWdY+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApLDCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QfYKuSHxAAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4OuyIWztD847L0YCrPB98oTofv/+TTiuzwrRyyTvbEVCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDFUgoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrvDnMf+y+lUfumwAAAAA==[0m[Pipeline] mail
+[8mha:////4KDB2V/8TOUB2YLIekV0jcEKCx8YY+k/wwQBFl4kb+txAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDFUIoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6j2u+Pchy9+jRogwAAAAA==[0m[Pipeline] }
+[8mha:////4FFlZBGkRMttJjNqRSxtISrtT0sWz7LacVl8ft0mgAw2AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgsXGsbDM0niCSGAOZXUwWofJEXs07GGXGyl/8+e837/mCVQxwoGBFZ7B3GFsnBj/atMREob94mkRHZ9ESRvJGNGZqSJvjgg2xgSVZDoWEtcHWU3RoGTayU3dVeoW2PHFI315C7vQNHpDJZGYV+AtzgO111JHw5/krgHkYGIq6rj5d7d6l+C8OwAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ldsf7LajjSq+58BE5YmwToNh7GbJeiK9cIYb0qwT2IZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjlwhR0VppeIFxjHFi3SX2haTiRXyNP2ARiYqtdqaZ1xs2KcKJohOdxd5jMl4MYXL5iZlifws0i46uwhAmClY0dm6otecVG2IL64oSKgVbiyZQ8ugYdqrTD10Hja6+cMzuqKD07QhPKFQus478hSXC/j61ifDX+RuAZRgYKiklQykPHy7mWEi/AAAA[0m[Pipeline] }
+[8mha:////4MzSeTWgZGp942lFKS+3/a+hl5pIj33T406rUeoGu8VXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjUCEhKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqJpmx1A2+w8WpMu5vwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4K1pJEL6S8mzyFb6nvpIwv6lrqwoWJPNMIEcUMs+V3GeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjixJR0VppeIFxjHFi3SX2haTiRXyNP2ARiYqtdqaZ1xs2KcKJohOdxd5jMl4MYXL5iZlifws0i46uwhAmClY0dm6otecVG2IL64oSKgVbiyZQ8ugYdqrTD10Hja6+cMzuqKD07QhPKFQus478hSXC/j61ifDX+RuAZRgYKikPDKWUHxfPSwu/AAAA[0m[Pipeline] }
+[8mha:////4HiTkbC1/rOeyGhZc4yhW3U71TNAN9vZkBbLzp+fjuC3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJDpERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgMVdPsGcpm9wE5z0lhvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4E/wtuF3BVFBvixThma3GDSzn7R/39DRTq4HvHqI+sFLAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjSFAhKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb1nkHsPjQUfUu+AAAA[0m[Pipeline] }
+[8mha:////4BqC9SQRhswbLCAJLFQbgghDj9/TL7xP/G1XQij4RpNaAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCIkGUdFaaXiBiY1xYt0F+4JT8SK+xh+IiETFVjvTzOsNqxThSNHJzmLvMbVeDmF085OZYn8NlGVHF9kSJgpWNjY3ZOxpwYbYwjJRQKlgbbENlDw6ho3q9ENXQaOrzhxnd1BQeHOHJwg1l1lH/sIUYXsbTSL8df4GYBoGhrKu9wxi9wFH+7mSvgAAAA==[0m[Pipeline] // node
+[8mha:////4MJXZ8wbVFKGlF/dmP6LGUs3wc2TX5ZkzSn6BHmwcd9FAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSj0FAgKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb1nkHsPmHi3ti+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

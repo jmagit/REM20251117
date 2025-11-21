@@ -1,0 +1,11 @@
+commit aaf08750e6ee6525715fa257f741fd9b48e082d4
+tree 7a68565f10953a54a93287d49b033361195f9a72
+parent 1d878d96cb36ea80c7bb348e28f05a376b57f986
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 13:05:02 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 13:05:02 +0100
+
+    sin pruebas
+
+
+:100644 100644 3350d2aafcec339eda186cf9a52fc280731418e4 3b3e40e44f22f4430e558a0818090a65b27dfc85 M	src/test/java/com/gildedrose/FuncionalesTest.java
+:100644 100644 0f50bf0f3d0c7f820e617dc079f8901b44fd8d27 9acc3d5f3c12aaf7553f8507479d7a32764dd904 M	src/test/java/com/gildedrose/GildedRoseTest.java

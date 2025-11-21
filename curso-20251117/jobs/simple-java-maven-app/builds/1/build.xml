@@ -1,0 +1,99 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.27">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>javier</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.37-489.vb_6db_69b_ce753">
+      <queuingDurationMillis>8</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>4</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.8.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@6.4.0">
+              <sha1>0ba87b82fc0139a927c22f789f46ba19a25f3435</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/jenkins-docs/simple-java-maven-app.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.mycompany.app:my-app:pom.xml</string>
+          <string>e72a1c03d064e82b9571a45ac34fcb8e</string>
+        </entry>
+        <entry>
+          <string>org.apiguardian:apiguardian-api-1.1.2.jar</string>
+          <string>8c7de3f82037fa4a2e8be2a2f13092af</string>
+        </entry>
+        <entry>
+          <string>org.jspecify:jspecify-1.0.0.jar</string>
+          <string>9133aba420d0ca3b001dbb6ae9992cf6</string>
+        </entry>
+        <entry>
+          <string>org.junit.platform:junit-platform-commons-6.0.1.jar</string>
+          <string>0096b078430c91f1f93b7fb9f875200f</string>
+        </entry>
+        <entry>
+          <string>org.junit.jupiter:junit-jupiter-api-6.0.1.jar</string>
+          <string>13c345298eea2b62b3385271b716e6aa</string>
+        </entry>
+        <entry>
+          <string>org.opentest4j:opentest4j-1.3.0.jar</string>
+          <string>03c404f727531f3fd3b4c73997899327</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@522.va_995fa_cfb_8b_d">
+      <messageId>&lt;2007570262.9.1763540040774@d0024fb72bd4&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>1635</queueId>
+  <timestamp>1763540023493</timestamp>
+  <startTime>1763540023529</startTime>
+  <result>FAILURE</result>
+  <duration>17053</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/curso-20251117/simple-java-maven-app</workspace>
+  <hudsonVersion>2.528.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.8.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+  <mavenVersionUsed>3.9.11</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

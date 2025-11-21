@@ -1,0 +1,964 @@
+Started by user [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+[8mha:////4Nkxw2Pknq5r4lyuaDDdKz4buvOJ/Goed11SEzrGZ0yZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KxvG67cq1HT5heQitTykHAeszpc9DEtMiugItZxSbgAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4N5i4Zv1ptu0e//pcodeH+fJO5EScWVid5yfNwze0udCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/curso-20251117/pipeline-maven
+[8mha:////4OIaG9+P1HjQ1MyCpjqcYZvG1cgSfa5jE6xKkAOktdxGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4CCwwPZa5W31/LSEtVVYoC9uBWkBk+aAEQMjYl8mTZPxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BefwS89DLNzRtK27IX5gpBq8IRvH0DQP/0iSrox7QrxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4PZRysf8CZOj/SMY2GGZ69Xm+in5o1wKhAUgKt0/khuOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
+[8mha:////4KLfQTKVL7m2koXrkw8MW82CnqxlmhoW56HcisWFnIIGAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4IRdKgg9fRs2OLBmGjKJR+gg/h+0JnIkuv/dtHXfanTrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4NwKrlVROBYcIhR3BQF9Ij3Twu63pOXmmUdLil/4wiD3AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IPK9uZ58lrDiDmqjZPyvPFCVetYkAjL/cxqe4tfib6aAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LigaCgFWW/Z4jd0EM/c6YjajaACVuGwRos0N/Sf8LT6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4DoZtIHGSkuIwxWW1borME9bNnI3c5Yo49LdfEc4Cj1aAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] stage
+[8mha:////4J3wFtshHo/IM5XGVvCqvyj++eproGkbPMIv+AcFlNijAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] { (inicializo)
+[8mha:////4AwAlN8u9WjKOvnWqfE9KHT303ZTReGG+rUIv5fegWvdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] tool
+[8mha:////4IjeqlksVKMVur3K5eOAfB2C89JIVYyqGnyPU+Cmf51WAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEG6D8DvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4IxazQ0A4M8rBEqOghne0V+WsHNubAvqlYQl+XjTXUaEAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSEgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOeMTC6wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4LtCL9uCwvmL5kuqE2UtE5NQzilrwUWseUaNoawUnzNYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4COcJvp8Q31NuhczVwNPx8+StfSdieuEJRqI3CnRvWdAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/curso-20251117/pipeline-maven/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jmagit/demos-devops.git # timeout=10
+Fetching upstream changes from https://github.com/jmagit/demos-devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/jmagit/demos-devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2728b1f879ad94f766cc7814775e189d5908972c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2728b1f879ad94f766cc7814775e189d5908972c # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 2728b1f879ad94f766cc7814775e189d5908972c # timeout=10
+Commit message: "maven-site-plugin upgrade"
+ > git rev-list --no-walk b71ccfe21b8b24e2c22dc9b0b404fe1521b4412d # timeout=10
+[8mha:////4InllxzztVFqu0u/t2Q+b2IVSRHDQ4vMtDP1vvUojCmMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4EZSriMoZaE2aJShBT5I4lirgFgD4kuqbzZqoFXtYyNMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LvnDV2rUX2aZX00MwvHGQRTNtkQlwksItjQZXOWf39WAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRER2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPjbYp22+AAAA[0m[Pipeline] }
+[8mha:////4Eh9mAXnNz5qoOfWIMsESP8crUysREhf7VC+zvNEEY2mAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1BzCenzi+AAAA[0m[Pipeline] // stage
+[8mha:////4Alsnc+Fctah3DD6WviwVhLMVb3V+IVCNAs01a7fP0XCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jluz/zyrN+6T+eXCAAAA[0m[Pipeline] stage
+[8mha:////4MmwqTSJCqRZwXZX8IMg3n6k4IdIwI4/WLBLOIBuU1pGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (compilo)
+[8mha:////4DpqBMilubAMMWpjAoq/dNnFS1bgoGlinNaLmn1h4b9ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] tool
+[8mha:////4Ezw9SClSyNOLnTZ5PFW8UUhlB6I70itFr3LNUj2I2SsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4O8i0WdkjNSslVPExaghYOleK4oGZcE/2r81tnfOAaZnAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSEARBXHUbsvEEsYkxbfi//qS2K0/k1byDrQVXzmKYGRje6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gPmlJ7MwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DYyVyrSkfKatgWPp0jCJ9I6Xz0QEwptLEGMYcZTNT9sAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4CEnsmcQ3vt1+X8tGnWuF+F3PWB9+DKmV/pF+1mm1vKeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.118 s
+[INFO] Finished at: 2025-11-19T20:50:48Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4DoDH5KLo0TH6NEi+GZckj1DFucH/gXGsDuUINeERHuLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4LIk6cYf/39yk63VgTAzyLwyrYjbhwrePepUwfMdINS/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4CiaFET/W4yPhEZd59JunvYa6KA94bQsQS3UZ067tsWRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFyY6ZcvgAAAA==[0m[Pipeline] }
+[8mha:////4P2NVjEBsNGCw3YltBaP7kW8pfsFvZDy3kr67Pg61x1FAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] // stage
+[8mha:////4Cpcla99ZiMuBLHXSpQvErtzhEgjKZNOsfjeBryNciL5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg322y7/edZvQH/S9KIwgAAAA==[0m[Pipeline] stage
+[8mha:////4Ed6/X56WC0V8TudYIzGCef6p1LRXTA8h+ztuGuiTF22AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (test)
+[8mha:////4G/AYKZPGgYAG/bJQmoTiZuuM8+PQemXUxkCUFymtBCRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] tool
+[8mha:////4Om462jZsCRL9oh3Xsq3dAW5G81wsTN2ComAx4ERkSuFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GIQdP8/5V/pNM7ZaLlfWKI1u1L1K6mrymqRy0HkUjdhAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEJCiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOZZvKjwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KTio0FZcElCpgeeZxKuJ22lrcrgI7mZkCefGPD901W9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4PF4kAQtY/l9Z41zHm+cJ33ho9fyoDyg4OeffS3kG4ueAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.gildedrose.GildedRoseTest
+[WARNING] Tests run: 26, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.424 s -- in com.gildedrose.GildedRoseTest
+[INFO] Running com.gildedrose.ItemTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in com.gildedrose.ItemTest
+[INFO] Running com.gildedrose.FuncionalesTest
+-------- day 0 --------
+name, sellIn, quality
++5 Dexterity Vest, 10, 20
+Aged Brie, 2, 0
+Elixir of the Mongoose, 5, 7
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 15, 20
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+Conjured Mana Cake, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
++5 Dexterity Vest, 9, 19
+Aged Brie, 1, 1
+Elixir of the Mongoose, 4, 6
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 14, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 50
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Conjured Mana Cake, 2, 4
+
+-------- day 2 --------
+name, sellIn, quality
++5 Dexterity Vest, 8, 18
+Aged Brie, 0, 2
+Elixir of the Mongoose, 3, 5
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 13, 22
+Backstage passes to a TAFKAL80ETC concert, 8, 50
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Conjured Mana Cake, 1, 2
+
+-------- day 3 --------
+name, sellIn, quality
++5 Dexterity Vest, 7, 17
+Aged Brie, -1, 4
+Elixir of the Mongoose, 2, 4
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 12, 23
+Backstage passes to a TAFKAL80ETC concert, 7, 50
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Conjured Mana Cake, 0, 0
+
+-------- day 4 --------
+name, sellIn, quality
++5 Dexterity Vest, 6, 16
+Aged Brie, -2, 6
+Elixir of the Mongoose, 1, 3
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 11, 24
+Backstage passes to a TAFKAL80ETC concert, 6, 50
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Conjured Mana Cake, -1, 0
+
+-------- day 5 --------
+name, sellIn, quality
++5 Dexterity Vest, 5, 15
+Aged Brie, -3, 8
+Elixir of the Mongoose, 0, 2
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 10, 25
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+Conjured Mana Cake, -2, 0
+
+-------- day 6 --------
+name, sellIn, quality
++5 Dexterity Vest, 4, 14
+Aged Brie, -4, 10
+Elixir of the Mongoose, -1, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 9, 27
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Conjured Mana Cake, -3, 0
+
+-------- day 7 --------
+name, sellIn, quality
++5 Dexterity Vest, 3, 13
+Aged Brie, -5, 12
+Elixir of the Mongoose, -2, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 8, 29
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Conjured Mana Cake, -4, 0
+
+-------- day 8 --------
+name, sellIn, quality
++5 Dexterity Vest, 2, 12
+Aged Brie, -6, 14
+Elixir of the Mongoose, -3, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 7, 31
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Conjured Mana Cake, -5, 0
+
+-------- day 9 --------
+name, sellIn, quality
++5 Dexterity Vest, 1, 11
+Aged Brie, -7, 16
+Elixir of the Mongoose, -4, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 6, 33
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Conjured Mana Cake, -6, 0
+
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 s -- in com.gildedrose.FuncionalesTest
+[INFO] Running com.gildedrose.AppTest
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 0 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 10, 20
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, 2, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 5, 7
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 15, 20
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 49
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 49
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 3, 6
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 1 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 9, 19
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, 1, 1
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 4, 6
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 14, 21
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 2, 4
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 2 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 8, 18
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, 0, 2
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 3, 5
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 13, 22
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 1, 2
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 3 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 7, 17
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, -1, 4
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 2, 4
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 12, 23
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, 0, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 4 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 6, 16
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, -2, 6
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 1, 3
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 11, 24
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -1, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 5 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 5, 15
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, -3, 8
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, 0, 2
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 10, 25
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 5, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 0, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -2, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 6 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 4, 14
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, -4, 10
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -1, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 9, 27
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 4, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -1, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -3, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 7 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 3, 13
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, -5, 12
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -2, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 8, 29
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 3, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -2, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -4, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 8 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 2, 12
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, -6, 14
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -3, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 7, 31
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 2, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -3, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -5, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: -------- day 9 --------
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: name, sellIn, quality
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: +5 Dexterity Vest, 1, 11
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Aged Brie, -7, 16
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Elixir of the Mongoose, -4, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, 0, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Sulfuras, Hand of Ragnaros, -1, 80
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 6, 33
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, 1, 50
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Backstage passes to a TAFKAL80ETC concert, -4, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: Conjured Mana Cake, -6, 0
+Nov 19, 2025 8:50:55 PM com.gildedrose.App print
+INFO: 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.160 s -- in com.gildedrose.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 37, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/jacoco.exec
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.819 s
+[INFO] Finished at: 2025-11-19T20:50:56Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4Pk5lld1P+cDt03uSsDveDzE0elIk354s02LfnMcMWUpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBp7FN92+AAAA[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4GwejwOBRILwP/NkDXNyC1i3tgndZKPRind43YDlzNavAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBt/0LMS+AAAA[0m[Pipeline] recordCoverage
+[Coverage] Recording coverage results
+[Coverage] Creating parser for JaCoCo Coverage Reports
+[Coverage] Using default pattern '**/jacoco.xml,**/jacocoTestReport.xml' since user defined pattern is not set
+[Coverage] Searching for all files in '/var/jenkins_home/workspace/curso-20251117/pipeline-maven' that match the pattern '**/jacoco.xml,**/jacocoTestReport.xml'
+[Coverage] Traversing of symbolic links: enabled
+[Coverage] -> found 1 file
+[Coverage] Successfully parsed file '/var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/site/jacoco/jacoco.xml'
+[Coverage] MODULE: 100.00% (1/1)
+[Coverage] PACKAGE: 100.00% (1/1)
+[Coverage] FILE: 100.00% (5/5)
+[Coverage] CLASS: 100.00% (5/5)
+[Coverage] METHOD: 80.00% (36/45)
+[Coverage] LINE: 83.85% (109/130)
+[Coverage] BRANCH: 96.67% (58/60)
+[Coverage] INSTRUCTION: 92.19% (602/653)
+[Coverage] LOC: 130
+[Coverage] CYCLOMATIC_COMPLEXITY: 75
+[Coverage] Successfully processed file 'target/site/jacoco/jacoco.xml'
+[Coverage] Resolving source code files...
+[Coverage] Searching for source code files in '/var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/main/java'
+[Coverage] -> resolved absolute paths for all 5 source files
+[Coverage] Making paths of 5 source code files relative to workspace root...
+[Checks API] No suitable checks publisher found.
+[Coverage] Obtaining result action of reference build
+[Coverage] Reference build recorder is not configured
+[Coverage] -> Found no reference build
+[Coverage] No quality gates have been set - skipping
+[Coverage] Executing source code painting...
+[Coverage] Painting 5 source files on agent
+[Coverage] -> finished painting successfully
+[Coverage] -> zipping sources from folder '/var/jenkins_home/workspace/curso-20251117/pipeline-maven/coverage' as '/var/jenkins_home/workspace/curso-20251117/pipeline-maven/coverage-sources.zip'
+[Coverage] Copying painted sources from agent to build folder
+[Coverage] -> extracting...
+[Coverage] -> done
+[Coverage] Deleting source code files of build #14
+[Coverage] Finished coverage processing - adding the action to the build...
+[8mha:////4JT5ReyGFIoR2pteWGPHY3eUFPqJ93jNEwXRY8KslXazAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCkQ5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTT40or4AAAA=[0m[Pipeline] }
+[8mha:////4J9Px/gCTOvUEku9WJ6xoDHicxfYdWezzDQcrHsIqhbKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+Lw/VfvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Izt1zgL0PHqSRJrosrQnyg3z2x2OMIPmDRvNzoIz+vwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QG0rN5JvgAAAA==[0m[Pipeline] }
+[8mha:////4J1RbDXyP5CyQ+v+q1PiGYbOgPEo9hebPDJj4nZ+IU2pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+rLosbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4K383GbRLn63lcqlyXiDnyiupSnKhHAMAmz8TENEUW3BAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm+vZuvxwgAAAA==[0m[Pipeline] stage
+[8mha:////4D+kyxthEnxSVIVeVxf7OHJQdagB3Ndt2Zxr7W6OI8urAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] { (genera)
+[8mha:////4KnWxnabZKJI6c3GGWf9HOCS2e+C93E/LC+GlrOE36otAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] parallel
+[8mha:////4Jg7As2ffMq+HdT5B2MN5xxSF1qtb7W9AjUUSgKqasiCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUITEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD8PMba3CAAAA[0m[Pipeline] { (Branch: empaqueta)
+[8mha:////4MuHGJSpkTzVJ0vh5w1jjS/74/vUpZkG3N/4iF5Tv94lAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCTEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2YfMWbCAAAA[0m[Pipeline] { (Branch: documenta)
+[8mha:////4OY32MzEMhkD0AH0OwihOPEgcUsvRbMWo9fAPVBX5bc6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDx+WWCPCAAAA[0m[Pipeline] stage
+[8mha:////4DlA5vEEXh06FBe0lIQvo0AUVyFC7MOIc6LM/ZPWNv82AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (empaqueta)
+[8mha:////4CX4V7nzeR5o2kHfUFun656E07x1zOSzYUI+FvO+dEIEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD9ToHq/CAAAA[0m[Pipeline] stage
+[8mha:////4FBplKDsfZ3r/0UAT8GDwVK6uJH6Y58+/45YzSTbP4OBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (documenta)
+[8mha:////4Fn+J4SuI24JHfdef+ZhSIY/A3B5KFqNnMryeCjMUFRFAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/Qg6NTExTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DRpoiLi+AAAA[0m[Pipeline] tool
+[8mha:////4GXEjYtKGg1FAqYWwSUpWzXL3K1mtj2tJM6ZUSK0eGgoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3JIDDa+AAAA[0m[Pipeline] tool
+[8mha:////4FnICASYL3vr0Kvl7vxrqy16XgU1T8dYx46FyD4nJ04AAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhCQ2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKOs612HvP0tcF3K+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4JVw8s/Z4puOVOZFXhYZUUkkwvlXtlzrRcPhses56LyqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8jfJP8vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4AIRghbjBQeTlT9cTvAM9NYOrmMDweQtrRTTDE1EyBynAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQioLYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwRl02Tb7z7P6g0cetLtwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4BpEkCi04MUaDM66pjhjE0P9wRWcREnZSwzZ5qNnisO6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4Jixdg1QvPddn1pvS91tAjj9HrbsQ90414XgPkSAsDujAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoh04WdAnVijLpwgNCEkjd4rSUo6cSKuxh0IVGLCg2Vbsr7nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3AIOdjwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4GFmvEeOd5g8tlmfB+Ne2z/vOK4i0lbB5Olzbk+4cfItAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] {
+[8mha:////4AgAeHOSDiQpSW3FLjUiFfCOfY+pXEuyKtDV6/Rkp1zlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKVBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUw+QVnvP1X7NxTJEsm+AAAA[0m[Pipeline] sh
+[8mha:////4PDwZXUZGsGjYxiI6DQo5XZ1M7D83DxujcyXZp80CjzgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBm/N2bO+AAAA[0m[Pipeline] sh
++ mvn package -DskipTests
++ mvn site
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] 
+[INFO] --- site:3.21.0:site (default-site) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0/maven-reporting-exec-2.0.0.pom
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/jacoco.exec
+Progress (1): 779 BProgress (1): 1.8 kBProgress (1): 4.9 kBProgress (1): 8.9 kBProgress (1): 9.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0/maven-reporting-exec-2.0.0.pom (9.6 kB at 11 kB/s)
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ DevOps ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.pom
+Progress (1): 1.2 kBProgress (1): 3.1 kBProgress (1): 5.8 kBProgress (1): 5.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.pom (5.8 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.pom
+Progress (1): 1.2 kBProgress (1): 3.6 kBProgress (1): 4.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.pom (4.3 kB at 112 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.pom
+Progress (1): 753 BProgress (1): 1.9 kBProgress (1): 3.0 kBProgress (1): 4.7 kBProgress (1): 8.2 kBProgress (1): 9.8 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.pom (23 kB at 459 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.pom
+Progress (1): 1.3 kBProgress (1): 2.7 kBProgress (1): 5.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.pom (5.8 kB at 160 kB/s)
+[INFO] Building jar: /var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/DevOps-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.546 s
+[INFO] Finished at: 2025-11-19T20:51:02Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4JXQLXtR/biRT96bwR45niGzf/50QbEakHoGa8z3xVSwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpS77af24Q2a5JFXvgAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/airbase/112/airbase-112.pom
+Progress (1): 1.1 kBProgress (1): 3.3 kBProgress (1): 4.6 kBProgress (1): 7.7 kBProgress (1): 9.4 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 24 kBProgress (1): 28 kBProgress (1): 31 kBProgress (1): 37 kBProgress (1): 40 kBProgress (1): 44 kBProgress (1): 51 kBProgress (1): 59 kBProgress (1): 62 kBProgress (1): 66 kBProgress (1): 69 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/airbase/112/airbase-112.pom (69 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom
+Progress (1): 913 BProgress (1): 2.4 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom (5.7 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.pom
+Progress (1): 1.1 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.pom (2.0 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0/doxia-module-fml-2.0.0.pom
+[8mha:////4NRTe9AqVtXbBQnQTMhFmzgPkboLiwmQZ8bYsZcPt6RMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g2CDwoivgAAAA==[0m[Pipeline] }
+[8mha:////4JK/NA7cWzeDGVS8cEUkw7VXXZvFPZKWG+4KshcrlODWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9oZXXUvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4F7WvgS3z8fXzXabm1IRt1NORmFM7/2jPyq+lDygLf6FAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRUSBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w+tcGCqvgAAAA==[0m[Pipeline] }
+[8mha:////4E1Mh0zWA+CcSfl6FRwgzSKlYueq2UF0dyRgemv1X6fnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AlTLzW74AAAA=[0m[Pipeline] // stage
+[8mha:////4HLOkk49Zv2oTBJLlFui/+d9qy9eB45Ksid5vKJnLVMFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334ABUTMeb4AAAA=[0m[Pipeline] }
+Progress (1): 781 BProgress (1): 2.1 kBProgress (1): 4.9 kBProgress (1): 5.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0/doxia-module-fml-2.0.0.pom (5.3 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0/doxia-module-markdown-2.0.0.pom
+Progress (1): 764 BProgress (1): 1.8 kBProgress (1): 6.5 kBProgress (1): 8.7 kBProgress (1): 9.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0/doxia-module-markdown-2.0.0.pom (9.1 kB at 239 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.pom
+Progress (1): 3.0 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.pom (4.1 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-java/0.62.2/flexmark-java-0.62.2.pom
+Progress (1): 1.1 kBProgress (1): 4.0 kBProgress (1): 6.9 kBProgress (1): 20 kB Progress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-java/0.62.2/flexmark-java-0.62.2.pom (24 kB at 749 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.pom (2.0 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.pom (1.1 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.pom
+Progress (1): 979 B                   Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.pom (979 B at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.pom
+Progress (1): 1.0 kBProgress (1): 3.9 kBProgress (1): 5.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.pom (5.5 kB at 157 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.pom
+Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.pom (1.2 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.pom (1.4 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.pom
+Progress (1): 988 B                   Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.pom (988 B at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.pom (1.3 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.pom (1.5 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.pom (2.2 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.pom (1.3 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.pom (2.6 kB at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.pom
+Progress (1): 3.4 kBProgress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.pom (3.9 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.pom (1.3 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.pom (1.8 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.pom (1.3 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.pom (1.3 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.pom (1.5 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.pom (1.4 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.pom (1.6 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.pom (1.3 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.pom (1.5 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.pom (1.3 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.pom
+Progress (1): 980 BProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.pom (1.7 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.56.v20240826/jetty-server-9.4.56.v20240826.pom
+Progress (1): 1.4 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.56.v20240826/jetty-server-9.4.56.v20240826.pom (3.6 kB at 89 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.56.v20240826/jetty-project-9.4.56.v20240826.pom
+Progress (1): 946 BProgress (1): 2.7 kBProgress (1): 4.7 kBProgress (1): 7.2 kBProgress (1): 9.0 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 17 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 28 kBProgress (1): 32 kBProgress (1): 35 kBProgress (1): 40 kBProgress (1): 46 kBProgress (1): 51 kBProgress (1): 55 kBProgress (1): 60 kBProgress (1): 63 kBProgress (1): 67 kBProgress (1): 70 kBProgress (1): 74 kBProgress (1): 74 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.56.v20240826/jetty-project-9.4.56.v20240826.pom (74 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.20.1/testcontainers-bom-1.20.1.pom
+Progress (1): 1.2 kBProgress (1): 11 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.20.1/testcontainers-bom-1.20.1.pom (11 kB at 271 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.19.Final/infinispan-bom-11.0.19.Final.pom
+Progress (1): 1.1 kBProgress (1): 6.5 kBProgress (1): 17 kB Progress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.19.Final/infinispan-bom-11.0.19.Final.pom (18 kB at 437 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.19.Final/infinispan-build-configuration-parent-11.0.19.Final.pom
+Progress (1): 1.1 kBProgress (1): 3.3 kBProgress (1): 5.5 kBProgress (1): 7.9 kBProgress (1): 10 kB Progress (1): 12 kBProgress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.19.Final/infinispan-build-configuration-parent-11.0.19.Final.pom (16 kB at 501 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.56.v20240826/jetty-http-9.4.56.v20240826.pom
+Progress (1): 1.5 kBProgress (1): 4.0 kBProgress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.56.v20240826/jetty-http-9.4.56.v20240826.pom (4.0 kB at 134 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.56.v20240826/jetty-util-9.4.56.v20240826.pom
+Progress (1): 1.2 kBProgress (1): 3.1 kBProgress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.56.v20240826/jetty-util-9.4.56.v20240826.pom (4.0 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.56.v20240826/jetty-io-9.4.56.v20240826.pom
+Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.56.v20240826/jetty-io-9.4.56.v20240826.pom (1.2 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.56.v20240826/jetty-servlet-9.4.56.v20240826.pom
+Progress (1): 1.3 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.56.v20240826/jetty-servlet-9.4.56.v20240826.pom (2.3 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.56.v20240826/jetty-security-9.4.56.v20240826.pom
+Progress (1): 1.2 kBProgress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.56.v20240826/jetty-security-9.4.56.v20240826.pom (2.1 kB at 72 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.56.v20240826/jetty-util-ajax-9.4.56.v20240826.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.56.v20240826/jetty-util-ajax-9.4.56.v20240826.pom (1.3 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.56.v20240826/jetty-webapp-9.4.56.v20240826.pom
+Progress (1): 1.2 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.56.v20240826/jetty-webapp-9.4.56.v20240826.pom (3.2 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.56.v20240826/jetty-xml-9.4.56.v20240826.pom
+Progress (1): 1.1 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.56.v20240826/jetty-xml-9.4.56.v20240826.pom (1.7 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0/maven-reporting-exec-2.0.0.jar
+Progress (1): 8.2/28 kBProgress (1): 25/28 kB Progress (1): 28 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0/maven-reporting-exec-2.0.0.jar (28 kB at 735 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar
+Progress (1): 7.7/225 kBProgress (1): 16/225 kB Progress (1): 20/225 kBProgress (1): 36/225 kBProgress (1): 53/225 kBProgress (1): 69/225 kBProgress (1): 86/225 kBProgress (1): 102/225 kBProgress (1): 118/225 kBProgress (1): 135/225 kBProgress (1): 151/225 kBProgress (1): 168/225 kBProgress (1): 184/225 kBProgress (1): 200/225 kBProgress (1): 217/225 kBProgress (1): 225 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar (225 kB at 2.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0/doxia-module-fml-2.0.0.jar
+Progress (1): 1.4/255 kBProgress (1): 2.7/255 kBProgress (1): 4.1/255 kBProgress (1): 5.5/255 kBProgress (1): 6.8/255 kBProgress (1): 8.2/255 kBProgress (1): 9.6/255 kBProgress (1): 11/255 kB Progress (1): 12/255 kBProgress (1): 14/255 kBProgress (1): 15/255 kBProgress (1): 16/255 kBProgress (2): 16/255 kB | 0.9/79 kBProgress (2): 18/255 kB | 0.9/79 kBProgress (2): 18/255 kB | 2.3/79 kBProgress (2): 19/255 kB | 2.3/79 kBProgress (2): 19/255 kB | 3.6/79 kBProgress (2): 21/255 kB | 3.6/79 kBProgress (2): 21/255 kB | 5.0/79 kBProgress (2): 22/255 kB | 5.0/79 kBProgress (2): 23/255 kB | 5.0/79 kBProgress (2): 23/255 kB | 6.4/79 kBProgress (2): 25/255 kB | 6.4/79 kBProgress (2): 25/255 kB | 7.7/79 kBProgress (2): 25/255 kB | 9.1/79 kBProgress (2): 26/255 kB | 9.1/79 kBProgress (2): 26/255 kB | 10/79 kB Progress (2): 27/255 kB | 10/79 kBProgress (2): 27/255 kB | 12/79 kBProgress (2): 27/255 kB | 13/79 kBProgress (2): 27/255 kB | 15/79 kBProgress (2): 29/255 kB | 15/79 kBProgress (2): 29/255 kB | 16/79 kBProgress (2): 30/255 kB | 16/79 kBProgress (2): 30/255 kB | 17/79 kBProgress (2): 31/255 kB | 17/79 kBProgress (2): 31/255 kB | 19/79 kBProgress (2): 31/255 kB | 20/79 kBProgress (2): 33/255 kB | 20/79 kBProgress (2): 33/255 kB | 20/79 kBProgress (2): 33/255 kB | 22/79 kBProgress (2): 34/255 kB | 22/79 kBProgress (2): 34/255 kB | 23/79 kBProgress (2): 36/255 kB | 23/79 kBProgress (2): 36/255 kB | 24/79 kBProgress (2): 37/255 kB | 24/79 kBProgress (2): 38/255 kB | 24/79 kBProgress (2): 38/255 kB | 26/79 kBProgress (2): 40/255 kB | 26/79 kBProgress (3): 40/255 kB | 26/79 kB | 0/1.1 MBProgress (3): 40/255 kB | 27/79 kB | 0/1.1 MBProgress (3): 40/255 kB | 28/79 kB | 0/1.1 MBProgress (3): 41/255 kB | 28/79 kB | 0/1.1 MBProgress (3): 41/255 kB | 28/79 kB | 0/1.1 MBProgress (3): 42/255 kB | 28/79 kB | 0/1.1 MBProgress (3): 42/255 kB | 30/79 kB | 0/1.1 MBProgress (3): 42/255 kB | 31/79 kB | 0/1.1 MBProgress (3): 44/255 kB | 31/79 kB | 0/1.1 MBProgress (3): 44/255 kB | 31/79 kB | 0/1.1 MBProgress (3): 44/255 kB | 32/79 kB | 0/1.1 MBProgress (3): 45/255 kB | 32/79 kB | 0/1.1 MBProgress (3): 45/255 kB | 32/79 kB | 0/1.1 MBProgress (3): 46/255 kB | 32/79 kB | 0/1.1 MBProgress (3): 46/255 kB | 34/79 kB | 0/1.1 MBProgress (3): 46/255 kB | 34/79 kB | 0/1.1 MBProgress (3): 48/255 kB | 34/79 kB | 0/1.1 MBProgress (3): 48/255 kB | 35/79 kB | 0/1.1 MBProgress (3): 48/255 kB | 35/79 kB | 0/1.1 MBProgress (3): 49/255 kB | 35/79 kB | 0/1.1 MBProgress (3): 49/255 kB | 37/79 kB | 0/1.1 MBProgress (3): 49/255 kB | 37/79 kB | 0/1.1 MBProgress (3): 49/255 kB | 38/79 kB | 0/1.1 MBProgress (3): 51/255 kB | 38/79 kB | 0/1.1 MBProgress (3): 51/255 kB | 38/79 kB | 0/1.1 MBProgress (3): 51/255 kB | 39/79 kB | 0/1.1 MBProgress (3): 51/255 kB | 39/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 39/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 41/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 41/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 41/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 42/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 42/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 43/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 43/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 45/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 45/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 46/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 48/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 48/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 49/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 49/79 kB | 0/1.1 MBProgress (3): 52/255 kB | 50/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 50/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 52/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 53/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 54/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 53/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 59/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 63/79 kB | 0/1.1 MBProgress (3): 55/255 kB | 63/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 63/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 67/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 67/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 67/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 71/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 71/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 71/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 76/79 kB | 0.1/1.1 MBProgress (3): 55/255 kB | 79 kB | 0.1/1.1 MB   Progress (3): 59/255 kB | 79 kB | 0.1/1.1 MBProgress (3): 63/255 kB | 79 kB | 0.1/1.1 MBProgress (3): 63/255 kB | 79 kB | 0.1/1.1 MBProgress (3): 67/255 kB | 79 kB | 0.1/1.1 MBProgress (3): 67/255 kB | 79 kB | 0.1/1.1 MB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.5.0/plexus-io-3.5.0.jar (79 kB at 482 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0/doxia-module-markdown-2.0.0.jar
+Progress (2): 72/255 kB | 0.1/1.1 MBProgress (2): 72/255 kB | 0.1/1.1 MBProgress (2): 76/255 kB | 0.1/1.1 MBProgress (2): 80/255 kB | 0.1/1.1 MBProgress (2): 84/255 kB | 0.1/1.1 MBProgress (2): 89/255 kB | 0.1/1.1 MBProgress (2): 93/255 kB | 0.1/1.1 MBProgress (2): 97/255 kB | 0.1/1.1 MBProgress (2): 97/255 kB | 0.1/1.1 MBProgress (2): 97/255 kB | 0.1/1.1 MBProgress (2): 101/255 kB | 0.1/1.1 MBProgress (2): 101/255 kB | 0.1/1.1 MBProgress (2): 105/255 kB | 0.1/1.1 MBProgress (2): 105/255 kB | 0.1/1.1 MBProgress (2): 110/255 kB | 0.1/1.1 MBProgress (2): 110/255 kB | 0.1/1.1 MBProgress (2): 114/255 kB | 0.1/1.1 MBProgress (2): 114/255 kB | 0.1/1.1 MBProgress (2): 118/255 kB | 0.1/1.1 MBProgress (2): 122/255 kB | 0.1/1.1 MBProgress (2): 123/255 kB | 0.1/1.1 MBProgress (2): 127/255 kB | 0.1/1.1 MBProgress (2): 131/255 kB | 0.1/1.1 MBProgress (2): 131/255 kB | 0.1/1.1 MBProgress (2): 136/255 kB | 0.1/1.1 MBProgress (2): 136/255 kB | 0.1/1.1 MBProgress (2): 140/255 kB | 0.1/1.1 MBProgress (2): 144/255 kB | 0.1/1.1 MBProgress (2): 148/255 kB | 0.1/1.1 MBProgress (2): 152/255 kB | 0.1/1.1 MBProgress (2): 152/255 kB | 0.1/1.1 MBProgress (3): 152/255 kB | 0.1/1.1 MB | 3.8/38 kBProgress (3): 157/255 kB | 0.1/1.1 MB | 3.8/38 kBProgress (3): 157/255 kB | 0.1/1.1 MB | 20/38 kB Progress (4): 157/255 kB | 0.1/1.1 MB | 20/38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 20/38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 20/38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 20/38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 20/38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 37/38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 37/38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 38 kB | 0/6.7 MB   Progress (4): 157/255 kB | 0.1/1.1 MB | 38 kB | 0/6.7 MBProgress (4): 157/255 kB | 0.1/1.1 MB | 38 kB | 0/6.7 MBProgress (4): 161/255 kB | 0.1/1.1 MB | 38 kB | 0/6.7 MBProgress (4): 161/255 kB | 0.1/1.1 MB | 38 kB | 0/6.7 MBProgress (4): 165/255 kB | 0.1/1.1 MB | 38 kB | 0/6.7 MBProgress (4): 165/255 kB | 0.1/1.1 MB | 38 kB | 0/6.7 MB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0/doxia-module-fml-2.0.0.jar (38 kB at 234 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar
+Progress (3): 165/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 165/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 165/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 165/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 165/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 165/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 165/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 169/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 174/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 178/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 182/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 186/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 191/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 195/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 199/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 199/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 203/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 203/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 203/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 207/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 207/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 207/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 212/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 212/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 212/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 216/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 216/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 216/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 220/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 220/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 220/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 220/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 220/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 237/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 237/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 237/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 237/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 237/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 253/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 253/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 253/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 254/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 254/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 254/255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0/6.7 MB    Progress (3): 255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MBProgress (3): 255 kB | 0.1/1.1 MB | 0.1/6.7 MB                                              Downloaded from central: https://repo.maven.apache.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar (255 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar
+Progress (2): 0.1/1.1 MB | 0.1/6.7 MBProgress (2): 0.1/1.1 MB | 0.1/6.7 MBProgress (2): 0.1/1.1 MB | 0.1/6.7 MBProgress (2): 0.1/1.1 MB | 0.1/6.7 MBProgress (2): 0.1/1.1 MB | 0.1/6.7 MBProgress (2): 0.1/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.1/6.7 MBProgress (2): 0.2/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.3/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.4/1.1 MB | 0.2/6.7 MBProgress (2): 0.5/1.1 MB | 0.2/6.7 MBProgress (2): 0.5/1.1 MB | 0.2/6.7 MBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 3.8/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 8.0/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 12/35 kB Progress (3): 0.5/1.1 MB | 0.2/6.7 MB | 16/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 20/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 24/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 24/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 29/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 33/35 kBProgress (3): 0.5/1.1 MB | 0.2/6.7 MB | 35 kB   Progress (3): 0.5/1.1 MB | 0.3/6.7 MB | 35 kBProgress (3): 0.5/1.1 MB | 0.3/6.7 MB | 35 kBProgress (3): 0.5/1.1 MB | 0.3/6.7 MB | 35 kBProgress (3): 0.5/1.1 MB | 0.3/6.7 MB | 35 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0/doxia-module-markdown-2.0.0.jar (35 kB at 166 kB/s)
+Progress (2): 0.5/1.1 MB | 0.3/6.7 MB                                     Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar
+Progress (2): 0.6/1.1 MB | 0.3/6.7 MBProgress (2): 0.6/1.1 MB | 0.3/6.7 MBProgress (2): 0.6/1.1 MB | 0.3/6.7 MBProgress (2): 0.6/1.1 MB | 0.3/6.7 MBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 7.7/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 16/444 kB Progress (3): 0.6/1.1 MB | 0.3/6.7 MB | 20/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 20/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 37/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 37/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 53/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 69/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 86/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 102/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 118/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 135/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 151/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 168/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 184/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 200/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 200/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 217/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 217/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 233/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 233/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 240/444 kBProgress (3): 0.6/1.1 MB | 0.3/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.3/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.3/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.3/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.7/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (4): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kB | 3.7/5.3 kBProgress (4): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kB | 5.3 kB    Progress (4): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kB | 5.3 kBProgress (4): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kB | 5.3 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar (5.3 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar
+Progress (3): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.8/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 257/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 273/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 289/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 306/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 322/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 339/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 344/444 kBProgress (3): 0.9/1.1 MB | 0.4/6.7 MB | 360/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 360/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 377/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 381/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 381/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 397/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 397/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 413/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 413/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 430/444 kBProgress (3): 0.9/1.1 MB | 0.5/6.7 MB | 444 kB                                                  Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar (444 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar
+Progress (2): 0.9/1.1 MB | 0.5/6.7 MBProgress (2): 0.9/1.1 MB | 0.5/6.7 MBProgress (2): 0.9/1.1 MB | 0.5/6.7 MBProgress (2): 1.0/1.1 MB | 0.5/6.7 MBProgress (2): 1.0/1.1 MB | 0.5/6.7 MBProgress (2): 1.0/1.1 MB | 0.5/6.7 MBProgress (2): 1.0/1.1 MB | 0.5/6.7 MBProgress (2): 1.0/1.1 MB | 0.5/6.7 MBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 3.7/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 8.0/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 12/67 kB Progress (3): 1.0/1.1 MB | 0.5/6.7 MB | 16/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 20/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 24/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 29/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 33/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 37/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 41/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 46/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 50/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 54/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 58/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.0/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.1/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.1/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.1/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.1/1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.1 MB | 0.5/6.7 MB | 62/67 kB    Progress (3): 1.1 MB | 0.5/6.7 MB | 62/67 kBProgress (3): 1.1 MB | 0.6/6.7 MB | 62/67 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar (1.1 MB at 3.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar
+Progress (2): 0.6/6.7 MB | 62/67 kBProgress (2): 0.6/6.7 MB | 67/67 kBProgress (2): 0.6/6.7 MB | 67/67 kBProgress (2): 0.6/6.7 MB | 67 kB   Progress (3): 0.6/6.7 MB | 67 kB | 3.7/16 kBProgress (3): 0.6/6.7 MB | 67 kB | 16 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar (67 kB at 201 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar (16 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar
+Progress (1): 0.6/6.7 MBProgress (1): 0.6/6.7 MBProgress (1): 0.6/6.7 MBProgress (1): 0.7/6.7 MBProgress (1): 0.7/6.7 MBProgress (1): 0.7/6.7 MBProgress (1): 0.7/6.7 MBProgress (1): 0.7/6.7 MBProgress (2): 0.7/6.7 MB | 3.7/109 kBProgress (2): 0.7/6.7 MB | 20/109 kB Progress (2): 0.7/6.7 MB | 37/109 kBProgress (2): 0.7/6.7 MB | 53/109 kBProgress (2): 0.7/6.7 MB | 69/109 kBProgress (2): 0.7/6.7 MB | 86/109 kBProgress (2): 0.7/6.7 MB | 102/109 kBProgress (2): 0.7/6.7 MB | 109 kB    Progress (2): 0.7/6.7 MB | 109 kBProgress (2): 0.8/6.7 MB | 109 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar (109 kB at 294 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar
+Progress (2): 0.8/6.7 MB | 6.8 kBProgress (2): 0.8/6.7 MB | 6.8 kBProgress (2): 0.8/6.7 MB | 6.8 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar (6.8 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar
+Progress (1): 0.8/6.7 MBProgress (1): 0.8/6.7 MBProgress (1): 0.8/6.7 MBProgress (1): 0.9/6.7 MBProgress (1): 0.9/6.7 MBProgress (1): 0.9/6.7 MBProgress (2): 0.9/6.7 MB | 3.8/25 kBProgress (2): 0.9/6.7 MB | 3.8/25 kBProgress (2): 0.9/6.7 MB | 8.0/25 kBProgress (2): 0.9/6.7 MB | 12/25 kB Progress (2): 0.9/6.7 MB | 16/25 kBProgress (2): 0.9/6.7 MB | 20/25 kBProgress (2): 0.9/6.7 MB | 24/25 kBProgress (2): 0.9/6.7 MB | 25 kB   Progress (2): 0.9/6.7 MB | 25 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar (25 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar
+Progress (1): 0.9/6.7 MBProgress (1): 1.0/6.7 MBProgress (1): 1.0/6.7 MBProgress (1): 1.0/6.7 MBProgress (1): 1.0/6.7 MBProgress (1): 1.0/6.7 MBProgress (2): 1.0/6.7 MB | 7.7/55 kBProgress (2): 1.0/6.7 MB | 16/55 kB Progress (2): 1.0/6.7 MB | 20/55 kBProgress (2): 1.0/6.7 MB | 36/55 kBProgress (2): 1.0/6.7 MB | 53/55 kBProgress (3): 1.0/6.7 MB | 53/55 kB | 8.2/59 kBProgress (3): 1.0/6.7 MB | 55 kB | 8.2/59 kB   Progress (3): 1.0/6.7 MB | 55 kB | 25/59 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar (55 kB at 133 kB/s)
+Progress (2): 1.0/6.7 MB | 25/59 kB                                   Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.jar
+Progress (2): 1.1/6.7 MB | 25/59 kBProgress (2): 1.1/6.7 MB | 37/59 kBProgress (2): 1.1/6.7 MB | 37/59 kBProgress (2): 1.1/6.7 MB | 53/59 kBProgress (2): 1.1/6.7 MB | 59 kB                                   Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar (59 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar
+Progress (2): 1.1/6.7 MB | 7.7/223 kBProgress (2): 1.1/6.7 MB | 16/223 kB Progress (2): 1.1/6.7 MB | 25/223 kBProgress (2): 1.1/6.7 MB | 41/223 kBProgress (2): 1.1/6.7 MB | 57/223 kBProgress (2): 1.1/6.7 MB | 74/223 kBProgress (2): 1.1/6.7 MB | 74/223 kBProgress (2): 1.1/6.7 MB | 90/223 kBProgress (2): 1.1/6.7 MB | 90/223 kBProgress (2): 1.1/6.7 MB | 106/223 kBProgress (2): 1.1/6.7 MB | 106/223 kBProgress (2): 1.1/6.7 MB | 123/223 kBProgress (3): 1.1/6.7 MB | 123/223 kB | 1.9 kBProgress (3): 1.1/6.7 MB | 123/223 kB | 1.9 kBProgress (3): 1.1/6.7 MB | 139/223 kB | 1.9 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar (1.9 kB at 4.3 kB/s)
+Progress (2): 1.1/6.7 MB | 139/223 kB                                     Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar
+Progress (2): 1.1/6.7 MB | 156/223 kBProgress (2): 1.1/6.7 MB | 172/223 kBProgress (2): 1.2/6.7 MB | 172/223 kBProgress (3): 1.2/6.7 MB | 172/223 kB | 3.7/65 kBProgress (3): 1.2/6.7 MB | 188/223 kB | 3.7/65 kBProgress (3): 1.2/6.7 MB | 188/223 kB | 3.7/65 kBProgress (3): 1.2/6.7 MB | 188/223 kB | 20/65 kB Progress (3): 1.2/6.7 MB | 188/223 kB | 37/65 kBProgress (3): 1.2/6.7 MB | 188/223 kB | 53/65 kBProgress (4): 1.2/6.7 MB | 188/223 kB | 53/65 kB | 7.7/27 kBProgress (4): 1.2/6.7 MB | 188/223 kB | 53/65 kB | 16/27 kB Progress (4): 1.2/6.7 MB | 188/223 kB | 65 kB | 16/27 kB   Progress (4): 1.2/6.7 MB | 205/223 kB | 65 kB | 16/27 kBProgress (4): 1.2/6.7 MB | 218/223 kB | 65 kB | 16/27 kBProgress (4): 1.2/6.7 MB | 223 kB | 65 kB | 16/27 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar (65 kB at 139 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar (223 kB at 470 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.jar
+Progress (2): 1.2/6.7 MB | 16/27 kBProgress (2): 1.2/6.7 MB | 16/27 kBProgress (2): 1.2/6.7 MB | 16/27 kBProgress (2): 1.2/6.7 MB | 16/27 kBProgress (2): 1.3/6.7 MB | 16/27 kBProgress (2): 1.3/6.7 MB | 16/27 kBProgress (2): 1.3/6.7 MB | 16/27 kBProgress (2): 1.3/6.7 MB | 27 kB   Progress (2): 1.3/6.7 MB | 27 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.jar (27 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.jar
+Progress (1): 1.3/6.7 MBProgress (1): 1.3/6.7 MBProgress (1): 1.4/6.7 MBProgress (1): 1.4/6.7 MBProgress (2): 1.4/6.7 MB | 3.7/12 kBProgress (2): 1.4/6.7 MB | 12 kB                                    Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar (12 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.jar
+Progress (1): 1.4/6.7 MBProgress (1): 1.4/6.7 MBProgress (1): 1.4/6.7 MBProgress (1): 1.4/6.7 MBProgress (1): 1.5/6.7 MBProgress (1): 1.5/6.7 MBProgress (1): 1.5/6.7 MBProgress (1): 1.5/6.7 MBProgress (1): 1.5/6.7 MBProgress (1): 1.5/6.7 MBProgress (1): 1.6/6.7 MBProgress (1): 1.6/6.7 MBProgress (1): 1.6/6.7 MBProgress (1): 1.6/6.7 MBProgress (1): 1.6/6.7 MBProgress (1): 1.6/6.7 MBProgress (1): 1.7/6.7 MBProgress (1): 1.7/6.7 MBProgress (1): 1.7/6.7 MBProgress (1): 1.7/6.7 MBProgress (2): 1.7/6.7 MB | 3.8/9.7 kBProgress (2): 1.7/6.7 MB | 3.8/9.7 kBProgress (2): 1.7/6.7 MB | 9.7 kB    Progress (2): 1.7/6.7 MB | 9.7 kBProgress (2): 1.8/6.7 MB | 9.7 kBProgress (2): 1.8/6.7 MB | 9.7 kBProgress (2): 1.8/6.7 MB | 9.7 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar (9.7 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar
+Progress (1): 1.8/6.7 MBProgress (1): 1.8/6.7 MBProgress (1): 1.8/6.7 MBProgress (2): 1.8/6.7 MB | 3.7/32 kBProgress (2): 1.8/6.7 MB | 20/32 kB Progress (3): 1.8/6.7 MB | 20/32 kB | 7.7/12 kBProgress (3): 1.8/6.7 MB | 32 kB | 7.7/12 kB   Progress (3): 1.8/6.7 MB | 32 kB | 12 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.jar (32 kB at 57 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.jar (12 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar
+Progress (1): 1.9/6.7 MBProgress (2): 1.9/6.7 MB | 7.7/31 kBProgress (2): 1.9/6.7 MB | 8.2/31 kBProgress (2): 1.9/6.7 MB | 8.2/31 kBProgress (2): 1.9/6.7 MB | 8.2/31 kBProgress (2): 1.9/6.7 MB | 25/31 kB Progress (2): 1.9/6.7 MB | 31 kB                                   Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.jar (31 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar
+Progress (1): 1.9/6.7 MBProgress (1): 1.9/6.7 MBProgress (2): 1.9/6.7 MB | 7.7/23 kBProgress (2): 1.9/6.7 MB | 8.2/23 kBProgress (2): 1.9/6.7 MB | 8.2/23 kBProgress (2): 1.9/6.7 MB | 23 kB    Progress (2): 2.0/6.7 MB | 23 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar (23 kB at 38 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar
+Progress (1): 2.0/6.7 MBProgress (1): 2.0/6.7 MBProgress (1): 2.0/6.7 MBProgress (1): 2.0/6.7 MBProgress (2): 2.0/6.7 MB | 7.7/47 kBProgress (2): 2.0/6.7 MB | 16/47 kB Progress (2): 2.0/6.7 MB | 20/47 kBProgress (2): 2.0/6.7 MB | 36/47 kBProgress (2): 2.0/6.7 MB | 47 kB   Progress (2): 2.0/6.7 MB | 47 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar (47 kB at 76 kB/s)
+Progress (1): 2.1/6.7 MB                        Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.jar
+Progress (1): 2.1/6.7 MBProgress (1): 2.1/6.7 MBProgress (1): 2.1/6.7 MBProgress (1): 2.1/6.7 MBProgress (1): 2.1/6.7 MBProgress (1): 2.1/6.7 MBProgress (1): 2.2/6.7 MBProgress (1): 2.2/6.7 MBProgress (2): 2.2/6.7 MB | 7.7/20 kBProgress (2): 2.2/6.7 MB | 16/20 kB Progress (2): 2.2/6.7 MB | 20/20 kBProgress (2): 2.2/6.7 MB | 20 kB   Progress (2): 2.2/6.7 MB | 20 kBProgress (2): 2.2/6.7 MB | 20 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.jar (20 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.56.v20240826/jetty-server-9.4.56.v20240826.jar
+Progress (1): 2.2/6.7 MBProgress (1): 2.2/6.7 MBProgress (1): 2.3/6.7 MBProgress (1): 2.3/6.7 MBProgress (1): 2.3/6.7 MBProgress (1): 2.3/6.7 MBProgress (1): 2.3/6.7 MBProgress (1): 2.3/6.7 MBProgress (1): 2.4/6.7 MBProgress (1): 2.4/6.7 MBProgress (2): 2.4/6.7 MB | 7.7/30 kBProgress (2): 2.4/6.7 MB | 16/30 kB Progress (2): 2.4/6.7 MB | 20/30 kBProgress (2): 2.4/6.7 MB | 20/30 kBProgress (2): 2.4/6.7 MB | 30 kB   Progress (2): 2.4/6.7 MB | 30 kBProgress (2): 2.4/6.7 MB | 30 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar (30 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.56.v20240826/jetty-io-9.4.56.v20240826.jar
+Progress (1): 2.4/6.7 MBProgress (1): 2.5/6.7 MBProgress (1): 2.5/6.7 MBProgress (1): 2.5/6.7 MBProgress (2): 2.5/6.7 MB | 7.7/17 kBProgress (2): 2.5/6.7 MB | 16/17 kB Progress (2): 2.5/6.7 MB | 16/17 kBProgress (2): 2.5/6.7 MB | 17 kB   Progress (2): 2.5/6.7 MB | 17 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar (17 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.56.v20240826/jetty-http-9.4.56.v20240826.jar
+Progress (1): 2.5/6.7 MBProgress (1): 2.6/6.7 MBProgress (1): 2.6/6.7 MBProgress (2): 2.6/6.7 MB | 7.7/31 kBProgress (2): 2.6/6.7 MB | 16/31 kB Progress (2): 2.6/6.7 MB | 25/31 kBProgress (2): 2.6/6.7 MB | 31 kB   Progress (2): 2.6/6.7 MB | 31 kBProgress (2): 2.6/6.7 MB | 31 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.jar (31 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.56.v20240826/jetty-servlet-9.4.56.v20240826.jar
+Progress (1): 2.6/6.7 MBProgress (1): 2.6/6.7 MBProgress (1): 2.7/6.7 MBProgress (1): 2.7/6.7 MBProgress (1): 2.7/6.7 MBProgress (1): 2.7/6.7 MBProgress (1): 2.7/6.7 MBProgress (1): 2.7/6.7 MBProgress (1): 2.8/6.7 MBProgress (1): 2.8/6.7 MBProgress (1): 2.8/6.7 MBProgress (1): 2.8/6.7 MBProgress (1): 2.8/6.7 MBProgress (1): 2.8/6.7 MBProgress (1): 2.9/6.7 MBProgress (1): 2.9/6.7 MBProgress (1): 2.9/6.7 MBProgress (1): 2.9/6.7 MBProgress (1): 2.9/6.7 MBProgress (1): 2.9/6.7 MBProgress (1): 3.0/6.7 MBProgress (2): 3.0/6.7 MB | 7.7/249 kBProgress (2): 3.0/6.7 MB | 7.7/249 kBProgress (2): 3.0/6.7 MB | 16/249 kB Progress (2): 3.0/6.7 MB | 16/249 kBProgress (2): 3.0/6.7 MB | 20/249 kBProgress (2): 3.0/6.7 MB | 20/249 kBProgress (2): 3.0/6.7 MB | 37/249 kBProgress (2): 3.0/6.7 MB | 37/249 kBProgress (2): 3.0/6.7 MB | 53/249 kBProgress (2): 3.0/6.7 MB | 53/249 kBProgress (2): 3.0/6.7 MB | 69/249 kBProgress (2): 3.0/6.7 MB | 69/249 kBProgress (2): 3.0/6.7 MB | 86/249 kBProgress (2): 3.1/6.7 MB | 86/249 kBProgress (2): 3.1/6.7 MB | 102/249 kBProgress (2): 3.1/6.7 MB | 102/249 kBProgress (2): 3.1/6.7 MB | 118/249 kBProgress (2): 3.1/6.7 MB | 118/249 kBProgress (2): 3.1/6.7 MB | 118/249 kBProgress (2): 3.1/6.7 MB | 118/249 kBProgress (2): 3.1/6.7 MB | 118/249 kBProgress (2): 3.2/6.7 MB | 118/249 kBProgress (2): 3.2/6.7 MB | 118/249 kBProgress (2): 3.2/6.7 MB | 135/249 kBProgress (2): 3.2/6.7 MB | 151/249 kBProgress (2): 3.2/6.7 MB | 168/249 kBProgress (2): 3.2/6.7 MB | 184/249 kBProgress (2): 3.2/6.7 MB | 200/249 kBProgress (2): 3.2/6.7 MB | 217/249 kBProgress (2): 3.2/6.7 MB | 217/249 kBProgress (2): 3.2/6.7 MB | 233/249 kBProgress (2): 3.2/6.7 MB | 233/249 kBProgress (2): 3.2/6.7 MB | 249 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.56.v20240826/jetty-http-9.4.56.v20240826.jar (249 kB at 338 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.56.v20240826/jetty-security-9.4.56.v20240826.jar
+Progress (1): 3.2/6.7 MBProgress (1): 3.2/6.7 MBProgress (2): 3.2/6.7 MB | 7.7/739 kBProgress (2): 3.2/6.7 MB | 16/739 kB Progress (2): 3.2/6.7 MB | 20/739 kBProgress (2): 3.2/6.7 MB | 37/739 kBProgress (2): 3.2/6.7 MB | 53/739 kBProgress (2): 3.3/6.7 MB | 53/739 kBProgress (2): 3.3/6.7 MB | 53/739 kBProgress (2): 3.3/6.7 MB | 53/739 kBProgress (2): 3.3/6.7 MB | 53/739 kBProgress (2): 3.3/6.7 MB | 69/739 kBProgress (2): 3.3/6.7 MB | 86/739 kBProgress (2): 3.3/6.7 MB | 102/739 kBProgress (2): 3.3/6.7 MB | 102/739 kBProgress (2): 3.3/6.7 MB | 118/739 kBProgress (3): 3.3/6.7 MB | 118/739 kB | 7.7/146 kBProgress (3): 3.3/6.7 MB | 118/739 kB | 16/146 kB Progress (3): 3.3/6.7 MB | 135/739 kB | 16/146 kBProgress (3): 3.3/6.7 MB | 151/739 kB | 16/146 kBProgress (3): 3.3/6.7 MB | 168/739 kB | 16/146 kBProgress (3): 3.3/6.7 MB | 168/739 kB | 25/146 kBProgress (3): 3.3/6.7 MB | 168/739 kB | 25/146 kBProgress (4): 3.3/6.7 MB | 168/739 kB | 25/146 kB | 7.7/183 kBProgress (4): 3.3/6.7 MB | 184/739 kB | 25/146 kB | 7.7/183 kBProgress (4): 3.3/6.7 MB | 184/739 kB | 25/146 kB | 16/183 kB Progress (4): 3.3/6.7 MB | 200/739 kB | 25/146 kB | 16/183 kBProgress (4): 3.3/6.7 MB | 200/739 kB | 41/146 kB | 16/183 kBProgress (4): 3.4/6.7 MB | 200/739 kB | 41/146 kB | 16/183 kBProgress (4): 3.4/6.7 MB | 200/739 kB | 57/146 kB | 16/183 kBProgress (4): 3.4/6.7 MB | 200/739 kB | 57/146 kB | 32/183 kBProgress (4): 3.4/6.7 MB | 217/739 kB | 57/146 kB | 32/183 kBProgress (4): 3.4/6.7 MB | 217/739 kB | 57/146 kB | 32/183 kBProgress (4): 3.4/6.7 MB | 233/739 kB | 57/146 kB | 32/183 kBProgress (4): 3.4/6.7 MB | 250/739 kB | 57/146 kB | 32/183 kBProgress (4): 3.4/6.7 MB | 250/739 kB | 57/146 kB | 32/183 kBProgress (4): 3.4/6.7 MB | 250/739 kB | 57/146 kB | 49/183 kBProgress (4): 3.4/6.7 MB | 250/739 kB | 57/146 kB | 65/183 kBProgress (4): 3.4/6.7 MB | 266/739 kB | 57/146 kB | 65/183 kBProgress (4): 3.4/6.7 MB | 266/739 kB | 57/146 kB | 81/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 57/146 kB | 81/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 57/146 kB | 98/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 57/146 kB | 98/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 74/146 kB | 98/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 74/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 90/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 106/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 106/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 282/739 kB | 123/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 299/739 kB | 123/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 299/739 kB | 123/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kBProgress (4): 3.4/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kBProgress (4): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kBProgress (4): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kBProgress (4): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kB | 7.7/118 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kB | 16/118 kB Progress (5): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kB | 25/118 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kB | 41/118 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kB | 57/118 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kB | 74/118 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 123/146 kB | 114/183 kB | 90/118 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 139/146 kB | 114/183 kB | 90/118 kBProgress (5): 3.5/6.7 MB | 315/739 kB | 146 kB | 114/183 kB | 90/118 kB    Progress (5): 3.5/6.7 MB | 315/739 kB | 146 kB | 114/183 kB | 106/118 kB                                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.56.v20240826/jetty-servlet-9.4.56.v20240826.jar (146 kB at 167 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.56.v20240826/jetty-util-ajax-9.4.56.v20240826.jar
+Progress (4): 3.5/6.7 MB | 331/739 kB | 114/183 kB | 106/118 kBProgress (4): 3.5/6.7 MB | 331/739 kB | 114/183 kB | 106/118 kBProgress (4): 3.5/6.7 MB | 348/739 kB | 114/183 kB | 106/118 kBProgress (4): 3.5/6.7 MB | 364/739 kB | 114/183 kB | 106/118 kBProgress (4): 3.5/6.7 MB | 381/739 kB | 114/183 kB | 106/118 kBProgress (4): 3.5/6.7 MB | 381/739 kB | 114/183 kB | 106/118 kBProgress (4): 3.5/6.7 MB | 397/739 kB | 114/183 kB | 106/118 kBProgress (4): 3.5/6.7 MB | 397/739 kB | 114/183 kB | 118 kB                                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.56.v20240826/jetty-security-9.4.56.v20240826.jar (118 kB at 134 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.56.v20240826/jetty-webapp-9.4.56.v20240826.jar
+Progress (3): 3.5/6.7 MB | 413/739 kB | 114/183 kBProgress (3): 3.5/6.7 MB | 426/739 kB | 114/183 kBProgress (3): 3.5/6.7 MB | 442/739 kB | 114/183 kBProgress (3): 3.5/6.7 MB | 459/739 kB | 114/183 kBProgress (3): 3.5/6.7 MB | 475/739 kB | 114/183 kBProgress (3): 3.5/6.7 MB | 492/739 kB | 114/183 kBProgress (3): 3.5/6.7 MB | 492/739 kB | 114/183 kBProgress (3): 3.5/6.7 MB | 508/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 508/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 524/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 524/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 524/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 541/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 557/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 573/739 kB | 114/183 kBProgress (3): 3.6/6.7 MB | 573/739 kB | 131/183 kBProgress (3): 3.6/6.7 MB | 573/739 kB | 131/183 kBProgress (3): 3.6/6.7 MB | 590/739 kB | 131/183 kBProgress (3): 3.6/6.7 MB | 590/739 kB | 147/183 kBProgress (3): 3.6/6.7 MB | 590/739 kB | 147/183 kBProgress (3): 3.6/6.7 MB | 590/739 kB | 163/183 kBProgress (3): 3.6/6.7 MB | 606/739 kB | 163/183 kBProgress (3): 3.6/6.7 MB | 606/739 kB | 180/183 kBProgress (3): 3.6/6.7 MB | 606/739 kB | 183 kB    Progress (3): 3.6/6.7 MB | 606/739 kB | 183 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.56.v20240826/jetty-io-9.4.56.v20240826.jar (183 kB at 201 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.56.v20240826/jetty-xml-9.4.56.v20240826.jar
+Progress (2): 3.7/6.7 MB | 606/739 kBProgress (2): 3.7/6.7 MB | 606/739 kBProgress (2): 3.7/6.7 MB | 606/739 kBProgress (2): 3.7/6.7 MB | 606/739 kBProgress (2): 3.7/6.7 MB | 623/739 kBProgress (2): 3.7/6.7 MB | 639/739 kBProgress (2): 3.7/6.7 MB | 655/739 kBProgress (2): 3.7/6.7 MB | 672/739 kBProgress (2): 3.7/6.7 MB | 688/739 kBProgress (2): 3.7/6.7 MB | 688/739 kBProgress (2): 3.7/6.7 MB | 705/739 kBProgress (2): 3.7/6.7 MB | 721/739 kBProgress (2): 3.7/6.7 MB | 737/739 kBProgress (2): 3.7/6.7 MB | 739 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.56.v20240826/jetty-server-9.4.56.v20240826.jar (739 kB at 790 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.56.v20240826/jetty-util-9.4.56.v20240826.jar
+Progress (1): 3.7/6.7 MBProgress (1): 3.8/6.7 MBProgress (1): 3.8/6.7 MBProgress (1): 3.8/6.7 MBProgress (2): 3.8/6.7 MB | 7.7/67 kBProgress (2): 3.8/6.7 MB | 16/67 kB Progress (2): 3.8/6.7 MB | 20/67 kBProgress (2): 3.8/6.7 MB | 20/67 kBProgress (2): 3.8/6.7 MB | 36/67 kBProgress (2): 3.8/6.7 MB | 36/67 kBProgress (3): 3.8/6.7 MB | 36/67 kB | 3.7/140 kBProgress (3): 3.8/6.7 MB | 53/67 kB | 3.7/140 kBProgress (3): 3.8/6.7 MB | 53/67 kB | 3.7/140 kBProgress (3): 3.8/6.7 MB | 67 kB | 3.7/140 kB   Progress (3): 3.9/6.7 MB | 67 kB | 3.7/140 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.56.v20240826/jetty-util-ajax-9.4.56.v20240826.jar (67 kB at 70 kB/s)
+Progress (2): 3.9/6.7 MB | 3.7/140 kBProgress (2): 3.9/6.7 MB | 20/140 kB Progress (2): 3.9/6.7 MB | 20/140 kBProgress (2): 3.9/6.7 MB | 36/140 kBProgress (2): 3.9/6.7 MB | 53/140 kBProgress (2): 3.9/6.7 MB | 69/140 kBProgress (2): 3.9/6.7 MB | 86/140 kBProgress (2): 3.9/6.7 MB | 86/140 kBProgress (2): 3.9/6.7 MB | 102/140 kBProgress (2): 3.9/6.7 MB | 118/140 kBProgress (2): 3.9/6.7 MB | 135/140 kBProgress (2): 3.9/6.7 MB | 135/140 kBProgress (2): 3.9/6.7 MB | 140 kB    Progress (2): 3.9/6.7 MB | 140 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.56.v20240826/jetty-webapp-9.4.56.v20240826.jar (140 kB at 145 kB/s)
+Progress (1): 4.0/6.7 MBProgress (1): 4.0/6.7 MBProgress (1): 4.0/6.7 MBProgress (1): 4.0/6.7 MBProgress (2): 4.0/6.7 MB | 7.7/69 kBProgress (2): 4.0/6.7 MB | 16/69 kB Progress (2): 4.0/6.7 MB | 32/69 kBProgress (2): 4.0/6.7 MB | 32/69 kBProgress (2): 4.0/6.7 MB | 32/69 kBProgress (2): 4.0/6.7 MB | 32/69 kBProgress (2): 4.1/6.7 MB | 32/69 kBProgress (2): 4.1/6.7 MB | 32/69 kBProgress (2): 4.1/6.7 MB | 32/69 kBProgress (2): 4.1/6.7 MB | 49/69 kBProgress (3): 4.1/6.7 MB | 49/69 kB | 7.7/589 kBProgress (3): 4.1/6.7 MB | 49/69 kB | 16/589 kB Progress (3): 4.1/6.7 MB | 49/69 kB | 20/589 kBProgress (3): 4.1/6.7 MB | 49/69 kB | 37/589 kBProgress (3): 4.1/6.7 MB | 65/69 kB | 37/589 kBProgress (3): 4.1/6.7 MB | 65/69 kB | 37/589 kBProgress (3): 4.1/6.7 MB | 65/69 kB | 53/589 kBProgress (3): 4.1/6.7 MB | 69 kB | 53/589 kB   Progress (3): 4.1/6.7 MB | 69 kB | 53/589 kBProgress (3): 4.1/6.7 MB | 69 kB | 69/589 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.56.v20240826/jetty-xml-9.4.56.v20240826.jar (69 kB at 69 kB/s)
+Progress (2): 4.1/6.7 MB | 69/589 kBProgress (2): 4.1/6.7 MB | 86/589 kBProgress (2): 4.2/6.7 MB | 86/589 kBProgress (2): 4.2/6.7 MB | 86/589 kBProgress (2): 4.2/6.7 MB | 102/589 kBProgress (2): 4.2/6.7 MB | 102/589 kBProgress (2): 4.2/6.7 MB | 118/589 kBProgress (2): 4.2/6.7 MB | 135/589 kBProgress (2): 4.2/6.7 MB | 135/589 kBProgress (2): 4.2/6.7 MB | 151/589 kBProgress (2): 4.2/6.7 MB | 168/589 kBProgress (2): 4.2/6.7 MB | 168/589 kBProgress (2): 4.2/6.7 MB | 168/589 kBProgress (2): 4.3/6.7 MB | 168/589 kBProgress (2): 4.3/6.7 MB | 168/589 kBProgress (2): 4.3/6.7 MB | 168/589 kBProgress (2): 4.3/6.7 MB | 183/589 kBProgress (2): 4.3/6.7 MB | 200/589 kBProgress (2): 4.3/6.7 MB | 216/589 kBProgress (2): 4.3/6.7 MB | 233/589 kBProgress (2): 4.3/6.7 MB | 233/589 kBProgress (2): 4.3/6.7 MB | 233/589 kBProgress (2): 4.3/6.7 MB | 249/589 kBProgress (2): 4.3/6.7 MB | 249/589 kBProgress (2): 4.3/6.7 MB | 265/589 kBProgress (2): 4.4/6.7 MB | 265/589 kBProgress (2): 4.4/6.7 MB | 265/589 kBProgress (2): 4.4/6.7 MB | 282/589 kBProgress (2): 4.4/6.7 MB | 298/589 kBProgress (2): 4.4/6.7 MB | 298/589 kBProgress (2): 4.4/6.7 MB | 298/589 kBProgress (2): 4.4/6.7 MB | 315/589 kBProgress (2): 4.4/6.7 MB | 331/589 kBProgress (2): 4.4/6.7 MB | 347/589 kBProgress (2): 4.4/6.7 MB | 347/589 kBProgress (2): 4.4/6.7 MB | 364/589 kBProgress (2): 4.4/6.7 MB | 380/589 kBProgress (2): 4.4/6.7 MB | 396/589 kBProgress (2): 4.4/6.7 MB | 396/589 kBProgress (2): 4.4/6.7 MB | 413/589 kBProgress (2): 4.5/6.7 MB | 413/589 kBProgress (2): 4.5/6.7 MB | 429/589 kBProgress (2): 4.5/6.7 MB | 429/589 kBProgress (2): 4.5/6.7 MB | 446/589 kBProgress (2): 4.5/6.7 MB | 462/589 kBProgress (2): 4.5/6.7 MB | 462/589 kBProgress (2): 4.5/6.7 MB | 462/589 kBProgress (2): 4.5/6.7 MB | 478/589 kBProgress (2): 4.5/6.7 MB | 478/589 kBProgress (2): 4.5/6.7 MB | 495/589 kBProgress (2): 4.5/6.7 MB | 511/589 kBProgress (2): 4.5/6.7 MB | 511/589 kBProgress (2): 4.6/6.7 MB | 511/589 kBProgress (2): 4.6/6.7 MB | 511/589 kBProgress (2): 4.6/6.7 MB | 527/589 kBProgress (2): 4.6/6.7 MB | 527/589 kBProgress (2): 4.6/6.7 MB | 544/589 kBProgress (2): 4.6/6.7 MB | 544/589 kBProgress (2): 4.6/6.7 MB | 544/589 kBProgress (2): 4.6/6.7 MB | 560/589 kBProgress (2): 4.6/6.7 MB | 560/589 kBProgress (2): 4.7/6.7 MB | 560/589 kBProgress (2): 4.7/6.7 MB | 577/589 kBProgress (2): 4.7/6.7 MB | 589 kB    Progress (2): 4.7/6.7 MB | 589 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.56.v20240826/jetty-util-9.4.56.v20240826.jar (589 kB at 527 kB/s)
+Progress (1): 4.7/6.7 MBProgress (1): 4.7/6.7 MBProgress (1): 4.7/6.7 MBProgress (1): 4.7/6.7 MBProgress (1): 4.8/6.7 MBProgress (1): 4.8/6.7 MBProgress (1): 4.8/6.7 MBProgress (1): 4.8/6.7 MBProgress (1): 4.8/6.7 MBProgress (1): 4.8/6.7 MBProgress (1): 4.9/6.7 MBProgress (1): 4.9/6.7 MBProgress (1): 4.9/6.7 MBProgress (1): 4.9/6.7 MBProgress (1): 4.9/6.7 MBProgress (1): 4.9/6.7 MBProgress (1): 5.0/6.7 MBProgress (1): 5.0/6.7 MBProgress (1): 5.0/6.7 MBProgress (1): 5.0/6.7 MBProgress (1): 5.0/6.7 MBProgress (1): 5.0/6.7 MBProgress (1): 5.0/6.7 MBProgress (1): 5.1/6.7 MBProgress (1): 5.1/6.7 MBProgress (1): 5.1/6.7 MBProgress (1): 5.1/6.7 MBProgress (1): 5.1/6.7 MBProgress (1): 5.1/6.7 MBProgress (1): 5.2/6.7 MBProgress (1): 5.2/6.7 MBProgress (1): 5.2/6.7 MBProgress (1): 5.2/6.7 MBProgress (1): 5.2/6.7 MBProgress (1): 5.2/6.7 MBProgress (1): 5.3/6.7 MBProgress (1): 5.3/6.7 MBProgress (1): 5.3/6.7 MBProgress (1): 5.3/6.7 MBProgress (1): 5.3/6.7 MBProgress (1): 5.3/6.7 MBProgress (1): 5.4/6.7 MBProgress (1): 5.4/6.7 MBProgress (1): 5.4/6.7 MBProgress (1): 5.4/6.7 MBProgress (1): 5.4/6.7 MBProgress (1): 5.4/6.7 MBProgress (1): 5.5/6.7 MBProgress (1): 5.5/6.7 MBProgress (1): 5.5/6.7 MBProgress (1): 5.5/6.7 MBProgress (1): 5.5/6.7 MBProgress (1): 5.5/6.7 MBProgress (1): 5.6/6.7 MBProgress (1): 5.6/6.7 MBProgress (1): 5.6/6.7 MBProgress (1): 5.6/6.7 MBProgress (1): 5.6/6.7 MBProgress (1): 5.6/6.7 MBProgress (1): 5.7/6.7 MBProgress (1): 5.7/6.7 MBProgress (1): 5.7/6.7 MBProgress (1): 5.7/6.7 MBProgress (1): 5.7/6.7 MBProgress (1): 5.7/6.7 MBProgress (1): 5.8/6.7 MBProgress (1): 5.8/6.7 MBProgress (1): 5.8/6.7 MBProgress (1): 5.8/6.7 MBProgress (1): 5.8/6.7 MBProgress (1): 5.8/6.7 MBProgress (1): 5.9/6.7 MBProgress (1): 5.9/6.7 MBProgress (1): 5.9/6.7 MBProgress (1): 5.9/6.7 MBProgress (1): 5.9/6.7 MBProgress (1): 5.9/6.7 MBProgress (1): 5.9/6.7 MBProgress (1): 6.0/6.7 MBProgress (1): 6.0/6.7 MBProgress (1): 6.0/6.7 MBProgress (1): 6.0/6.7 MBProgress (1): 6.0/6.7 MBProgress (1): 6.0/6.7 MBProgress (1): 6.1/6.7 MBProgress (1): 6.1/6.7 MBProgress (1): 6.1/6.7 MBProgress (1): 6.1/6.7 MBProgress (1): 6.1/6.7 MBProgress (1): 6.1/6.7 MBProgress (1): 6.2/6.7 MBProgress (1): 6.2/6.7 MBProgress (1): 6.2/6.7 MBProgress (1): 6.2/6.7 MBProgress (1): 6.2/6.7 MBProgress (1): 6.2/6.7 MBProgress (1): 6.3/6.7 MBProgress (1): 6.3/6.7 MBProgress (1): 6.3/6.7 MBProgress (1): 6.3/6.7 MBProgress (1): 6.3/6.7 MBProgress (1): 6.3/6.7 MBProgress (1): 6.4/6.7 MBProgress (1): 6.4/6.7 MBProgress (1): 6.4/6.7 MBProgress (1): 6.4/6.7 MBProgress (1): 6.4/6.7 MBProgress (1): 6.4/6.7 MBProgress (1): 6.5/6.7 MBProgress (1): 6.5/6.7 MBProgress (1): 6.5/6.7 MBProgress (1): 6.5/6.7 MBProgress (1): 6.5/6.7 MBProgress (1): 6.5/6.7 MBProgress (1): 6.6/6.7 MBProgress (1): 6.6/6.7 MBProgress (1): 6.6/6.7 MBProgress (1): 6.6/6.7 MBProgress (1): 6.6/6.7 MBProgress (1): 6.6/6.7 MBProgress (1): 6.7 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar (6.7 MB at 5.0 MB/s)
+[WARNING] Input file encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Rendering site for default locale
+[WARNING] Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[INFO] Configuring report plugin maven-project-info-reports-plugin:3.9.0
+[INFO] Detected 15 reports for maven-project-info-reports-plugin:3.9.0: ci-management, dependencies, dependency-info, dependency-management, distribution-management, index, issue-management, licenses, mailing-lists, modules, plugin-management, plugins, scm, summary, team
+[WARNING] No project URL defined - site links will not be relativized!
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-fluido-skin/2.0.0-M9/maven-fluido-skin-2.0.0-M9.jar
+Progress (1): 7.7/355 kBProgress (1): 16/355 kB Progress (1): 20/355 kBProgress (1): 36/355 kBProgress (1): 53/355 kBProgress (1): 69/355 kBProgress (1): 86/355 kBProgress (1): 102/355 kBProgress (1): 118/355 kBProgress (1): 135/355 kBProgress (1): 151/355 kBProgress (1): 168/355 kBProgress (1): 184/355 kBProgress (1): 200/355 kBProgress (1): 217/355 kBProgress (1): 233/355 kBProgress (1): 249/355 kBProgress (1): 266/355 kBProgress (1): 282/355 kBProgress (1): 299/355 kBProgress (1): 315/355 kBProgress (1): 331/355 kBProgress (1): 348/355 kBProgress (1): 355 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-fluido-skin/2.0.0-M9/maven-fluido-skin-2.0.0-M9.jar (355 kB at 3.5 MB/s)
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO] Rendering 8 report documents
+[INFO] Generating "Dependencies" report  --- maven-project-info-reports-plugin:3.9.0:dependencies
+[INFO] Generating "Maven Coordinates" report --- maven-project-info-reports-plugin:3.9.0:dependency-info
+[INFO] Generating "About" report         --- maven-project-info-reports-plugin:3.9.0:index
+[INFO] Generating "Plugin Management" report --- maven-project-info-reports-plugin:3.9.0:plugin-management
+[INFO] Generating "Plugins" report       --- maven-project-info-reports-plugin:3.9.0:plugins
+[INFO] Generating "Source Code Management" report --- maven-project-info-reports-plugin:3.9.0:scm
+[INFO] Generating "Summary" report       --- maven-project-info-reports-plugin:3.9.0:summary
+[INFO] Generating "Project Information" report --- maven-site-plugin:3.21.0:project-info
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.791 s
+[INFO] Finished at: 2025-11-19T20:51:11Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4GUWJay4reXZWfwe0OOzia6SnbDqAa1ry5vM2iBnYfypAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrnf5Tpshw+b9DaZvgAAAA==[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/site to Documentacion_20del_20sitio
+[htmlpublisher] Copying recursive using current thread
+[8mha:////4CzCvRwBN2Ztvn+niqkjLqCNJnvzZ8uWZ02MH1ivWjDJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP3hh3Bq+AAAA[0m[Pipeline] }
+[8mha:////4BV5yvxDMkcpRaYNBhT61C8X4+FbxiyYV0LT1qCzztz7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpUCgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wFAI0/rvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ICOeukOzZfWEP7+KJ2mvH9qwB0psgjgdfgfTyIZl/5IAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpUApERWu54QUmOYwT687YDk7Fi/gaf8AiEhVbrHa2mdcb1jHAkYMRA9JoKXZWeDeZskTmMF4dZzHwRXRMkR0KhVlxj6cFFSeEJVUNKwkbpM5xtGQSbOWgH7pxmkxzTqF8Bwm17e/whEoWc9IhfWEOsLtNfWT6ef4KYPY+Qd22pfbtB5zyN5K+AAAA[0m[Pipeline] }
+[8mha:////4Bt9CSsGBJc62nTxmLcDovVnT+HWLQjYcFv2MnpYHS62AAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8ZFQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw/fcGYUvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J9QXop7FYOK4e7sdYxI5cyZ/ZubTg8k9aroKZNgKDPuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIIQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234A9VdQr74AAAA=[0m[Pipeline] }
+[8mha:////4APCJZZITvMiS7nWE3Jr4W4oyQKxaALh3+78xPJmm0Z3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSBgkJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9uJx7nvgAAAA==[0m[Pipeline] // parallel
+[8mha:////4F6c7DCMqWdpAbGFE8CmFGm4wg6EsbhRzHuRvaC0xesGAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAoQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wALn2FTL4AAAA=[0m[Pipeline] }
+[8mha:////4MRDC/H/TCMHLQPj87dW1qQ7VBfl7qalxkYP1r1cl0Z7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYpIiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnKep/rUH8AFj8Wvb4AAAA=[0m[Pipeline] // stage
+[8mha:////4E22m8f3JUoH9ydBmHy3UKueJpUzB/pTu5StkEXgvsmsAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIKEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7z7P6g0Y/IxcwgAAAA==[0m[Pipeline] stage
+[8mha:////4K9XPLqzItIspfsJluNf84RH/nj0yBMZPX1DQHZtRljkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADxKa4dwgAAAA==[0m[Pipeline] { (despliega)
+[8mha:////4Js4aqb89ne36uvsC1u3zxY2XjvEvryswfmmb4p0/Fd3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFhm4w4vgAAAA==[0m[Pipeline] tool
+[8mha:////4GaecxP4qU5eEbnhwiecuQmLB9RTQb/yPiuC0kBIGqUsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGiyKETvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4FSRRQQeRsWQoB5RIHwlO8KYnxRjb2uMwfRJT+HCsKgfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADcTgGywgAAAA==[0m[Pipeline] withEnv
+[8mha:////4D8RrsqFXb6UN5vfYGaT+7G+TyllAJ1WQ2wv7LtHZF4XAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] {
+[8mha:////4NnjbuYL2rFiYmWTOU8aj6aS9HV4s9Uv2jBsmOQbkHbHAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxnGsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DGb6ZU74AAAA=[0m[Pipeline] mail
+[8mha:////4LAfPAIVNff4zSbGjoha8yDEMJbgOOxDhnuVsgBfhn0TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUsQgxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgrJpsu13n2f1BhfnaQPCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 3 min 0 sec
+[8mha:////4J8qsYp0WNCulgciJY8rWxjwZIjHHyAnLNbIciY3z2lDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] {
+[8mha:////4Iz+BfdD/6JQj2s4PqZK+JytSUQYfDT08UNbMPBMPw9LAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBqhInei+AAAA[0m[Pipeline] input
+Procedo al despliegue o aborto
+[8mha:////4HKdGVo5cZAJt0dNMrOFxN1TK+T0pODAhCiuu4qrRznFAAABNR+LCAAAAAAAAP9djz1Ow0AUhJ8dAS2iRHTU2V3HNg5BqSBSkCJAChdw1i+2483usrvOT5NDcA1okLgCh+ACdNQUNJikgmne6EnfaOb5E/asgStlcjJDWZXS8pJoUeeNI0tlqqlQS2JrrZVxxDrUlpRS147c3Y7vh2uNRpSyulEOD99br1/J94cP3ghatREOjkazdJFSkcqcjp0pZX6xMnBS1JlVknAlrRJI/qSc9Z9e+o/6zQf/GvYFytwVu7gH2IDX4Mf/8Mvd/YVhJ88HWOnGHDjwTh1sCud0j9JCWUcyxSs0zQiHRqaiFzPWZXSmJpTXxqp2h3XiIAiS7UuXGptm2J6nC5Q0iOl2PB1MOEtC1o06E57yhGHIoyjMYh4l0+g8Cak2iiNmg7l26x/FPaLnZQEAAA==[0mAceptar or [8mha:////4H+aPkD1mYTXWQPeGuiHxdQ4R5gRPKAj3TYukr5vvr6kAAABMR+LCAAAAAAAAP9dkD1Ow0AQhceOQJSIEtFRZ3cd2zgEpQIkkCJAChdYbza242V32R3np+EQXAMaJK7AIbgAHTUFDSapYJp5etL3NG+eP2HLOzgzriAzqetKe1ERq5qiVWRhXD1VZkF8Y61xSDxK60mlbYPk5np8e7Gy0qlK11cG5e575/Ur+/4IIRhBp3EKYW8043NOFdcFHaOrdHGydHBQNhNvNBFGe6Mk+ZNyNHx6GT7atxDCS9hWUhdYbuLu4QGCFt//h59u9i8MmwlCgKVtxQ5CcIiwKBHtgNLSeCQTI2rp2hIoneZqkDLWZ3Rmcioa5023x3ppFEXZ2rKVle1lsnvH51LTKKXr8vQ8FyyLWT/p5YKLjMlYJEk8SUWSTZPjLKY8b//1AxycO0JeAQAA[0mCancelar
+Approved by [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+[8mha:////4N9LC9CzoY7PGMzcMFK6HdTuNilP2qot1FnLyr6k4nFqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN+4hTxy+AAAA[0m[Pipeline] }
+[8mha:////4LrqF0NB9LlquCov/FA2wZ0lLmJSbrxInqOI0BAcPx3IAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQYMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN8AhTXa+AAAA[0m[Pipeline] // timeout
+[8mha:////4FgCHQNsX3gDSdYrFu4q/P8DCm+g2Kt6NZK1X7YXfAcuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkIIQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+QVnXuQ57/wEim+7+vgAAAA==[0m[Pipeline] sh
++ mvn install -DskipTests
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:DevOps >-------------------------
+[INFO] Building DevOps 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ DevOps ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DevOps ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/curso-20251117/pipeline-maven/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DevOps ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DevOps ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ DevOps ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/jacoco.exec
+[INFO] Analyzed bundle 'DevOps' with 5 classes
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ DevOps ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ DevOps ---
+[INFO] Installing /var/jenkins_home/workspace/curso-20251117/pipeline-maven/pom.xml to /var/jenkins_home/.m2/repository/com/example/DevOps/0.0.1-SNAPSHOT/DevOps-0.0.1-SNAPSHOT.pom
+[INFO] Installing /var/jenkins_home/workspace/curso-20251117/pipeline-maven/target/DevOps-0.0.1-SNAPSHOT.jar to /var/jenkins_home/.m2/repository/com/example/DevOps/0.0.1-SNAPSHOT/DevOps-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.495 s
+[INFO] Finished at: 2025-11-19T20:52:05Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4CjxLEjRmyNxrYa86HHkPB/WhY9HrcX3C8jhshw5NOhhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpUBCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP7g5RSy+AAAA[0m[Pipeline] }
+[8mha:////4DllOF3oh1IlntF3VfmXPBCaIXH4yn4J8wFMih304XY6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B4z3pne+AAAA[0m[Pipeline] // withEnv
+[8mha:////4C7JibM7PQB8thIJEN/yMakG4tg/IJVgD77rNfVGbuX/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpKIIQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wHjFPkfvgAAAA==[0m[Pipeline] }
+[8mha:////4AxTsK3Aalc35BvdOERuPADrPlqwxeX7Wlg8bZ9l4t5iAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0BAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wHlUsFKvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KhuEVj4AwtYCdrQ1dtPDiTYcfs9e1kKxdQbUi6qxOnQAAAApx+LCAAAAAAAAP9tjTESgjAQRRcYCltLDxHA1rGizdB4ghhiDGR2MVmEyhN5Ne8gyoyVv/rvz/x5zxfkMcCRghWdwd5h1E4MfrRLExOF/uJpEh2dhSaM5I1ozNRQa+oVG2IDa5IUMgkbg9pTdGgZtrJTd1V4hbY4cVi2g4TUtTd4QCIXM6vAX5gD7K5jGwl/nr8CmAeGtNozZFVZfq75G1tsyiDDAAAA[0m[Pipeline] stage
+[8mha:////4KvyuoEZN9xuQSZ11ZwXUvRcEZB8ihbB0fy5RNFBNQfYAAAAph+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB2Ti5Nl18gkprbWn+H9oiTD6Rr+Y7iJA4ecPl7pLL93pDGQOcKBjmNHYWY2tZ70ezJDZR6G6eJuboylrCSF4zoSdBSp+3Kihp2JTlUHDYaWw9RYsmwZ47+ZCVl2iqSwrLduSQWzXAEzK+kJMMaS1zgMN9VJHwx/kLgLlPUDR1vXrz/ZYfJWyAvsQAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4CA869hOj3WQyWg62gyWk8x8tTtbuhxL5MvXfgdUzgSDAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU5+gqA7V0sf+C6iwe5rAAAAA[0m[Pipeline] mail
+[8mha:////4IaddSvObiYAQeC4X4nx+UL7RcGUI4lUELgzfo65/uOcAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7HIWDpWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPV9gqI6HJeuvgV3CW3AAAAA[0m[Pipeline] }
+[8mha:////4M5ixSFUjA+D/qPWLcqP9fwSPJtMXO1TWtIcgdOw+EGGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQTJDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1SH5rh08wUdeanfwAAAAA==[0m[Pipeline] // stage
+[8mha:////4LOuDwoKSI8f4sZAFeWYIt9swLpN9IMesKMNQ1Pdv3+yAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHEGSuHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUFS7A0Ne7T8EdmzivwAAAA==[0m[Pipeline] }
+[8mha:////4MykuI5RGIq+LFAf+iXUqIxyVbXVaqyapmQuPSVm0fUZAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksXGsbDM0niCSGAOZ3ZgshsoTeTXvICMzVv7qv9e81xtWKcKRohW9wcFh6pwIfrTzE5nicPWURU8X0REm8ka0JrekzWnBltjAsqKESsLaYOcpObQMG9mrh6q9QlufOc7uIKF0+g5PKORcZhX5C1OE7W3UifDX+RuAKQSGqtntGcqm+QAQVfH9vwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NsgwNXi+UawEfB5Z95UT4SjJ4dlQjPLbefWhi4q7LPqAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDEhIFoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOV2s2cQuw/xlOH6vgAAAA==[0m[Pipeline] }
+[8mha:////4LP8NZeDCRDkfUaSFQJq2qRUqJxtwx769EM68ZfGqp6SAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDokFCVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodxu9gxi9wGDltXmvgAAAA==[0m[Pipeline] // node
+[8mha:////4NtVUvnH5ARSNEj2pJ/jvPRjLsXLgyOG6K7nhBjbo5u9AAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDdAhR0VppeIFxjHFi3QX7glPxIr7GH4iIRMVWO9PM6w2LFOFI0cnWYucxGS/7MLjpyUyxuwbKsqWLNISJgpW1zTU19jRjTWxhniigVLC0aAIlj45hpVr90FXQ6Kozx8kdFBS+ucMThJrKrCN/YYywvg1NIvx1/gZg7HuGcrvZM4jdB6WPsqy+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

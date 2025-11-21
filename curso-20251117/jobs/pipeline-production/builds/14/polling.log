@@ -1,0 +1,23 @@
+Started on Nov 19, 2025, 1:24:05 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision e70deada0a6409db2364f74a898dc8da1e4457c6 (refs/remotes/origin/production)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git ls-remote -h -- https://github.com/jmagit/REM20251117.git # timeout=10
+Found 4 remote heads on https://github.com/jmagit/REM20251117.git
+[poll] Latest remote head revision on refs/heads/production is: 27efc76cc4d9e55bf9615862628be3188fc0e166
+Using strategy: Default
+[poll] Last Built Revision: Revision 4270e1ccd08297d87cf8f911b7194100c8aa9a29 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git ls-remote -h -- https://github.com/jmagit/demos-devops.git # timeout=10
+Found 3 remote heads on https://github.com/jmagit/demos-devops.git
+[poll] Latest remote head revision on refs/heads/master is: 4270e1ccd08297d87cf8f911b7194100c8aa9a29 - already built by 3
+Done. Took 1.6 sec
+Changes found

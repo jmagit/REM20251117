@@ -1,0 +1,952 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1369.v15da_00283f06">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.MySqlIntegrationTests.xml</file>
+      <name>org.springframework.samples.petclinic.MySqlIntegrationTests</name>
+      <duration>0.001</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.001</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.MySqlIntegrationTests</className>
+          <testName>testFindAll</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>disabledWithoutDocker is true and Docker is not available</skippedMessage>
+          <properties/>
+          <stdout>2025-11-21T09:43:14.375Z  INFO 277 --- [           main] org.testcontainers.DockerClientFactory   : Testcontainers version: 2.0.1
+2025-11-21T09:43:15.347Z  INFO 277 --- [           main] .t.d.DockerMachineClientProviderStrategy : docker-machine executable was not found on PATH ([/opt/java/openjdk/bin, /usr/local/sbin, /usr/local/bin, /usr/sbin, /usr/bin, /sbin, /bin])
+2025-11-21T09:43:15.348Z ERROR 277 --- [           main] o.t.d.DockerClientProviderStrategy       : Could not find a valid Docker
+...[truncated 135 chars]...
+idConfigurationException (Could not find unix domain socket). Root cause NoSuchFileException (/var/run/docker.sock)
+	DockerDesktopClientProviderStrategy: failed with exception NullPointerException (Cannot invoke &quot;java.nio.file.Path.toString()&quot; because the return value of &quot;org.testcontainers.dockerclient.DockerDesktopClientProviderStrategy.getSocketPath()&quot; is null)As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.MySqlIntegrationTests</className>
+          <testName>testOwnerDetails</testName>
+          <skipped>true</skipped>
+          <keepTestNames>false</keepTestNames>
+          <skippedMessage>disabledWithoutDocker is true and Docker is not available</skippedMessage>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.PetClinicIntegrationTests.xml</file>
+      <name>org.springframework.samples.petclinic.PetClinicIntegrationTests</name>
+      <duration>6.626</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>6.626</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.048</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.PetClinicIntegrationTests</className>
+          <testName>testFindAll</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:02.142Z  INFO 277 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PetClinicIntegrationTests]: PetClinicIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-21T09:43:02.158Z  INFO 277 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframe
+...[truncated 4053 chars]...
+&apos;default&apos;
+2025-11-21T09:43:07.387Z  INFO 277 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path &apos;/actuator&apos;
+2025-11-21T09:43:07.600Z  INFO 277 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 40447 (http) with context path &apos;/&apos;
+2025-11-21T09:43:07.614Z  INFO 277 --- [           main] o.s.s.p.PetClinicIntegrationTests        : Started PetClinicIntegrationTests in 5.444 seconds (process running for 33.293)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.912</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.PetClinicIntegrationTests</className>
+          <testName>testOwnerDetails</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:08.462Z  INFO 277 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &apos;dispatcherServlet&apos;
+2025-11-21T09:43:08.463Z  INFO 277 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &apos;dispatcherServlet&apos;
+2025-11-21T09:43:08.464Z  INFO 277 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.model.ValidatorTests.xml</file>
+      <name>org.springframework.samples.petclinic.model.ValidatorTests</name>
+      <duration>2.005</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>2.005</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>1.904</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.model.ValidatorTests</className>
+          <testName>shouldNotValidateWhenFirstNameEmpty</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>09:42:40.238 [main] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 9.0.1.Final
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.OwnerControllerTests.xml</file>
+      <name>org.springframework.samples.petclinic.owner.OwnerControllerTests</name>
+      <duration>1.448</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>1.448</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.133</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessUpdateOwnerFormHasErrors</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:11.632Z  INFO 277 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-21T09:43:11.645Z  INFO 277 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework
+...[truncated 1464 chars]...
+otMockServletContext : Initializing Spring TestDispatcherServlet &apos;&apos;
+2025-11-21T09:43:12.166Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet &apos;&apos;
+2025-11-21T09:43:12.168Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-11-21T09:43:12.179Z  INFO 277 --- [           main] o.s.s.p.owner.OwnerControllerTests       : Started OwnerControllerTests in 0.523 seconds (process running for 37.831)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.028</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessCreationFormSuccess</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.047</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testInitFindForm</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.13</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testShowOwner</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.027</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessUpdateOwnerFormWithIdMismatch</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.045</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testInitUpdateOwnerForm</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.028</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testInitCreationForm</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.064</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessFindFormByLastName</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.05</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessFindFormNoOwnersFound</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.141</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessFindFormSuccess</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.025</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessUpdateOwnerFormSuccess</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.052</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessCreationFormHasErrors</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.036</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.OwnerControllerTests</className>
+          <testName>testProcessUpdateOwnerFormUnchangedSuccess</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.PetControllerTests.xml</file>
+      <name>org.springframework.samples.petclinic.owner.PetControllerTests</name>
+      <duration>2.734</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>2.734</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.056</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests</className>
+          <testName>testProcessCreationFormSuccess</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:08.787Z  INFO 277 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: PetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-21T09:43:08.870Z  INFO 277 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.sam
+...[truncated 1454 chars]...
+BootMockServletContext : Initializing Spring TestDispatcherServlet &apos;&apos;
+2025-11-21T09:43:10.404Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet &apos;&apos;
+2025-11-21T09:43:10.406Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-11-21T09:43:10.419Z  INFO 277 --- [           main] o.s.s.p.owner.PetControllerTests         : Started PetControllerTests in 1.535 seconds (process running for 36.071)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.038</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests</className>
+          <testName>testProcessUpdateFormSuccess</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.233</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests</className>
+          <testName>testInitCreationForm</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.093</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors</className>
+          <testName>testProcessUpdateFormWithInvalidBirthDate</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:10.777Z  INFO 277 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors]: ProcessUpdateFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-21T09:43:10.793Z  INFO 277 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.072</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors</className>
+          <testName>testProcessUpdateFormWithBlankName</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.092</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors</className>
+          <testName>testProcessCreationFormWithBlankName</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:11.020Z  INFO 277 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors]: ProcessCreationFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-21T09:43:11.033Z  INFO 277 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.073</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors</className>
+          <testName>testInitUpdateForm</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.073</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors</className>
+          <testName>testProcessCreationFormWithMissingPetType</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.048</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors</className>
+          <testName>testProcessCreationFormWithDuplicateName</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.071</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors</className>
+          <testName>testProcessCreationFormWithInvalidBirthDate</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.PetTypeFormatterTests.xml</file>
+      <name>org.springframework.samples.petclinic.owner.PetTypeFormatterTests</name>
+      <duration>0.063</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.063</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.054</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetTypeFormatterTests</className>
+          <testName>shouldThrowParseException</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetTypeFormatterTests</className>
+          <testName>testPrint</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.003</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetTypeFormatterTests</className>
+          <testName>shouldParse</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.PetValidatorTests.xml</file>
+      <name>org.springframework.samples.petclinic.owner.PetValidatorTests</name>
+      <duration>0.031</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.031</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.009</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetValidatorTests</className>
+          <testName>testValidate</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.003</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetValidatorTests$ValidateHasErrors</className>
+          <testName>testValidateWithInvalidPetName</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetValidatorTests$ValidateHasErrors</className>
+          <testName>testValidateWithInvalidPetType</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.003</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.PetValidatorTests$ValidateHasErrors</className>
+          <testName>testValidateWithInvalidBirthDate</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.VisitControllerTests.xml</file>
+      <name>org.springframework.samples.petclinic.owner.VisitControllerTests</name>
+      <duration>1.258</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>1.258</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.167</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.VisitControllerTests</className>
+          <testName>testProcessNewVisitFormHasErrors</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:13.085Z  INFO 277 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.VisitControllerTests]: VisitControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-21T09:43:13.118Z  INFO 277 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework
+...[truncated 1464 chars]...
+otMockServletContext : Initializing Spring TestDispatcherServlet &apos;&apos;
+2025-11-21T09:43:14.047Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet &apos;&apos;
+2025-11-21T09:43:14.052Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2025-11-21T09:43:14.068Z  INFO 277 --- [           main] o.s.s.p.owner.VisitControllerTests       : Started VisitControllerTests in 0.931 seconds (process running for 39.721)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.021</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.VisitControllerTests</className>
+          <testName>testProcessNewVisitFormSuccess</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.046</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.owner.VisitControllerTests</className>
+          <testName>testInitNewVisitForm</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.service.ClinicServiceTests.xml</file>
+      <name>org.springframework.samples.petclinic.service.ClinicServiceTests</name>
+      <duration>16.427</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>16.427</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>1.084</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldFindVets</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>09:42:41.954 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.ClinicServiceTests]: ClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:42:42.603 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.springframewo
+...[truncated 4408 chars]...
+pecialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+</stdout>
+          <stderr>Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito&apos;s documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/home/ubuntu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</stderr>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.359</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldFindOwnersByLastName</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape &apos;\&apos;
+Hibernate: select p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from pets p1_0 left join types t1_0 on t1_0.id=p1_0.type_id where p1_0.owner_id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from pets p1_0 left join types t1_0 on t1_0.id=p1_0.type_id where p1_0.owner_id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape &apos;\&apos;
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.136</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldAddNewVisitForPet</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: insert into visits (visit_date,description,id) values (?,?,default)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.017</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldUpdateOwner</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.03</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldFindVisitsByPetId</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.066</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldInsertPetIntoDatabaseAndGenerateId</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select pt1_0.id,pt1_0.name from types pt1_0 order by pt1_0.name
+Hibernate: insert into pets (birth_date,name,type_id,id) values (?,?,?,default)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.078</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldInsertOwner</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape &apos;\&apos;
+Hibernate: insert into owners (address,city,first_name,last_name,telephone,id) values (?,?,?,?,?,default)
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape &apos;\&apos;
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.04</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldFindSingleOwnerWithPet</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.033</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldUpdatePetName</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.034</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.service.ClinicServiceTests</className>
+          <testName>shouldFindAllPetTypes</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>Hibernate: select pt1_0.id,pt1_0.name from types pt1_0 order by pt1_0.name
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.system.CrashControllerIntegrationTests.xml</file>
+      <name>org.springframework.samples.petclinic.system.CrashControllerIntegrationTests</name>
+      <duration>1.71</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>1.71</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.292</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.system.CrashControllerIntegrationTests</className>
+          <testName>testTriggerExceptionHtml</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:15.416Z  INFO 277 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-&apos;`&apos;   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`&apos;-&apos;__     ___ __    _ ___ _______
+ |       | &apos;---&apos;&apos;(_/._)-&apos;(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ 
+...[truncated 8737 chars]...
+[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.18</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.system.CrashControllerIntegrationTests</className>
+          <testName>testTriggerExceptionJson</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:43:16.964Z ERROR 277 --- [o-auto-2-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
+
+java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
+	at org.springframework.samples.petclinic.system.C
+...[truncated 5956 chars]...
+[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.13.jar:11.0.13]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.system.CrashControllerTests.xml</file>
+      <name>org.springframework.samples.petclinic.system.CrashControllerTests</name>
+      <duration>0.009</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.009</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.007</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.system.CrashControllerTests</className>
+          <testName>testTriggerException</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.system.I18nPropertiesSyncTest.xml</file>
+      <name>org.springframework.samples.petclinic.system.I18nPropertiesSyncTest</name>
+      <duration>0.158</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.158</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.121</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.system.I18nPropertiesSyncTest</className>
+          <testName>checkNonInternationalizedStrings</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.027</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.system.I18nPropertiesSyncTest</className>
+          <testName>checkI18nPropertyFilesAreInSync</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.vet.VetControllerTests.xml</file>
+      <name>org.springframework.samples.petclinic.vet.VetControllerTests</name>
+      <duration>4.064</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>4.064</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>1.178</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.vet.VetControllerTests</className>
+          <testName>testShowVetListHtml</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>2025-11-21T09:42:58.072Z  INFO 277 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: VetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-21T09:42:58.157Z  INFO 277 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.sampl
+...[truncated 1449 chars]...
+gBootMockServletContext : Initializing Spring TestDispatcherServlet &apos;&apos;
+2025-11-21T09:43:00.533Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet &apos;&apos;
+2025-11-21T09:43:00.538Z  INFO 277 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2025-11-21T09:43:00.591Z  INFO 277 --- [           main] o.s.s.petclinic.vet.VetControllerTests   : Started VetControllerTests in 2.407 seconds (process running for 26.27)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.335</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.vet.VetControllerTests</className>
+          <testName>testShowResourcesVetList</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/curso-20251117/pipeline-pet-clinic/target/surefire-reports/TEST-org.springframework.samples.petclinic.vet.VetTests.xml</file>
+      <name>org.springframework.samples.petclinic.vet.VetTests</name>
+      <duration>0.04</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>0.04</time>
+      <nodeId>17</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.038</duration>
+          <startTime>-1</startTime>
+          <className>org.springframework.samples.petclinic.vet.VetTests</className>
+          <testName>testSerialization</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>36.574</duration>
+  <skipOldReports>false</skipOldReports>
+  <startTime>-1</startTime>
+  <stdioRetention>NONE</stdioRetention>
+  <keepTestNames>false</keepTestNames>
+  <keepProperties>false</keepProperties>
+</result>

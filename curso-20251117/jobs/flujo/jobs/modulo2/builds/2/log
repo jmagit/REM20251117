@@ -1,0 +1,8 @@
+Started by user [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/curso-20251117/flujo/modulo2
+[modulo2] $ /bin/sh -xe /tmp/jenkins7065286716599133829.sh
++ echo Compilo modulo 2
+Compilo modulo 2
+Triggering a new build of [8mha:////4LgekzVLIeq+tuXMeiqdpByXxqOF23dVK2VM36kKJkV2AAAAsB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyFEgYt/az8JP3k0qLifF0jAyNTQ0NDc7BQWk5pVj6YlZufUpqTb6wPAGveWOTfAAAA[0mcurso-20251117 » flujo » modulo3
+Finished: SUCCESS

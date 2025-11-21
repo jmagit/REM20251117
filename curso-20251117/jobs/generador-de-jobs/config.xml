@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <javaposse.jobdsl.plugin.ExecuteDslScripts plugin="job-dsl@1.93">
+      <scriptText>job(&apos;curso-20251117/generado-por-dsl&apos;) {
+  description(&apos;La tarea se ha generado desde otro job&apos;)
+    parameters {
+        booleanParam(&apos;FLAG&apos;, true)
+        choiceParam(&apos;OPTION&apos;, [&apos;option 1 (default)&apos;, &apos;option 2&apos;, &apos;option 3&apos;])
+    }
+    scm {
+        github(&apos;jenkins-docs/simple-java-maven-app&apos;, &apos;master&apos;)
+    }
+    steps {
+        shell(&quot;echo &apos;Empiezo el proceso generado&apos;&quot;)
+        // maven(&apos;clean verify&apos;)
+    }
+    publishers {
+        mailer(&apos;me@example.com&apos;, true, true)
+    }
+}</scriptText>
+      <usingScriptText>true</usingScriptText>
+      <sandbox>false</sandbox>
+      <ignoreExisting>false</ignoreExisting>
+      <ignoreMissingFiles>false</ignoreMissingFiles>
+      <failOnMissingPlugin>false</failOnMissingPlugin>
+      <failOnSeedCollision>false</failOnSeedCollision>
+      <unstableOnDeprecation>false</unstableOnDeprecation>
+      <removedJobAction>IGNORE</removedJobAction>
+      <removedViewAction>IGNORE</removedViewAction>
+      <removedConfigFilesAction>IGNORE</removedConfigFilesAction>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.ExecuteDslScripts>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

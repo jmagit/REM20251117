@@ -1,0 +1,65 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1559.va_a_533730b_ea_d">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4218.vff679a_5c0f3a_">
+    <script>pipeline {
+    // agent any
+
+    // tools {
+    //     maven &quot;maven_lts&quot;
+    // }
+    agent {
+      docker {
+        image &apos;maven:3.9.11-eclipse-temurin-25-noble&apos;
+        args &quot;-v ./.m2:/root/.m2&quot;
+      }
+    }
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                // Get some code from a GitHub repository
+                git branch: &apos;main&apos;, url: &apos;https://github.com/spring-projects/spring-petclinic.git&apos;
+
+                // Run Maven on a Unix agent.
+                sh &quot;mvn -Dmaven.test.failure.ignore=true clean package&quot;
+            }
+
+            post {
+                // If Maven was able to run the tests, even if some of the test
+                // failed, record the test results and archive the jar file.
+                success {
+                    junit &apos;**/target/surefire-reports/TEST-*.xml&apos;
+                    archiveArtifacts &apos;target/*.jar&apos;
+                }
+            }
+        }
+        stage(&quot;SonarQube Analysis&quot;) {
+            steps {
+                withSonarQubeEnv(&apos;SonarQubeDockerServer&apos;) {
+                    sh &apos;mvn clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar&apos;
+                }
+                timeout(2) { // time: 2 unit: &apos;MINUTES&apos;
+                  // In case of SonarQube failure or direct timeout exceed, stop Pipeline
+                  waitForQualityGate abortPipeline: waitForQualityGate().status != &apos;OK&apos;
+                }
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

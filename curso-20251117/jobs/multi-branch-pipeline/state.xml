@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1259.v45c101731c76">
+  <sourceActions>
+    <entry>
+      <string>2378b3e0-bd82-4b19-a719-ec693759c57a</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@5.8.0">
+          <remote>https://github.com/jmagit/REM20251117.git</remote>
+          <name>main</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

@@ -1,0 +1,34 @@
+Started by user [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/curso-20251117/freestyle-job
+No emails were triggered.
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins2096546247866379118.sh
++ echo Paso 1
+Paso 1
++ echo hola mundo
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins13557343398608773506.sh
++ echo Paso 2
+Paso 2
++ cat fichero.txt
+hola mundo
+hola mundo
+hola mundo
+hola mundo
+hola mundo
+hola mundo
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins13554589228816237567.sh
++ echo Paso 2
+Paso 2
++ cp fichero.txt /externo/curso20251117.txt
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins2419077260390543303.sh
++ mvn --version
+/tmp/jenkins2419077260390543303.sh: 2: mvn: not found
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: adm@example.com
+Email was triggered for: Failure - Any
+Sending email for trigger: Failure - Any
+An attempt to send an e-mail to empty list of recipients, ignored.
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: FAILURE

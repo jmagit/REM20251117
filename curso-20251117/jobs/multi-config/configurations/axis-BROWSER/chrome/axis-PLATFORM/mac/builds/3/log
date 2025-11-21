@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4LXPCqI/8t7NKOkimKmd+YoEiDvVuzyIHJwOWizfDiZPAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzpEgZV/az8JP3k0qLifF0jAyNTQ0NDc7BQbmlOSaYu0JC0zHR9AOXRuiDaAAAA[0mcurso-20251117/multi-config" build number [8mha:////4N88DzWT8FhCqTZgIQy6c+mdzQoCqFgAmpGgvXkWIn9oAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjX9rPwk/eTSouJ8XSMDI1NDQ0NzsFBuaU5Jpi7QkLTMdH1jAAJspu3bAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+Running as SYSTEM
+Building on the built-in node in workspace /var/jenkins_home/workspace/curso-20251117/multi-config/BROWSER/chrome/PLATFORM/mac
+[mac] $ /bin/sh -xe /tmp/jenkins11034953517085622112.sh
++ echo mac chrome
+mac chrome
+Finished: SUCCESS

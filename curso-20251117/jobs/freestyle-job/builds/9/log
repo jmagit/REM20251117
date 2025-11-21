@@ -1,0 +1,31 @@
+Started by user [8mha:////4BOZiHlT/kJtEv11NmhIcyp5S+PZcoqagU3mgYx1FFLbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CJ9oEGZqUUAwTlTg8EAAAA=[0mJavier
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/curso-20251117/freestyle-job
+No emails were triggered.
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins18255528359939039015.sh
++ echo Paso 1
+Paso 1
++ echo hola mundo
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins11792615425415838902.sh
++ echo Paso 2
+Paso 2
++ cat fichero.txt
+hola mundo
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins2533063450154651857.sh
++ echo Paso 2
+Paso 2
++ cp fichero.txt /externo/curso20251117.txt
+[freestyle-job] $ /bin/sh -xe /tmp/jenkins12800095335680331846.sh
++ echo Paso 4 de curso-20251117/freestyle-job
+Paso 4 de curso-20251117/freestyle-job
++ echo
+
++ exec /externo/saluda.sh mundo test true
+Hola, mundo
+Se ha ejecutado el script en modo test
+Sending e-mails to: adm@example.com
+No emails were triggered.
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS

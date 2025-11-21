@@ -1,0 +1,10 @@
+commit 1d878d96cb36ea80c7bb348e28f05a376b57f986
+tree 0d594f6bb17ccbf74e102060dc9d5f2fab71343e
+parent 02b90c8583cfe91b7b25c3f3b2591892c74d908f
+author Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 12:45:02 +0100
+committer Javier <35864946+jmagit@users.noreply.github.com> 2025-11-20 12:45:02 +0100
+
+    disabled test
+
+
+:100644 100644 5eb134a872e1b13658aa483349515abdcda5f885 0f50bf0f3d0c7f820e617dc079f8901b44fd8d27 M	src/test/java/com/gildedrose/GildedRoseTest.java
